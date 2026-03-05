@@ -2,4 +2,8 @@
 #||# 
 #||#   + adding supporting /home/circleci/project/config/dev/imkl.publication.json
 #||#  
-#||#  All directories are supported
+Error: the following directories are unsupported
+[
+  "/tmp/generated/doc/applicatieprofiel",
+  "/tmp/generated/doc/applicatieprofiel/kabels-en-leidingen"
+]
