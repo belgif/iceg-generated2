@@ -16,13 +16,13 @@ Error: Unable to find a label for subject "[urn:oslo-toolchain:ddcca8e662572bee4
 
 #||# -------------------------------------  
 
-2026-03-05T10:21:52.970Z warn: Unable to find the description for subject "[urn:oslo-toolchain:1727880001](all-cable-pipe.jsonld#L14233)".
+2026-03-05T10:26:26.229Z warn: Unable to find the description for subject "[urn:oslo-toolchain:1727880001](all-cable-pipe.jsonld#L14233)".
 
-2026-03-05T10:21:52.972Z warn: Unable to find the description for subject "[urn:oslo-toolchain:499715870](all-cable-pipe.jsonld#L14244)".
+2026-03-05T10:26:26.230Z warn: Unable to find the description for subject "[urn:oslo-toolchain:499715870](all-cable-pipe.jsonld#L14244)".
 
-2026-03-05T10:21:52.972Z warn: Unable to find the description for subject "[urn:oslo-toolchain:487667944](all-cable-pipe.jsonld#L14266)".
+2026-03-05T10:26:26.231Z warn: Unable to find the description for subject "[urn:oslo-toolchain:487667944](all-cable-pipe.jsonld#L14266)".
 
-2026-03-05T10:21:52.972Z warn: Unable to find the description for subject "urn:oslo-toolchain:1008345369".
+2026-03-05T10:26:26.231Z warn: Unable to find the description for subject "urn:oslo-toolchain:1008345369".
 
 #||# oslo-shacl-template-generator for language fr  
 
