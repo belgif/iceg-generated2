@@ -1,0 +1,3821 @@
+{
+  "baseURI": "https://vocab.belgif.be/ns/utility-services#",
+  "classes": [
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#validFrom",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "fr": "DateTime"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#validTo",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "fr": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#identifier",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/ns/adms#Identifier",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/relation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://xmlns.com/foaf/0.1/Document",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+          "parents": [
+            {
+              "id": "https://vocab.belgif.be/ns/network#inNetwork"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#Node.geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://www.opengis.net/ont/sf#Point",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#beginLink",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#endLink",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/netwerk#Linkset"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#technicalSpecification",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.visibility",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.risk",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.appearance",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#materialType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+          "parents": [
+            {
+              "id": "https://vocab.belgif.be/ns/network#inNetwork"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#LinkSet.link",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+            "listedInDocument": false
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#utilityDeliveryType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#warningType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Annotation",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#text",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#associatedWith",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "http://www.w3.org/ns/prov#Entity",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#rotationAngle",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#whole",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Annotation",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#part",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Annotation",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe.containerType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe.subtheme",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#pipeDiameter",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#pressure",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe.cable",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Cable",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe.pipe",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Pipe",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Cable",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Duct",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Duct.containerType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#ductWidth",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Duct.pipe",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Pipe",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Duct.cable",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Cable",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Duct.duct",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Duct",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/netwerk#Link"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+          "range": {
+            "id": "http://www.opengis.net/ont/geosparql#Curve",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+          "parents": [
+            {
+              "id": "https://vocab.belgif.be/ns/network#inNetwork"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#endNode",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#beginNode",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/netwerk#Linksequentie"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+          "parents": [
+            {
+              "id": "https://vocab.belgif.be/ns/network#inNetwork"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#LinkSequence.link",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/network#DirectedLink",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
+      "parents": [
+        {
+          "id": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element"
+        },
+        {
+          "id": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://xmlns.com/foaf/0.1/Document",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.w3.org/ns/dcat#accessURL",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://xmlns.com/foaf/0.1/Document",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "URI"
+            },
+            "applicationProfileLabel": {
+              "fr": "URI"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/description",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://xmlns.com/foaf/0.1/Document",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/format",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://xmlns.com/foaf/0.1/Document",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://xmlns.com/foaf/0.1/Document",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#Identifier",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://xmlns.com/foaf/0.1/Document",
+          "range": {
+            "id": "http://www.w3.org/ns/adms#Identifier",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/relation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://xmlns.com/foaf/0.1/Document",
+          "range": {
+            "id": "http://www.w3.org/ns/prov#Entity",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "parents": [
+        {
+          "id": "https://data.vlaanderen.be/ns/netwerk#Netwerk"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#geographicalName",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#disclaimer",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "http://purl.org/dc/terms/Agent",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#documentation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "http://xmlns.com/foaf/0.1/Document",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#network",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#element",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#Node.geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://www.opengis.net/ont/sf#Point",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#node",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Cable"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#nominalVoltage",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ElectricityCable",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#operatingVoltage",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ElectricityCable",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Cable"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#telecommunicationsCableMaterialType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#oilGasChemicalsProductType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#SewerPipe",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#sewerWaterType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#SewerPipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#WaterPipe",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#waterPipe",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#WaterPipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#temperature",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#thermalProductType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://schema.org/height",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Tower",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#towerHeight",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Tower",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Pole",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#poleHeight",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Pole",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Manhole",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Cabinet",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#GenericLink",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://purl.org/dc/terms/Agent",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/terms/title",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#function",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#Function",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#identifier",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "http://www.w3.org/ns/adms#Identifier",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#documentation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "http://xmlns.com/foaf/0.1/Document",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#on",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/generic#Function",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/elements/1.1/description",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Function",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/generic#activity",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Function",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/generic#input",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Function",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/generic#output",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Function",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/ns/prov#Entity",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#TopographicalElement",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#TopographicalElement",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#TopographicalElement",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Connection",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#address",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Connection",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Address",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Connection",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/address#Adress",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+      "parents": [
+        {
+          "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Plan",
+      "parents": [
+        {
+          "id": "http://xmlns.com/foaf/0.1/Document"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Plan",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/elements/1.1/description",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/title",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/prov#atLocation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "range": {
+            "id": "http://www.w3.org/ns/prov#Location",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Dimension",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Annotation"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#Network",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#LinkSet",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#Node",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#Link",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#GenericLink"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#LinkSequence",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#GenericLink"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    }
+  ],
+  "dataTypes": [
+    {
+      "id": "http://www.w3.org/ns/locn#Geometry",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.opengis.net/ont/geosparql#asWKT",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "Literal"
+            },
+            "applicationProfileLabel": {
+              "fr": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.opengis.net/ont/geosparql#asGML",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "Literal"
+            },
+            "applicationProfileLabel": {
+              "fr": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/generic#Geometry.survey",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#Survey",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/adms#Identifier",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.w3.org/2004/02/skos/core#notation",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "Literal"
+            },
+            "applicationProfileLabel": {
+              "fr": "Literal"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#schemaAgency",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/issued",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "fr": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/creator",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://purl.org/dc/terms/Agent",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/locn#Address",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.w3.org/ns/locn#fullAddress",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#poBox",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#thoroughfare",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#locatorDesignator",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber",
+          "parents": [
+            {
+              "id": "http://www.w3.org/ns/locn#locatorDesignator"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#locatorName",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#addressArea",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#postName",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/address#municipalityName",
+          "parents": [
+            {
+              "id": "http://www.w3.org/ns/locn#postName"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#adminUnitL2",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/address#country",
+          "parents": [
+            {
+              "id": "http://www.w3.org/ns/locn#adminUnitL1"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#postCode",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#adminUnitL1",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "LangString"
+            },
+            "applicationProfileLabel": {
+              "fr": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber",
+          "parents": [
+            {
+              "id": "http://www.w3.org/ns/locn#locatorDesignator"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "String"
+            },
+            "applicationProfileLabel": {
+              "fr": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/address#refersTo",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/address#Adres",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/generic#DirectPosition",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.opengis.net/ont/geosparql#asWKT",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#DirectPosition",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "Literal"
+            },
+            "applicationProfileLabel": {
+              "fr": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.opengis.net/ont/geosparql#asGML",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#DirectPosition",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "Literal"
+            },
+            "applicationProfileLabel": {
+              "fr": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/generic#DirectPosition.survey",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#DirectPosition",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#Survey",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/generic#Survey",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/elements/1.1/date",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Survey",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "fr": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "fr": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Survey.method",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Survey",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Survey.recordedBy",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Survey",
+          "range": {
+            "id": "http://purl.org/dc/terms/Agent",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#accuracy",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/generic#Survey",
+          "range": {
+            "id": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "range": {
+            "id": "https://schema.org/Number",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#color",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Appearance",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition.verticalPosition",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#DirectPosition",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#distance",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#referenceSurface",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+      "parents": [
+        {
+          "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.opengis.net/ont/geosparql#Curve",
+      "parents": [
+        {
+          "id": "http://www.w3.org/ns/locn#Geometry"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://schema.org/Number",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "http://www.opengis.net/ont/sf#Point",
+      "parents": [
+        {
+          "id": "http://www.w3.org/ns/locn#Geometry"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/network#DirectedLink",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#DirectedLink.link",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/network#DirectedLink",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
+            "listedInDocument": false
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#direction",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/network#DirectedLink",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface.verticalPosition",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#DirectPosition",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Height",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://schema.org/height",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Height",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Depth",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#depth",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Depth",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/prov#Location",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    }
+  ],
+  "properties": [
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#validFrom",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "fr": "DateTime"
+        },
+        "applicationProfileLabel": {
+          "fr": "DateTime"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#validTo",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "fr": "DateTime"
+        },
+        "applicationProfileLabel": {
+          "fr": "DateTime"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#identifier",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/ns/adms#Identifier",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#inNetwork"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#technicalSpecification",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "fr": "LangString"
+        },
+        "applicationProfileLabel": {
+          "fr": "LangString"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.visibility",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.risk",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.appearance",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#materialType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#inNetwork"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#utilityDeliveryType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#warningType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#text",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+      "range": {
+        "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "fr": "LangString"
+        },
+        "applicationProfileLabel": {
+          "fr": "LangString"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#associatedWith",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+      "range": {
+        "id": "http://www.w3.org/ns/prov#Entity",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#rotationAngle",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#whole",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Annotation",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#part",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Annotation",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Annotation",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Pipe.containerType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Pipe.subtheme",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#pipeDiameter",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#pressure",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Pipe.cable",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Cable",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Pipe.pipe",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pipe",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Pipe",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Duct.containerType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ductWidth",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Duct.pipe",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Pipe",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Duct.cable",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Cable",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Duct.duct",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Duct",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Duct",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#inNetwork"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#inNetwork"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#geographicalName",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "fr": "LangString"
+        },
+        "applicationProfileLabel": {
+          "fr": "LangString"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#disclaimer",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "fr": "LangString"
+        },
+        "applicationProfileLabel": {
+          "fr": "LangString"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "http://purl.org/dc/terms/Agent",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#documentation",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "http://xmlns.com/foaf/0.1/Document",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#network",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#element",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#node",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#nominalVoltage",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#ElectricityCable",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#operatingVoltage",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#ElectricityCable",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#telecommunicationsCableMaterialType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#oilGasChemicalsProductType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#sewerWaterType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#SewerPipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#waterPipe",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#WaterPipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#temperature",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#thermalProductType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#towerHeight",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Tower",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#poleHeight",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Pole",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#function",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/generic#Function",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#documentation",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+      "range": {
+        "id": "http://xmlns.com/foaf/0.1/Document",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#on",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#address",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Connection",
+      "range": {
+        "id": "http://www.w3.org/ns/locn#Address",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Connection",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Survey.method",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/generic#Survey",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#Survey.recordedBy",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/generic#Survey",
+      "range": {
+        "id": "http://purl.org/dc/terms/Agent",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#accuracy",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/generic#Survey",
+      "range": {
+        "id": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#color",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Appearance",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition.verticalPosition",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/generic#DirectPosition",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#distance",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#referenceSurface",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+        "listedInDocument": true
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface.verticalPosition",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/generic#DirectPosition",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#depth",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Depth",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    }
+  ]
+}

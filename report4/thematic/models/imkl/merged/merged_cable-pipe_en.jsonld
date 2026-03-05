@@ -133,7 +133,7 @@
     }
   },
   "@id": "https://belgif.github.io/thematic/models/imkl",
-  "generatedAtTime": "2026-03-05T10:16:28.226Z",
+  "generatedAtTime": "2026-03-05T10:19:07.877Z",
   "packages": [
     {
       "@id": "urn:oslo-toolchain:07ef0aba6129dc5b403b6d9e39d37228d5c088be8dc95f12697c4ac233f83fcf",
@@ -14855,15 +14855,23 @@
       "title": "Câbles et Conduites",
       "translationjson": "cable-pipe_fr.json",
       "mergefile": "cable-pipe_fr_merged.json"
+    },
+    {
+      "language": "de",
+      "template": "cable-pipe_de.j2",
+      "title": "Kabel und Rohre",
+      "translationjson": "cable-pipe_de.json",
+      "mergefile": "cable-pipe_de_merged.json",
+      "autotranslate": true
     }
   ],
   "config": "config/config-ap.json",
   "branchtag": "main",
-  "dummy": "002",
+  "dummy": "003",
   "filename": "config/cable-pipe.json",
   "repository": "https://github.com/belgif/ICEGthema-imkl",
   "urlref": "thematic/models/imkl",
   "documentcommit": "3449f36aa2e7c1deeae5657eb247c11670d6ce18",
-  "toolchaincommit": "b9e2ca3466b7686d35f75e7b77e12f5d09994f20",
+  "toolchaincommit": "c8419364973a6c9dedb739fcd44b897b25d63e39",
   "hostname": "https://belgif.github.io/"
 }

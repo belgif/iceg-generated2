@@ -48,7 +48,7 @@
     "https://vocab.belgif.be/ns/generic",
     "https://vocab.belgif.be/ns/address"
   ],
-  "primaryLanguage": "Dutch",
+  "primaryLanguage": "English",
   "hostname": "https://belgif.github.io/",
   "uridomain": "vocab.belgif.be"
 }

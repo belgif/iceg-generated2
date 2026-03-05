@@ -1,5 +1,5 @@
 {
-  "title": "Kabels en Leidingen",
+  "title": "Câbles et Conduites",
   "uri": "https://belgif.github.io/thematic/models/imkl",
   "issued": "2025-02-06",
   "filename": "cable-pipe",
@@ -48,7 +48,7 @@
     "https://vocab.belgif.be/ns/generic",
     "https://vocab.belgif.be/ns/address"
   ],
-  "primaryLanguage": "Engels",
+  "primaryLanguage": "Anglais",
   "hostname": "https://belgif.github.io/",
   "uridomain": "vocab.belgif.be"
 }
