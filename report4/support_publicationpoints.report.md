@@ -7,5 +7,7 @@
 Error: the following directories are unsupported
 [
   "/tmp/generated/doc/applicatieprofiel",
-  "/tmp/generated/doc/applicatieprofiel/documentatie"
+  "/tmp/generated/doc/applicatieprofiel/documentatie",
+  "/tmp/generated/doc/vocabularium",
+  "/tmp/generated/doc/vocabularium/documentatie"
 ]
