@@ -1,0 +1,61 @@
+{
+  "name": "hydrant",
+  "type": "ap",
+  "eap": "ICEG-Hydrants-AP-v11.eap",
+  "diagram": "ICEG-Hydrants-AP",
+  "template": "hydrant.j2",
+  "title": "Hydrant",
+  "publication-state": "Under public review",
+  "publication-date": "2024-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "Role",
+  "site": "site-skeleton/hydrant",
+  "repourl": "https://github.com/belgif/ICEGthema-hydrant/tree/main",
+  "versionurl": "https://belgif.github.io/thematic/models/hydrant",
+  "feedbackurl": "https://github.com/belgif/thematic/issues",
+  "standaardregisterurl": "TODO",
+  "translation": [
+    {
+      "language": "en",
+      "template": "hydrant.j2",
+      "title": "Hydrant",
+      "translationjson": "hydrant_en.json",
+      "mergefile": "merge_hydrant_en.jsonld",
+      "autotranslate": false
+    },
+    {
+      "language": "nl",
+      "template": "hydrant_nl.j2",
+      "title": "Brandkraan",
+      "translationjson": "hydrant_nl.json",
+      "mergefile": "merge_hydrant_nl.jsonld",
+      "autotranslate": true
+    },
+    {
+      "language": "fr",
+      "template": "hydrant_fr.j2",
+      "title": "Borne d’incendie",
+      "translationjson": "hydrant_fr.json",
+      "mergefile": "merge_hydrant_fr.jsonld",
+      "autotranslate": true
+    },
+    {
+      "language": "de",
+      "template": "hydrant_de.j2",
+      "title": "Hydrant",
+      "translationjson": "hydrant_de.json",
+      "mergefile": "merge_hydrant_de.jsonld",
+      "autotranslate": true
+    }
+  ],
+  "config": "config/config-ap.json",
+  "branchtag": "main",
+  "dummy": "001",
+  "filename": "config/hydrant.json",
+  "repository": "https://github.com/belgif/ICEGthema-hydrant",
+  "urlref": "/thematic/models/hydrant",
+  "documentcommit": "c94f4b5095549560bc205b2b9b76cec0ff647eb3",
+  "toolchaincommit": "e9bc53d5fd98fce718bd04eded49831b4d83b767",
+  "hostname": "https://belgif.github.io/"
+}

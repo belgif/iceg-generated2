@@ -1,0 +1,26 @@
+{
+  "title": "Hydrant",
+  "issued": "2024-05-01",
+  "filename": "hydrant",
+  "navigation": {
+    "self": "https://belgif.github.io//thematic/models/hydrant"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "documenttype": "ap",
+  "documentconfig": {},
+  "status": "Under public review",
+  "statuslabel": "Onbekend",
+  "documentroot": "/thematic/models/hydrant",
+  "repositoryurl": "https://github.com/belgif/ICEGthema-hydrant/tree/c94f4b5095549560bc205b2b9b76cec0ff647eb3",
+  "changelogurl": "https://github.com/belgif/ICEGthema-hydrant/blob/c94f4b5095549560bc205b2b9b76cec0ff647eb3/CHANGELOG",
+  "feedbackurl": "https://github.com/belgif/thematic/issues",
+  "standaardregisterurl": "TODO",
+  "usesVocs": [],
+  "usesAPs": [],
+  "namespaces": [],
+  "inDomainNamespaces": [],
+  "autotranslate": true,
+  "primaryLanguage": "Englisch",
+  "hostname": "https://belgif.github.io/",
+  "uridomain": "vocab.belgif.be"
+}

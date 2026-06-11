@@ -1,0 +1,65 @@
+{
+  "attributes": [],
+  "branchtag": "main",
+  "classes": [],
+  "config": "config/config-ap.json",
+  "contributors-column": "Role",
+  "contributors-file": "stakeholders.csv",
+  "datatypes": [],
+  "diagram": "ICEG-Hydrants-AP",
+  "documentcommit": "c94f4b5095549560bc205b2b9b76cec0ff647eb3",
+  "dummy": "001",
+  "eap": "ICEG-Hydrants-AP-v11.eap",
+  "feedbackurl": "https://github.com/belgif/thematic/issues",
+  "filename": "config/hydrant.json",
+  "hostname": "https://belgif.github.io/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "hydrant",
+  "publication-date": "2024-05-01",
+  "publication-state": "Under public review",
+  "referencedEntities": [],
+  "repository": "https://github.com/belgif/ICEGthema-hydrant",
+  "repourl": "https://github.com/belgif/ICEGthema-hydrant/tree/main",
+  "site": "site-skeleton/hydrant",
+  "standaardregisterurl": "TODO",
+  "template": "hydrant.j2",
+  "title": "Hydrant",
+  "toolchaincommit": "e9bc53d5fd98fce718bd04eded49831b4d83b767",
+  "translation": [
+    {
+      "autotranslate": false,
+      "language": "en",
+      "mergefile": "merge_hydrant_en.jsonld",
+      "template": "hydrant.j2",
+      "title": "Hydrant",
+      "translationjson": "hydrant_en.json"
+    },
+    {
+      "autotranslate": true,
+      "language": "nl",
+      "mergefile": "merge_hydrant_nl.jsonld",
+      "template": "hydrant_nl.j2",
+      "title": "Brandkraan",
+      "translationjson": "hydrant_nl.json"
+    },
+    {
+      "autotranslate": true,
+      "language": "fr",
+      "mergefile": "merge_hydrant_fr.jsonld",
+      "template": "hydrant_fr.j2",
+      "title": "Borne d’incendie",
+      "translationjson": "hydrant_fr.json"
+    },
+    {
+      "autotranslate": true,
+      "language": "de",
+      "mergefile": "merge_hydrant_de.jsonld",
+      "template": "hydrant_de.j2",
+      "title": "Hydrant",
+      "translationjson": "hydrant_de.json"
+    }
+  ],
+  "type": "ap",
+  "urlref": "/thematic/models/hydrant",
+  "versionurl": "https://belgif.github.io/thematic/models/hydrant"
+}
