@@ -141,7 +141,7 @@
     }
   },
   "@id": "https://belgif.github.io/thematic/models/hydrant",
-  "generatedAtTime": "2026-06-18T12:06:12.847Z",
+  "generatedAtTime": "2026-06-18T12:44:12.992Z",
   "packages": [
     {
       "@id": "urn:oslo-toolchain:c09dfee910aec5d0268c9586b9285b101e4c2d781b80815f430b252246c3ae75",

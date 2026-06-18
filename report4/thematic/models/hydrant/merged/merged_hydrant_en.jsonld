@@ -141,7 +141,7 @@
     }
   },
   "@id": "https://belgif.github.io/thematic/models/hydrant",
-  "generatedAtTime": "2026-06-18T12:06:12.847Z",
+  "generatedAtTime": "2026-06-18T12:44:12.992Z",
   "packages": [
     {
       "@id": "urn:oslo-toolchain:c09dfee910aec5d0268c9586b9285b101e4c2d781b80815f430b252246c3ae75",
@@ -4095,11 +4095,11 @@
   ],
   "config": "config/config-ap.json",
   "branchtag": "main",
-  "dummy": "005",
+  "dummy": "006",
   "filename": "config/hydrant.json",
   "repository": "https://github.com/belgif/ICEGthema-hydrant",
   "urlref": "/thematic/models/hydrant",
-  "documentcommit": "52b4308fa99c87aee05d9846c160d6f7299f538b",
-  "toolchaincommit": "65b899ea464cc8e3e3ab5e8473697d549f1fd35f",
+  "documentcommit": "79e7410042ba1a21bba466158fa3dbd8f5221023",
+  "toolchaincommit": "e302c44758dfd227e0daca8c5c6de31769e736c4",
   "hostname": "https://belgif.github.io/"
 }
