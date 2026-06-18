@@ -2,92 +2,28 @@
 /tmp/workspace/src/thematic/models/hydrant
 #||# oslo-converter-ea for diagram ICEG-Hydrants-AP
 #||# -------------------------------------
-2026-06-18T07:09:55.903Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:Valve:(Valve -> FireHydrant) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.906Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Maintenance) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.906Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Usage) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.906Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Inspection) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.906Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> FireHydrant) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.906Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:Pipe:(Pipe -> Pipe) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.906Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Pipe) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.907Z info: Connector Model:ICEG-Hydrants-AP:org:Organization:(Organization -> ContactPoint) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.907Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:Pipe:(Pipe -> Organization) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.907Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Organization) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:55.908Z info: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:55.908Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:55.908Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:55.908Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples:Example1). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:55.908Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples:Example2). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:55.908Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples:Example3). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:55.917Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:type).
-2026-06-18T07:09:55.918Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:status).
-2026-06-18T07:09:55.920Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:adms:Identifier:issuingAuthorityName).
-2026-06-18T07:09:55.920Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:adms:Identifier:schemeName).
-2026-06-18T07:09:55.921Z warn: [ConverterHandler]: Entity with path Model:ICEG-Hydrants-AP:saref4watr:Pipe:identifier has already a value for usageNote in language nl, but will be overwritten.
-2026-06-18T07:09:55.922Z warn: [ConverterHandler]: Entity with path Model:ICEG-Hydrants-AP:ICEG Building:GeographicalName:spelling has an empty value for tag usageNote-en.
-2026-06-18T07:09:55.923Z warn: [ConverterHandler]: Entity with path isPartOf has already a value for label-en in language en, but will be overwritten.
+2026-06-18T08:00:24.874Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:Valve:(Valve -> FireHydrant) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.876Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Maintenance) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.877Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Usage) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.877Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Inspection) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.877Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> FireHydrant) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.877Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:Pipe:(Pipe -> Pipe) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.877Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Pipe) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.877Z info: Connector Model:ICEG-Hydrants-AP:org:Organization:(Organization -> ContactPoint) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.878Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:Pipe:(Pipe -> Organization) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.878Z info: Connector Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:(FireHydrant -> Organization) is not an association with a source role. Ignoring this connector.
+2026-06-18T08:00:24.879Z info: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model). Using fallback URI (http://todo.com/) instead.
+2026-06-18T08:00:24.879Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP). Using fallback URI (http://todo.com/) instead.
+2026-06-18T08:00:24.879Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples). Using fallback URI (http://todo.com/) instead.
+2026-06-18T08:00:24.879Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples:Example1). Using fallback URI (http://todo.com/) instead.
+2026-06-18T08:00:24.879Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples:Example2). Using fallback URI (http://todo.com/) instead.
+2026-06-18T08:00:24.879Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:ICEG-Hydrants-AP:Examples:Example3). Using fallback URI (http://todo.com/) instead.
+2026-06-18T08:00:24.888Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:type).
+2026-06-18T08:00:24.888Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:saref4watr:FireHydrant:status).
+2026-06-18T08:00:24.890Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:adms:Identifier:issuingAuthorityName).
+2026-06-18T08:00:24.890Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:ICEG-Hydrants-AP:adms:Identifier:schemeName).
+2026-06-18T08:00:24.891Z warn: [ConverterHandler]: Entity with path Model:ICEG-Hydrants-AP:saref4watr:Pipe:identifier has already a value for usageNote in language nl, but will be overwritten.
+2026-06-18T08:00:24.892Z warn: [ConverterHandler]: Entity with path Model:ICEG-Hydrants-AP:ICEG Building:GeographicalName:spelling has an empty value for tag usageNote-en.
+2026-06-18T08:00:24.893Z warn: [ConverterHandler]: Entity with path isPartOf has already a value for label-en in language en, but will be overwritten.
 #||# -------------------------------------
 file review does not exist
-\n########################\n
-/tmp/workspace/src/thematic/models/imkl
-#||# oslo-converter-ea for diagram IMKL-LD
-#||# -------------------------------------
-2026-06-18T07:09:57.738Z info: [ConnectorConverterHandler]: Ignoring hidden connector (Model:Model:SupportPackage:Link:(Link -> Knoop))
-2026-06-18T07:09:57.740Z info: [ConnectorConverterHandler]: Ignoring hidden connector (Model:Model:SupportPackage:Link:(Link -> Knoop))
-2026-06-18T07:09:57.740Z info: [ConnectorConverterHandler]: Ignoring hidden connector (Model:Model:IMKL-LD:Nutsvoorzieningnetwerkelement:(Nutsvoorzieningnetwerkelement -> Activiteitencomplex))
-2026-06-18T07:09:57.742Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieninglinkset:(Nutsvoorzieninglinkset -> Nutsvoorzieningnetwerkelement) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.742Z info: Connector Model:Model:IMKL-LD:Maataanduiding:(Maataanduiding -> Annotatie) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.743Z info: Connector Model:Model:IMKL-LD:Pijp:(Pijp -> Nutsvoorzieninglinkset) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.743Z info: Connector Model:Model:IMKL-LD:Kabel:(Kabel -> Nutsvoorzieninglinkset) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.743Z info: Connector Model:Model:IMKL-LD:Kanaal:(Kanaal -> Nutsvoorzieninglinkset) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieninglinksequentie:(Nutsvoorzieninglinksequentie -> Nutsvoorzieningnetwerkelement) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieninglink:(Nutsvoorzieninglink -> Nutsvoorzieningnetwerkelement) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningnetwerkelement) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Pijp:(Pijp -> Pijp) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Kanaal:(Kanaal -> Kanaal) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieningknoopcontainer:(Nutsvoorzieningknoopcontainer -> Nutsvoorzieningnetwerkelement) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.744Z info: Connector Model:Model:IMKL-LD:Telecommunicatiekabel:(Telecommunicatiekabel -> Kabel) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Electriciteitskabel:(Electriciteitskabel -> Kabel) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:OlieGasChemicalienPijp:(OlieGasChemicalienPijp -> Pijp) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Rioolpijp:(Rioolpijp -> Pijp) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Waterleiding:(Waterleiding -> Pijp) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:ThermischePijp:(ThermischePijp -> Pijp) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Toebehoren:(Toebehoren -> Nutsvoorzieningknoop) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Toren:(Toren -> Nutsvoorzieningknoopcontainer) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Paal:(Paal -> Nutsvoorzieningknoopcontainer) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Mangat:(Mangat -> Nutsvoorzieningknoopcontainer) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Kast:(Kast -> Nutsvoorzieningknoopcontainer) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieningnetwerk:(Nutsvoorzieningnetwerk -> Nutsvoorzieningnetwerk) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:ISO-CSL:Lengte:(Lengte -> Maat) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:ISO-SS:Punt:(Punt -> Geometrie) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:ISO-SS:Curve:(Curve -> Geometrie) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:SupportPackage:Linksequentie:(Linksequentie -> GeneriekeLink) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieningnetwerk:(Nutsvoorzieningnetwerk -> Activiteitencomplex) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:ISO-CSL:Lengteeenheid:(Lengteeenheid -> Meeteenheid) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Plan:(Plan -> Document) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Aansluiting:(Aansluiting -> Toebehoren) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Hoogte:(Hoogte -> VerticalePositie) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Diepte:(Diepte -> VerticalePositie) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.745Z info: Connector Model:Model:IMKL-LD:Annotatie:(Annotatie -> Annotatie) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.746Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieningnetwerk:(Nutsvoorzieningnetwerk -> Nutsvoorzieningnetwerkelement) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.746Z info: Connector Model:Model:SupportPackage:Link:(Link -> GeneriekeLink) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.746Z info: Connector Model:Model:IMKL-LD:Nutsvoorzieningnetwerkelement:(Nutsvoorzieningnetwerkelement -> Nutsvoorzieningnetwerk) is not an association with a source role. Ignoring this connector.
-2026-06-18T07:09:57.747Z info: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z info: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:ISO-DQ). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:FOAF). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:DCTERMS). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:LOCN). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:ADMS). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:ISO-CSL). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:SupportPackage). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:PROV). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:Objectdiagrammen). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:Schema.org). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:ISO-SS). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:Objectdiagrammen:DatavoorbeeldKabelMetDiepte). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:Objectdiagrammen:DatavoorbeeldLeiding). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.747Z warn: [PackageConverterHandler]: No value found for tag "baseURI" in package (Model:Model:Objectdiagrammen:DatavoorbeeldenDiepte). Using fallback URI (http://todo.com/) instead.
-2026-06-18T07:09:57.777Z warn: [ConverterHandler]: Entity with path Model:Model:IMKL-LD:Toebehoren:subthema has an empty value for tag ap-definition-nl.
-2026-06-18T07:09:57.792Z warn: [ConverterHandler]: Entity with path Model:Model:IMKL-LD:Hoogte:hoogte has already a value for definition-en in language en, but will be overwritten.
-2026-06-18T07:09:57.796Z warn: [ConverterHandler]: Entity with path inNetwerk has already a value for ap-label-nl in language nl, but will be overwritten.
-#||# -------------------------------------
