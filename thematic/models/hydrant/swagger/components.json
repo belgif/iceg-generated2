@@ -7,20 +7,6 @@
   },
   "components": {
     "schemas": {
-      "Concept": {
-        "title": "Concept",
-        "type": "object",
-        "description": "Enumeratie van Concept",
-        "properties": {
-          "@id": {
-            "type": "string",
-            "format": "uri"
-          }
-        },
-        "required": [
-          "@id"
-        ]
-      },
       "EnterYourTranslationHere": {
         "title": "EnterYourTranslationHere",
         "type": "object",
@@ -41,20 +27,6 @@
         },
         "required": [
           "@type"
-        ]
-      },
-      "Code": {
-        "title": "Code",
-        "type": "object",
-        "description": "Enumeratie van Code",
-        "properties": {
-          "@id": {
-            "type": "string",
-            "format": "uri"
-          }
-        },
-        "required": [
-          "@id"
         ]
       }
     },

@@ -16,7 +16,7 @@
       "$ref": "#/components/schemas/OpeningKeyType"
     },
     "diameter": {
-      "$ref": "#/components/schemas/Measure"
+      "$ref": "#/components/schemas/QuantityValue"
     },
     "isPartOf": {
       "$ref": "#/components/schemas/FireHydrant"

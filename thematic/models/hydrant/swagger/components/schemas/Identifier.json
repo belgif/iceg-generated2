@@ -12,6 +12,30 @@
       "description": "Object type (klasse Identifier)",
       "pattern": "^Identifier$"
     },
+    "issuingAuthorityName": {
+      "type": "object",
+      "description": "The name of the agency responsible for issuing the Identifier.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "@value"
+      ]
+    },
+    "schemeName": {
+      "type": "object",
+      "description": "Name of the scheme used to construct the identifier.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "@value"
+      ]
+    },
     "dateOfIssue": {
       "$ref": "#/components/schemas/DateTime"
     },

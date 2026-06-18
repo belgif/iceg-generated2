@@ -30,7 +30,7 @@
       "minItems": 1
     },
     "diameter": {
-      "$ref": "#/components/schemas/Measure"
+      "$ref": "#/components/schemas/QuantityValue"
     },
     "contains": {
       "$ref": "#/components/schemas/FireHydrant"

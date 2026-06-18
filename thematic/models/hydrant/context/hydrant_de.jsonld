@@ -3,13 +3,15 @@
     "DateTime": "http://www.w3.org/2001/XMLSchema#dateTime",
     "EnterYourTranslationHere": "http://www.w3.org/2004/02/skos/core#Concept",
     "EnterYourTranslationHere.enterYourTranslationHere": {
-      "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/contactPoint",
       "@type": "@id"
     },
     "LangString": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "Literal": "http://www.w3.org/2000/01/rdf-schema#Literal",
     "String": "http://www.w3.org/2001/XMLSchema#string",
     "enterYourTranslationHere": {
-      "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "@id": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "@type": "@id"
     },
     "type": {

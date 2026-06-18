@@ -12,25 +12,6 @@
       "description": "Object type (klasse Geometry)",
       "pattern": "^Geometry$"
     },
-    "coordinates": {
-      "$ref": "#/components/schemas/String"
-    },
-    "crs": {
-      "type": "object",
-      "description": "An identifier for the coordinate reference system.",
-      "properties": {
-        "@id": {
-          "type": "string",
-          "format": "uri"
-        }
-      },
-      "required": [
-        "@id"
-      ]
-    },
-    "geometryType": {
-      "$ref": "#/components/schemas/Code"
-    },
     "gml": {
       "type": "object",
       "description": "The geometry written in Geography Markup Language. Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal.",
@@ -42,12 +23,6 @@
       "required": [
         "@value"
       ]
-    },
-    "latitude": {
-      "$ref": "#/components/schemas/String"
-    },
-    "longitude": {
-      "$ref": "#/components/schemas/String"
     },
     "wkt": {
       "type": "object",
@@ -63,7 +38,6 @@
     }
   },
   "required": [
-    "@type",
-    "geometryType"
+    "@type"
   ]
 }

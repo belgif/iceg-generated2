@@ -14,9 +14,9 @@
     },
     "flowRate": {
       "type": "array",
-      "description": "Lijst van Measure items.",
+      "description": "Lijst van QuantityValue items.",
       "items": {
-        "$ref": "#/components/schemas/Measure"
+        "$ref": "#/components/schemas/QuantityValue"
       },
       "minItems": 1,
       "maxItems": null
@@ -25,7 +25,7 @@
       "$ref": "#/components/schemas/PipeClassificationType"
     },
     "flowPressure": {
-      "$ref": "#/components/schemas/Measure"
+      "$ref": "#/components/schemas/QuantityValue"
     },
     "type": {
       "$ref": "#/components/schemas/PipeType"
@@ -50,7 +50,7 @@
       "minItems": 1
     },
     "diameter": {
-      "$ref": "#/components/schemas/Measure"
+      "$ref": "#/components/schemas/QuantityValue"
     },
     "identifier": {
       "type": "array",

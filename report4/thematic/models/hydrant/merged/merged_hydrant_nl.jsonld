@@ -185,6 +185,191 @@
       ]
     },
     {
+      "@id": "urn:oslo-toolchain:d3f32ebdf8ff186e7e2b9473e65e86adc057f45ad2c8306bf69891bdba315c03",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The geometry written in Geography Markup Language."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+      "diagramLabel": [
+        {
+          "@value": "gml"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The geometry written in Geography Markup Language."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "gml"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:4da35394e8beab1cbf6d64e307139dfd4d1a794d6e33f6643c6835e03fb509a5",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The well-known text representation string describing the point, line or polygon."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+      "diagramLabel": [
+        {
+          "@value": "wkt"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The well-known text representation string describing the point, line or polygon."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "wkt"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:8600eaf65e1bd197b27b8784b6bcf83753e53d0abe4e151de6a55f8c92c702d6",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "A property to relate an observable thing with a value expressed as a decimal."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://qudt.org/schema/qudt/value",
+      "diagramLabel": [
+        {
+          "@value": "value"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A property to relate an observable thing with a value expressed as a decimal."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Value"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
       "@id": "urn:oslo-toolchain:a6804dfb1c662a21d7b2c5187678b17e0b7b3d568f856509f0c2decfed0ecfd8",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "apDefinition": [
@@ -232,6 +417,116 @@
         {
           "@language": "en",
           "@value": "start date"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:640d948e58dc3ca5df80ff3ee1566ca1742945d88980c9f0a5b732df34a0396c",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The name of the agency responsible for issuing the Identifier."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://www.w3.org/ns/adms#schemeAgency",
+      "diagramLabel": [
+        {
+          "@value": "issuingAuthorityName"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:9e5fed28315ff3e0831b00d0393311b08c3b517a2362ba58bb55940ea2db97e3"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The name of the agency responsible for issuing the Identifier."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "issuingAuthorityName"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:e27341a2c1cee8e110825cb57363795b9a8636fee77897d6aea91c30e27fab86",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "Name of the scheme used to construct the identifier."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://purl.org/dc/terms/conformsTo",
+      "diagramLabel": [
+        {
+          "@value": "schemeName"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:9e5fed28315ff3e0831b00d0393311b08c3b517a2362ba58bb55940ea2db97e3"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Name of the scheme used to construct the identifier."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "schemeName"
         },
         {
           "@language": "nl",
@@ -385,106 +680,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:820567e7aa2bf534a7940e4033127436fab69c3b3937dcf680b9055bc7ba4130",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "assignedURI": "http://vocab.belgif.be/ns/building#uom",
-      "diagramLabel": [
-        {
-          "@value": "uom"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:ac916c88bd64baaee8592cab30ade15e7500ed0be2fe9f18a72f8a6aedddedc8"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Standard units of measurements used when accounting for stock, and expressing them in quantities."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "uom"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "Concepts of this codelist should be used from the EU Vocabulary <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/measurement-unit\">Measurement unit</a>."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:cd458fadedccb89070823fd81e9e39268854d47cdf7e3652fa9226fcbc2ef132",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "assignedURI": "https://qudt.org/schema/qudt/value",
-      "diagramLabel": [
-        {
-          "@value": "value"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "value"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:6eeae6897f024d188128562fb291df7ddea7bb1295232d3b95882bf1ab3874b7",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "apDefinition": [
@@ -570,7 +765,7 @@
         "@value": "1"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -1230,7 +1425,7 @@
         "@value": "0"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
+        "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -1247,6 +1442,61 @@
         {
           "@language": "en",
           "@value": "location"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:95cac444e4446ecf7966b93e8d4ef664b876e6f8369d217821bf4d5b7cd36382",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>defined by the system,</li>\r\n  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://qudt.org/schema/qudt/hasUnit",
+      "diagramLabel": [
+        {
+          "@value": "hasUnit"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:861a46820ced9e76777e0bccaffb626a65491dc886891536a68ca0fbd0c525a3"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>(a) defined by the system,</li>\r\n  <li>(b) accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>(c) a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Unit(QuantityValue)"
         },
         {
           "@language": "nl",
@@ -1285,7 +1535,7 @@
         "@value": "0"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -1302,6 +1552,61 @@
         {
           "@language": "en",
           "@value": "flow pressure"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:7b2dd4248982d6fbb5163dc57545e1668da7039321c1652148c1b803cc392d5a",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The particular kind of fire hydrant."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://purl.org/dc/terms/type",
+      "diagramLabel": [
+        {
+          "@value": "type"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:066ef45f11b41a2872794b5c7ab9a28be4d4610e7ddca78a0f4552015b937fcd"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:8e416e9ea2d009d9d2087376e72125ac24b2ef1c0ca7ec072264310416c4e6e1"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The particular kind of fire hydrant."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "type"
         },
         {
           "@language": "nl",
@@ -1395,7 +1700,7 @@
         "@value": "0"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:ac916c88bd64baaee8592cab30ade15e7500ed0be2fe9f18a72f8a6aedddedc8"
+        "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
@@ -1566,7 +1871,7 @@
         "@value": "1"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -1627,7 +1932,7 @@
         "@value": "0"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -1654,6 +1959,61 @@
         {
           "@language": "nl",
           "@value": "Typically measured in liter per minute (L/min)"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:1d67e3e94dd1e2f403c04672a00d93f31c0f88a71f783aaa9e34ccce06f0d47c",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The condition in which a fire hydrant can be found."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://www.w3.org/ns/adms#status",
+      "diagramLabel": [
+        {
+          "@value": "status"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:066ef45f11b41a2872794b5c7ab9a28be4d4610e7ddca78a0f4552015b937fcd"
+      },
+      "maxCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      },
+      "minCount": {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:444bd8799ebe3492a47dbd337cdeaae1604b0d68be3498267427f0ead3a5068c"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The condition in which a fire hydrant can be found."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "status"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
         }
       ]
     },
@@ -1688,7 +2048,7 @@
         "@value": "1"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
+        "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
@@ -1743,7 +2103,7 @@
         "@value": "0"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -1908,7 +2268,7 @@
         "@value": "1"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
+        "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
@@ -1963,7 +2323,7 @@
         "@value": "1"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20"
+        "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "vocDefinition": [
@@ -2214,122 +2574,6 @@
         {
           "@language": "nl",
           "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:60deb8320ec62cfd78e9d57e924f968be5fc7050679b7049cfb43474d4d14c27",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The coordinate list."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#coordinates",
-      "diagramLabel": [
-        {
-          "@value": "coordinates"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "0"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:1c2c657a7c4741a64bdec362f05da17698a52d80efcf5e7bdb78d78873240362"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The coordinate list."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "coordinates"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:9b0eb68282bfc72409c7d9fdf4e20dfa886e3c8c3bd77a68760d3ae7d7891a56",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "An identifier for the coordinate reference system."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#crs",
-      "diagramLabel": [
-        {
-          "@value": "crs"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "0"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:965f31e13cfa53604161ae7446323d94feafceaccc1d816560658798eb542d59"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "An identifier for the coordinate reference system."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "crs"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "nl",
-          "@value": "This property contains the CRS code of the coordinate reference system used for the geometry.\nA closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84.\nLambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
         }
       ]
     },
@@ -2841,301 +3085,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:788788f0b34f520fbc73db263cefef0c2dcbb1c0f650088765fa0609be8f20dc",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry type, e.g. point, line or polygon."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#geometryType",
-      "diagramLabel": [
-        {
-          "@value": "geometryType"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:b7b2be09bd8d1c05936eed4fbf4872845e1ead5f32d80c40cf5a069d32bb9760"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry type, e.g. point, line or polygon."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "geometryType"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:1c2bee5c833349d2e95f8d7003a4c162a88c1f752fa26a922c589c4837710c8d",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry written in Geography Markup Language."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#gml",
-      "diagramLabel": [
-        {
-          "@value": "gml"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "0"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry written in Geography Markup Language."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "gml"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:93385b20042fa82c2455a9f5cf98ee0db7478b84798292eef6f34a688426a8de",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The latitude."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#latitude",
-      "diagramLabel": [
-        {
-          "@value": "latitude"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "0"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:1c2c657a7c4741a64bdec362f05da17698a52d80efcf5e7bdb78d78873240362"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The latitude."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "latitude"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:9fad9d950f27384bd39ab6dc847e33400a635a364641bc2cd3dafbd48f5cc2a8",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The longitude."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#longitude",
-      "diagramLabel": [
-        {
-          "@value": "longitude"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "0"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:1c2c657a7c4741a64bdec362f05da17698a52d80efcf5e7bdb78d78873240362"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The longitude."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "longitude"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:8c9ef844fae78a63ec22176f0fab36a49b80a326d748b5fac1294dfd006fa964",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The well-known text representation string describing the point, line or polygon."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "assignedURI": "https://www.w3.org/ns/locn#wkt",
-      "diagramLabel": [
-        {
-          "@value": "wkt"
-        }
-      ],
-      "domain": {
-        "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e"
-      },
-      "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      },
-      "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "0"
-      },
-      "range": {
-        "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The well-known text representation string describing the point, line or polygon."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "wkt"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:4c2a22ebd5d5c93b72ec93a41cc716c64668153e73e3f35e9aaad2ab104395de",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "assignedURI": "http://vocab.belgif.be/ns/building#nameStatus",
@@ -3156,7 +3105,7 @@
         "@value": "0"
       },
       "range": {
-        "@id": "urn:oslo-toolchain:a284be2e688759091ad920a8e3309ed4cf3262f0271cfaaed211a3622f95d240"
+        "@id": "urn:oslo-toolchain:ff1c793b312d9c8bb77c75e904c905603c6c976d3045d208d527d0512e967cb2"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
@@ -3698,7 +3647,7 @@
           "@value": "Enter your translation here"
         }
       ],
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+      "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "diagramLabel": [
         {
           "@value": "isConnectedTo"
@@ -3718,7 +3667,7 @@
       "range": {
         "@id": "urn:oslo-toolchain:de4d2fa3cc326d515f133ff770e2a7a488be452c5fa84f47b2a6577af50f255c"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3869,7 +3818,7 @@
           "@value": "Enter your translation here"
         }
       ],
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "diagramLabel": [
         {
           "@value": "isOperatedBy"
@@ -3889,7 +3838,7 @@
       "range": {
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3924,7 +3873,7 @@
           "@value": "Enter your translation here"
         }
       ],
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "diagramLabel": [
         {
           "@value": "isOperatedBy"
@@ -3944,7 +3893,7 @@
       "range": {
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3970,7 +3919,48 @@
   "branchtag": "main",
   "classes": [
     {
-      "@id": "urn:oslo-toolchain:a284be2e688759091ad920a8e3309ed4cf3262f0271cfaaed211a3622f95d240",
+      "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "diagramLabel": [
+        {
+          "@value": "Concept"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "An idea or notion."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Concept"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "Intended to organize knowledge, for example in a code list or taxonomy (a so-called ConceptScheme). See <a href=\"https://www.w3.org/TR/skos-reference/\">SKOS</a> for more information."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:ff1c793b312d9c8bb77c75e904c905603c6c976d3045d208d527d0512e967cb2",
       "@type": "Class",
       "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
       "diagramLabel": [
@@ -4002,7 +3992,7 @@
       "vocUsageNote": [
         {
           "@language": "en",
-          "@value": "NOTE The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
+          "@value": "The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
         },
         {
           "@language": "nl",
@@ -4020,6 +4010,16 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The types of categorisation of pipes."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
       "vocLabel": [
         {
           "@language": "en",
@@ -4147,6 +4147,62 @@
         {
           "@language": "en",
           "@value": "Inspection"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:861a46820ced9e76777e0bccaffb626a65491dc886891536a68ca0fbd0c525a3",
+      "@type": "Class",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://qudt.org/schema/qudt/Unit",
+      "diagramLabel": [
+        {
+          "@value": "Unit"
+        }
+      ],
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Concept"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
         },
         {
           "@language": "nl",
@@ -4674,79 +4730,7 @@
   "contributors-file": "stakeholders.csv",
   "datatypes": [
     {
-      "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20",
-      "@type": "Datatype",
-      "assignedURI": "http://inspire.ec.europa.eu/ont/base#Measure",
-      "diagramLabel": [
-        {
-          "@value": "Measure"
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "A representation of a measure value. The decimal value is followed by a space and the unit of the measure."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "Measure"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:c0b8ea859625b0bc7b69950cb9c97b57024e622cc1611cb964027fb315d03674",
-      "@type": "Datatype",
-      "assignedURI": "http://vocab.belgif.be/ns/building#GeographicalName",
-      "diagramLabel": [
-        {
-          "@value": "GeographicalName"
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Proper noun applied to a real world entity."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "GeographicalName"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "This can be substituted by LangString"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e",
+      "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0",
       "@type": "Datatype",
       "apDefinition": [
         {
@@ -4789,6 +4773,88 @@
         {
           "@language": "en",
           "@value": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f",
+      "@type": "Datatype",
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "A Quantity Value."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "assignedURI": "http://qudt.org/schema/qudt/QuantityValue",
+      "diagramLabel": [
+        {
+          "@value": "QuantityValue"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A Quantity Value."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "QuantityValue"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:c0b8ea859625b0bc7b69950cb9c97b57024e622cc1611cb964027fb315d03674",
+      "@type": "Datatype",
+      "assignedURI": "http://vocab.belgif.be/ns/building#GeographicalName",
+      "diagramLabel": [
+        {
+          "@value": "GeographicalName"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Proper noun applied to a real world entity."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "GeographicalName"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "This can be substituted by LangString."
         },
         {
           "@language": "nl",
@@ -4899,6 +4965,16 @@
       ]
     },
     {
+      "@id": "urn:oslo-toolchain:2049156247",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "diagramLabel": [
+        {
+          "@value": "Literal"
+        }
+      ]
+    },
+    {
       "@id": "urn:oslo-toolchain:499715870",
       "@type": "Datatype",
       "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -4920,12 +4996,12 @@
     }
   ],
   "diagram": "ICEG-Hydrants-AP",
-  "documentcommit": "c91f60bc808e14c9f52679f8a32b1e3e73a9ed4f",
-  "dummy": "004",
-  "eap": "ICEG-Hydrants-AP-v12.eap",
+  "documentcommit": "52b4308fa99c87aee05d9846c160d6f7299f538b",
+  "dummy": "005",
+  "eap": "ICEG-Hydrants-AP-v13.eap",
   "enumerations": [
     {
-      "@id": "urn:oslo-toolchain:a284be2e688759091ad920a8e3309ed4cf3262f0271cfaaed211a3622f95d240",
+      "@id": "urn:oslo-toolchain:ff1c793b312d9c8bb77c75e904c905603c6c976d3045d208d527d0512e967cb2",
       "@type": "Enumeration",
       "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
     },
@@ -4967,7 +5043,7 @@
   ],
   "feedbackurl": "https://github.com/belgif/thematic/issues",
   "filename": "config/hydrant.json",
-  "generatedAtTime": "2026-06-18T08:00:24.895Z",
+  "generatedAtTime": "2026-06-18T12:06:12.847Z",
   "hostname": "https://belgif.github.io/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "name": "hydrant",
@@ -5006,46 +5082,6 @@
         {
           "@language": "en",
           "@value": "LangString"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:ac916c88bd64baaee8592cab30ade15e7500ed0be2fe9f18a72f8a6aedddedc8",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-      "diagramLabel": [
-        {
-          "@value": "Concept"
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
-    },
-    {
-      "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660",
-      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-      "diagramLabel": [
-        {
-          "@value": "Literal"
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The class of literal values, eg. textual strings and integers."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "Literal"
         },
         {
           "@language": "nl",
@@ -5114,14 +5150,34 @@
       "scope": "https://data.vlaanderen.be/id/concept/scope/External"
     },
     {
-      "@id": "urn:oslo-toolchain:b7b2be09bd8d1c05936eed4fbf4872845e1ead5f32d80c40cf5a069d32bb9760",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
       "diagramLabel": [
         {
-          "@value": "Code"
+          "@value": "Literal"
         }
       ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The class of literal values, eg. textual strings and integers."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Literal"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
     }
   ],
   "repository": "https://github.com/belgif/ICEGthema-hydrant",
@@ -5132,7 +5188,7 @@
   "subsettedAttributes": [],
   "template": "hydrant.j2",
   "title": "Hydrant",
-  "toolchaincommit": "3cdaa59e41459011177079c2254730a8123cd16e",
+  "toolchaincommit": "65b899ea464cc8e3e3ab5e8473697d549f1fd35f",
   "translation": [
     {
       "autotranslate": false,

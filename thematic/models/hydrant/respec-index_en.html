@@ -2,7 +2,7 @@
 <html>
   <head><meta charset="utf-8"/>
     <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
-    <script class="remove">var respecConfig = {"specStatus":"unofficial","editors":[{"name":"John Doe"}],"publishDate":"2026-06-18T08:01:00.803Z"}</script>
+    <script class="remove">var respecConfig = {"specStatus":"unofficial","editors":[{"name":"John Doe"}],"publishDate":"2026-06-18T12:06:38.287Z"}</script>
   </head>
 
   <style>
@@ -44,6 +44,46 @@
 <b>Definition</b>
 <br>
 More readable representation with only the basic data of the address, intended to use an address as an attribute of another object.
+
+<br>
+
+<p><b><i>No properties defined for this entity</b></i></p>
+
+
+    
+      <h2>
+  Concept
+</h2>
+
+<b>URI</b>
+<br>
+<a href="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a>
+
+<br>
+
+<b>Definition</b>
+<br>
+An idea or notion.
+
+<br>
+
+<p><b><i>No properties defined for this entity</b></i></p>
+
+
+    
+      <h2>
+  Concept
+</h2>
+
+<b>URI</b>
+<br>
+<a href="http://qudt.org/schema/qudt/Unit">http://qudt.org/schema/qudt/Unit</a>
+
+<br>
+
+<b>Definition</b>
+<br>
+A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension).
 
 <br>
 
@@ -118,7 +158,7 @@ A fire hydrant is a fitting in a location with a nozzle by which a fire hose may
   
   <tr>
     <td>flow rate</td>
-    <td>http://inspire.ec.europa.eu/ont/base#Measure</td>
+    <td>http://qudt.org/schema/qudt/QuantityValue</td>
     <td>The nominal rate at which water flows through the fire hydrant.</td>
   </tr>
   
@@ -150,12 +190,6 @@ A fire hydrant is a fitting in a location with a nozzle by which a fire hose may
     <td>is supplied by</td>
     <td>https://saref.etsi.org/saref4watr/Pipe</td>
     <td>The fire hydrant receiving water from the pipe. It is possible that one pipe is connected to several hydrants.</td>
-  </tr>
-  
-  <tr>
-    <td>isOperatedBy</td>
-    <td>http://www.w3.org/ns/org#Organization</td>
-    <td>The organization in charge of controlling and maintaining the fire hydrant.</td>
   </tr>
   
   <tr>
@@ -310,6 +344,26 @@ The act of looking at something carefully in order to discover information.
 
     
       <h2>
+  Literal
+</h2>
+
+<b>URI</b>
+<br>
+<a href="http://www.w3.org/2000/01/rdf-schema#Literal">http://www.w3.org/2000/01/rdf-schema#Literal</a>
+
+<br>
+
+<b>Definition</b>
+<br>
+
+
+<br>
+
+<p><b><i>No properties defined for this entity</b></i></p>
+
+
+    
+      <h2>
   Maintenance
 </h2>
 
@@ -347,26 +401,6 @@ The work needed to keep something in good condition
   </tr>
   
 </table>
-
-
-    
-      <h2>
-  Measure
-</h2>
-
-<b>URI</b>
-<br>
-<a href="http://inspire.ec.europa.eu/ont/base#Measure">http://inspire.ec.europa.eu/ont/base#Measure</a>
-
-<br>
-
-<b>Definition</b>
-<br>
-A representation of a measure value. The decimal value is followed by a space and the unit of the measure.
-
-<br>
-
-<p><b><i>No properties defined for this entity</b></i></p>
 
 
     
@@ -417,7 +451,7 @@ A circular opening through which water can be discharged from a fire hydrant.
   
   <tr>
     <td>diameter</td>
-    <td>http://inspire.ec.europa.eu/ont/base#Measure</td>
+    <td>http://qudt.org/schema/qudt/QuantityValue</td>
     <td>The measurement of the circular opening through which water can be discharged from a fire hydrant.</td>
   </tr>
   
@@ -464,32 +498,20 @@ A pipe is a passage of water flowing in a closed conduit (i.e., not subject to a
   
   <tr>
     <td>diameter</td>
-    <td>http://inspire.ec.europa.eu/ont/base#Measure</td>
+    <td>http://qudt.org/schema/qudt/QuantityValue</td>
     <td>The nominal diameter of the underground water pipe going along the street.</td>
   </tr>
   
   <tr>
     <td>flow pressure</td>
-    <td>http://inspire.ec.europa.eu/ont/base#Measure</td>
+    <td>http://qudt.org/schema/qudt/QuantityValue</td>
     <td>The amount of force with which water moves to a pipe.</td>
   </tr>
   
   <tr>
     <td>flow rate</td>
-    <td>http://inspire.ec.europa.eu/ont/base#Measure</td>
+    <td>http://qudt.org/schema/qudt/QuantityValue</td>
     <td>The nominal rate at which water flows through the pipe.</td>
-  </tr>
-  
-  <tr>
-    <td>is connected to</td>
-    <td>https://saref.etsi.org/saref4watr/Pipe</td>
-    <td>A pipe can be attached to other pipes.</td>
-  </tr>
-  
-  <tr>
-    <td>is operated by</td>
-    <td>http://www.w3.org/ns/org#Organization</td>
-    <td>The organization in charge of controlling and maintaining the pipe.</td>
   </tr>
   
   <tr>
@@ -521,6 +543,26 @@ A pipe is a passage of water flowing in a closed conduit (i.e., not subject to a
 <b>Definition</b>
 <br>
 The type of pipe.
+
+<br>
+
+<p><b><i>No properties defined for this entity</b></i></p>
+
+
+    
+      <h2>
+  QuantityValue
+</h2>
+
+<b>URI</b>
+<br>
+<a href="http://qudt.org/schema/qudt/QuantityValue">http://qudt.org/schema/qudt/QuantityValue</a>
+
+<br>
+
+<b>Definition</b>
+<br>
+A Quantity Value.
 
 <br>
 
@@ -636,7 +678,7 @@ A valve is a device designed to control water flow, pressure or volume.
   
   <tr>
     <td>diameter</td>
-    <td>http://inspire.ec.europa.eu/ont/base#Measure</td>
+    <td>http://qudt.org/schema/qudt/QuantityValue</td>
     <td>The netto diameter of the water flow regulator.</td>
   </tr>
   
@@ -742,7 +784,7 @@ The type of a metal instrument by which the bolt of a lock is turned.
 
 <b>Definition</b>
 <br>
-
+The types of categorisation of pipes.
 
 <br>
 

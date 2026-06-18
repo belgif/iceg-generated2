@@ -3,6 +3,9 @@
     "@id": "https://belgif.github.io/thematic/models/hydrant#",
     "http://www.w3.org/2000/01/rdf-schema#member": [
       {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#ConceptShape"
+      },
+      {
         "@id": "https://belgif.github.io/thematic/models/hydrant#NameStatusValueShape"
       },
       {
@@ -57,22 +60,22 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#StringShape"
       },
       {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#GeometryShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#QuantityValueShape"
+      },
+      {
         "@id": "https://belgif.github.io/thematic/models/hydrant#DateTimeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#IdentifierShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalNameShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/hydrant#LangStringShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#MeasureShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#GeometryShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#IdentifierShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/hydrant#AddressRepresentationShape"
@@ -110,21 +113,67 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_34"
+        "@id": "_:df_2_40"
       },
       {
-        "@id": "_:df_2_35"
+        "@id": "_:df_2_41"
       },
       {
-        "@id": "_:df_2_36"
+        "@id": "_:df_2_42"
       },
       {
-        "@id": "_:df_2_37"
+        "@id": "_:df_2_43"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://www.w3.org/ns/locn#Address"
+      }
+    ]
+  },
+  {
+    "@id": "https://belgif.github.io/thematic/models/hydrant#ConceptShape",
+    "@type": [
+      "http://www.w3.org/ns/shacl#NodeShape"
+    ],
+    "http://purl.org/vocab/vann/usageNote": [
+      {
+        "@language": "en",
+        "@value": "Intended to organize knowledge, for example in a code list or taxonomy (a so-called ConceptScheme). See <a href=\"https://www.w3.org/TR/skos-reference/\">SKOS</a> for more information."
+      },
+      {
+        "@language": "en",
+        "@value": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An idea or notion."
+      },
+      {
+        "@language": "en",
+        "@value": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Concept"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#closed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      },
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
       }
     ]
   },
@@ -159,10 +208,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_44"
+        "@id": "_:df_2_48"
       },
       {
-        "@id": "_:df_2_45"
+        "@id": "_:df_2_49"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -218,25 +267,34 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_1"
+        "@id": "_:df_2_4"
       },
       {
-        "@id": "_:df_2_7"
+        "@id": "_:df_2_10"
       },
       {
-        "@id": "_:df_2_24"
+        "@id": "_:df_2_26"
       },
       {
-        "@id": "_:df_2_27"
+        "@id": "_:df_2_29"
       },
       {
-        "@id": "_:df_2_28"
+        "@id": "_:df_2_32"
       },
       {
-        "@id": "_:df_2_47"
+        "@id": "_:df_2_33"
       },
       {
-        "@id": "_:df_2_57"
+        "@id": "_:df_2_34"
+      },
+      {
+        "@id": "_:df_2_51"
+      },
+      {
+        "@id": "_:df_2_56"
+      },
+      {
+        "@id": "_:df_2_58"
       },
       {
         "@id": "_:df_2_59"
@@ -248,13 +306,10 @@
         "@id": "_:df_2_61"
       },
       {
-        "@id": "_:df_2_62"
+        "@id": "_:df_2_64"
       },
       {
-        "@id": "_:df_2_65"
-      },
-      {
-        "@id": "_:df_2_68"
+        "@id": "_:df_2_67"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -271,7 +326,7 @@
     "http://purl.org/vocab/vann/usageNote": [
       {
         "@language": "en",
-        "@value": "This can be substituted by LangString"
+        "@value": "This can be substituted by LangString."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -294,16 +349,16 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_2"
+        "@id": "_:df_2_7"
       },
       {
-        "@id": "_:df_2_3"
+        "@id": "_:df_2_8"
+      },
+      {
+        "@id": "_:df_2_53"
       },
       {
         "@id": "_:df_2_54"
-      },
-      {
-        "@id": "_:df_2_55"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -343,25 +398,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_38"
+        "@id": "_:df_2_1"
       },
       {
-        "@id": "_:df_2_39"
-      },
-      {
-        "@id": "_:df_2_49"
-      },
-      {
-        "@id": "_:df_2_50"
-      },
-      {
-        "@id": "_:df_2_51"
-      },
-      {
-        "@id": "_:df_2_52"
-      },
-      {
-        "@id": "_:df_2_53"
+        "@id": "_:df_2_2"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -424,16 +464,22 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_40"
+        "@id": "_:df_2_5"
       },
       {
-        "@id": "_:df_2_41"
+        "@id": "_:df_2_6"
       },
       {
-        "@id": "_:df_2_42"
+        "@id": "_:df_2_44"
       },
       {
-        "@id": "_:df_2_43"
+        "@id": "_:df_2_45"
+      },
+      {
+        "@id": "_:df_2_46"
+      },
+      {
+        "@id": "_:df_2_47"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -467,13 +513,13 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_13"
+        "@id": "_:df_2_16"
       },
       {
-        "@id": "_:df_2_14"
+        "@id": "_:df_2_17"
       },
       {
-        "@id": "_:df_2_15"
+        "@id": "_:df_2_18"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -529,58 +575,21 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_10"
+        "@id": "_:df_2_13"
       },
       {
-        "@id": "_:df_2_16"
+        "@id": "_:df_2_19"
       },
       {
-        "@id": "_:df_2_17"
+        "@id": "_:df_2_20"
       },
       {
-        "@id": "_:df_2_30"
+        "@id": "_:df_2_36"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://vocab.belgif.be/ns/hydrant#Maintenance"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/hydrant#MeasureShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A representation of a measure value. The decimal value is followed by a space and the unit of the measure."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Measure"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#property": [
-      {
-        "@id": "_:df_2_5"
-      },
-      {
-        "@id": "_:df_2_6"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
       }
     ]
   },
@@ -592,7 +601,7 @@
     "http://purl.org/vocab/vann/usageNote": [
       {
         "@language": "en",
-        "@value": "NOTE The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
+        "@value": "The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -708,13 +717,13 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_4"
+        "@id": "_:df_2_9"
       },
       {
-        "@id": "_:df_2_23"
+        "@id": "_:df_2_28"
       },
       {
-        "@id": "_:df_2_66"
+        "@id": "_:df_2_65"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -751,10 +760,10 @@
         "@id": "_:df_2_0"
       },
       {
-        "@id": "_:df_2_26"
+        "@id": "_:df_2_31"
       },
       {
-        "@id": "_:df_2_58"
+        "@id": "_:df_2_57"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -767,6 +776,12 @@
     "@id": "https://belgif.github.io/thematic/models/hydrant#PipeClassificationTypeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The types of categorisation of pipes."
+      }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
@@ -811,43 +826,43 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_8"
+        "@id": "_:df_2_11"
       },
       {
-        "@id": "_:df_2_9"
-      },
-      {
-        "@id": "_:df_2_21"
-      },
-      {
-        "@id": "_:df_2_22"
+        "@id": "_:df_2_12"
       },
       {
         "@id": "_:df_2_25"
       },
       {
-        "@id": "_:df_2_31"
+        "@id": "_:df_2_27"
       },
       {
-        "@id": "_:df_2_32"
+        "@id": "_:df_2_30"
       },
       {
-        "@id": "_:df_2_33"
+        "@id": "_:df_2_37"
       },
       {
-        "@id": "_:df_2_46"
+        "@id": "_:df_2_38"
       },
       {
-        "@id": "_:df_2_48"
+        "@id": "_:df_2_39"
+      },
+      {
+        "@id": "_:df_2_50"
+      },
+      {
+        "@id": "_:df_2_52"
+      },
+      {
+        "@id": "_:df_2_62"
       },
       {
         "@id": "_:df_2_63"
       },
       {
-        "@id": "_:df_2_64"
-      },
-      {
-        "@id": "_:df_2_67"
+        "@id": "_:df_2_66"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -882,6 +897,43 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "https://belgif.github.io/thematic/models/hydrant#QuantityValueShape",
+    "@type": [
+      "http://www.w3.org/ns/shacl#NodeShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A Quantity Value."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "QuantityValue"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#closed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_3"
+      },
+      {
+        "@id": "_:df_2_24"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
       }
     ]
   },
@@ -961,16 +1013,16 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_12"
+        "@id": "_:df_2_15"
       },
       {
-        "@id": "_:df_2_18"
+        "@id": "_:df_2_21"
       },
       {
-        "@id": "_:df_2_19"
+        "@id": "_:df_2_22"
       },
       {
-        "@id": "_:df_2_20"
+        "@id": "_:df_2_23"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1004,13 +1056,13 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_2_11"
+        "@id": "_:df_2_14"
       },
       {
-        "@id": "_:df_2_29"
+        "@id": "_:df_2_35"
       },
       {
-        "@id": "_:df_2_56"
+        "@id": "_:df_2_55"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1096,32 +1148,33 @@
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
+    "http://purl.org/vocab/vann/usageNote": [
+      {
+        "@language": "en",
+        "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The date on which the current version of the area or object starts to be used."
+        "@value": "The geometry written in Geography Markup Language."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "start date"
+        "@value": "gml"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#FireHydrant.StartDate"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#datatype": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Gml"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
-        "@value": "The date on which the current version of the area or object starts to be used."
+        "@value": "The geometry written in Geography Markup Language."
       }
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
@@ -1133,17 +1186,181 @@
     "http://www.w3.org/ns/shacl#name": [
       {
         "@language": "en",
-        "@value": "start date"
+        "@value": "gml"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#Literal"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#startDate"
+        "@id": "http://www.opengis.net/ont/geosparql#asGML"
       }
     ]
   },
   {
     "@id": "_:df_2_10",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A comment about minor flows affecting the fire hydrant despite being operational."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "status remark"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#FireHydrant.StatusRemark"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "A comment about minor flows affecting the fire hydrant despite being operational."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "status remark"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://vocab.belgif.be/ns/hydrant#statusRemark"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_11",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The nominal rate at which water flows through the pipe."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "flow rate"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.FlowRate"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The nominal rate at which water flows through the pipe."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "null"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#minCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "flow rate"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://vocab.belgif.be/ns/hydrant#Pipe.flowRate"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_12",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The categorisation of pipes."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "classification"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.Classification"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The categorisation of pipes."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "classification"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_14"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://vocab.belgif.be/ns/hydrant#Pipe.classification"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_13",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1194,7 +1411,7 @@
     ]
   },
   {
-    "@id": "_:df_2_11",
+    "@id": "_:df_2_14",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1215,11 +1432,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#Valve.OpeningKey"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -1238,6 +1450,11 @@
         "@value": "opening key"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_19"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://vocab.belgif.be/ns/hydrant#openingKey"
@@ -1245,7 +1462,7 @@
     ]
   },
   {
-    "@id": "_:df_2_12",
+    "@id": "_:df_2_15",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1296,7 +1513,7 @@
     ]
   },
   {
-    "@id": "_:df_2_13",
+    "@id": "_:df_2_16",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1347,7 +1564,7 @@
     ]
   },
   {
-    "@id": "_:df_2_14",
+    "@id": "_:df_2_17",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1392,7 +1609,7 @@
     ]
   },
   {
-    "@id": "_:df_2_15",
+    "@id": "_:df_2_18",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1443,7 +1660,7 @@
     ]
   },
   {
-    "@id": "_:df_2_16",
+    "@id": "_:df_2_19",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1494,7 +1711,64 @@
     ]
   },
   {
-    "@id": "_:df_2_17",
+    "@id": "_:df_2_2",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://purl.org/vocab/vann/usageNote": [
+      {
+        "@language": "en",
+        "@value": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The well-known text representation string describing the point, line or polygon."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "wkt"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Wkt"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The well-known text representation string describing the point, line or polygon."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "wkt"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#Literal"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#asWKT"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_20",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1539,7 +1813,7 @@
     ]
   },
   {
-    "@id": "_:df_2_18",
+    "@id": "_:df_2_21",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1584,7 +1858,7 @@
     ]
   },
   {
-    "@id": "_:df_2_19",
+    "@id": "_:df_2_22",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1635,58 +1909,7 @@
     ]
   },
   {
-    "@id": "_:df_2_2",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "sourceOfName"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalName.SourceOfName"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#datatype": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "sourceOfName"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "http://vocab.belgif.be/ns/building#sourceOfName"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_20",
+    "@id": "_:df_2_23",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1737,7 +1960,64 @@
     ]
   },
   {
-    "@id": "_:df_2_21",
+    "@id": "_:df_2_24",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>defined by the system,</li>\r\n  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Unit(QuantityValue)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#QuantityValue.Unit(QuantityValue)"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>defined by the system,</li>\r\n  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#minCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "Unit(QuantityValue)"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://qudt.org/schema/qudt/hasUnit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_25",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1760,7 +2040,7 @@
     ],
     "http://www.w3.org/ns/shacl#class": [
       {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -1788,7 +2068,64 @@
     ]
   },
   {
-    "@id": "_:df_2_22",
+    "@id": "_:df_2_26",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The particular kind of fire hydrant."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "type"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#FireHydrant.Type"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The particular kind of fire hydrant."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#minCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "type"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_34"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://purl.org/dc/terms/type"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_27",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1809,11 +2146,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.Type"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -1832,6 +2164,11 @@
         "@value": "type"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_38"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://purl.org/dc/terms/type"
@@ -1839,7 +2176,7 @@
     ]
   },
   {
-    "@id": "_:df_2_23",
+    "@id": "_:df_2_28",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1860,11 +2197,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#Organization.Type"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -1883,6 +2215,11 @@
         "@value": "type"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_42"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/org#classification"
@@ -1890,7 +2227,7 @@
     ]
   },
   {
-    "@id": "_:df_2_24",
+    "@id": "_:df_2_29",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1935,7 +2272,64 @@
     ]
   },
   {
-    "@id": "_:df_2_25",
+    "@id": "_:df_2_3",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A property to relate an observable thing with a value expressed as a decimal."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Value"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#QuantityValue.Value"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "A property to relate an observable thing with a value expressed as a decimal."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#minCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "Value"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#Literal"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://qudt.org/schema/qudt/value"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_30",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -1956,11 +2350,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.WaterType"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -1973,6 +2362,11 @@
         "@value": "water type"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_47"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://vocab.belgif.be/ns/hydrant#waterType"
@@ -1980,7 +2374,7 @@
     ]
   },
   {
-    "@id": "_:df_2_26",
+    "@id": "_:df_2_31",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2003,7 +2397,7 @@
     ],
     "http://www.w3.org/ns/shacl#class": [
       {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -2037,7 +2431,7 @@
     ]
   },
   {
-    "@id": "_:df_2_27",
+    "@id": "_:df_2_32",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2060,7 +2454,7 @@
     ],
     "http://www.w3.org/ns/shacl#class": [
       {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -2088,7 +2482,58 @@
     ]
   },
   {
-    "@id": "_:df_2_28",
+    "@id": "_:df_2_33",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The condition in which a fire hydrant can be found."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "status"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#FireHydrant.Status"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The condition in which a fire hydrant can be found."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "status"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_53"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://www.w3.org/ns/adms#status"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_34",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2139,7 +2584,7 @@
     ]
   },
   {
-    "@id": "_:df_2_29",
+    "@id": "_:df_2_35",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2162,7 +2607,7 @@
     ],
     "http://www.w3.org/ns/shacl#class": [
       {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -2190,58 +2635,7 @@
     ]
   },
   {
-    "@id": "_:df_2_3",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A proper way of writing the geographical name."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "spelling"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalName.Spelling"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#datatype": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "A proper way of writing the geographical name."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "spelling"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "http://vocab.belgif.be/ns/building#spelling"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_30",
+    "@id": "_:df_2_36",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2292,7 +2686,7 @@
     ]
   },
   {
-    "@id": "_:df_2_31",
+    "@id": "_:df_2_37",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2313,11 +2707,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.Status"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -2336,6 +2725,11 @@
         "@value": "status"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_60"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/adms#status"
@@ -2343,7 +2737,7 @@
     ]
   },
   {
-    "@id": "_:df_2_32",
+    "@id": "_:df_2_38",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2394,7 +2788,7 @@
     ]
   },
   {
-    "@id": "_:df_2_33",
+    "@id": "_:df_2_39",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2423,7 +2817,7 @@
     ],
     "http://www.w3.org/ns/shacl#class": [
       {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
+        "@id": "http://qudt.org/schema/qudt/QuantityValue"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -2457,7 +2851,58 @@
     ]
   },
   {
-    "@id": "_:df_2_34",
+    "@id": "_:df_2_4",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The date on which the current version of the area or object starts to be used."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "start date"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#FireHydrant.StartDate"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#datatype": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The date on which the current version of the area or object starts to be used."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "start date"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://vocab.belgif.be/ns/hydrant#startDate"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_40",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2508,7 +2953,7 @@
     ]
   },
   {
-    "@id": "_:df_2_35",
+    "@id": "_:df_2_41",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2559,7 +3004,7 @@
     ]
   },
   {
-    "@id": "_:df_2_36",
+    "@id": "_:df_2_42",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2610,7 +3055,7 @@
     ]
   },
   {
-    "@id": "_:df_2_37",
+    "@id": "_:df_2_43",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2661,166 +3106,7 @@
     ]
   },
   {
-    "@id": "_:df_2_38",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The coordinate list."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "coordinates"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Coordinates"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#String"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The coordinate list."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "coordinates"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#coordinates"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_39",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "An identifier for the coordinate reference system."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "crs"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Crs"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "An identifier for the coordinate reference system."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "crs"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#crs"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_4",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The legally recognised name of the organization"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "name"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Organization.Name"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The legally recognised name of the organization"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#minCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "name"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#prefLabel"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_40",
+    "@id": "_:df_2_44",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2871,7 +3157,7 @@
     ]
   },
   {
-    "@id": "_:df_2_41",
+    "@id": "_:df_2_45",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2922,7 +3208,7 @@
     ]
   },
   {
-    "@id": "_:df_2_42",
+    "@id": "_:df_2_46",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -2973,7 +3259,7 @@
     ]
   },
   {
-    "@id": "_:df_2_43",
+    "@id": "_:df_2_47",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3013,7 +3299,7 @@
     ]
   },
   {
-    "@id": "_:df_2_44",
+    "@id": "_:df_2_48",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3064,7 +3350,7 @@
     ]
   },
   {
-    "@id": "_:df_2_45",
+    "@id": "_:df_2_49",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3121,7 +3407,58 @@
     ]
   },
   {
-    "@id": "_:df_2_46",
+    "@id": "_:df_2_5",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The name of the agency responsible for issuing the Identifier."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "issuingAuthorityName"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Identifier.IssuingAuthorityName"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#datatype": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "The name of the agency responsible for issuing the Identifier."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "issuingAuthorityName"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://www.w3.org/ns/adms#schemeAgency"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_50",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3166,7 +3503,7 @@
     ]
   },
   {
-    "@id": "_:df_2_47",
+    "@id": "_:df_2_51",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3211,7 +3548,7 @@
     ]
   },
   {
-    "@id": "_:df_2_48",
+    "@id": "_:df_2_52",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3256,343 +3593,7 @@
     ]
   },
   {
-    "@id": "_:df_2_49",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The geometry type, e.g. point, line or polygon."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "geometryType"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.GeometryType"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The geometry type, e.g. point, line or polygon."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#minCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "geometryType"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#geometryType"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_5",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://purl.org/vocab/vann/usageNote": [
-      {
-        "@language": "en",
-        "@value": "Concepts of this codelist should be used from the EU Vocabulary <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/measurement-unit\">Measurement unit</a>."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "Standard units of measurements used when accounting for stock, and expressing them in quantities."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "uom"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Measure.Uom"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "Standard units of measurements used when accounting for stock, and expressing them in quantities."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#minCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "uom"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "http://vocab.belgif.be/ns/building#uom"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_50",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://purl.org/vocab/vann/usageNote": [
-      {
-        "@language": "en",
-        "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The geometry written in Geography Markup Language."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "gml"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Gml"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The geometry written in Geography Markup Language."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "gml"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#nodeKind": [
-      {
-        "@id": "http://www.w3.org/ns/shacl#Literal"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#gml"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_51",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The latitude."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "latitude"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Latitude"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#String"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The latitude."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "latitude"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#latitude"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_52",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The longitude."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "longitude"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Longitude"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#String"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The longitude."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "longitude"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#longitude"
-      }
-    ]
-  },
-  {
     "@id": "_:df_2_53",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://purl.org/vocab/vann/usageNote": [
-      {
-        "@language": "en",
-        "@value": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "The well-known text representation string describing the point, line or polygon."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "wkt"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Geometry.Wkt"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "The well-known text representation string describing the point, line or polygon."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "wkt"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#nodeKind": [
-      {
-        "@id": "http://www.w3.org/ns/shacl#Literal"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://www.w3.org/ns/locn#wkt"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_54",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3619,11 +3620,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalName.NameStatus"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -3642,6 +3638,11 @@
         "@value": "nameStatus"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_79"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://vocab.belgif.be/ns/building#nameStatus"
@@ -3649,7 +3650,7 @@
     ]
   },
   {
-    "@id": "_:df_2_55",
+    "@id": "_:df_2_54",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3676,11 +3677,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalName.Nativeness"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
@@ -3699,6 +3695,11 @@
         "@value": "nativeness"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_83"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://vocab.belgif.be/ns/building#nativeness"
@@ -3706,7 +3707,7 @@
     ]
   },
   {
-    "@id": "_:df_2_56",
+    "@id": "_:df_2_55",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3763,7 +3764,7 @@
     ]
   },
   {
-    "@id": "_:df_2_57",
+    "@id": "_:df_2_56",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3814,7 +3815,7 @@
     ]
   },
   {
-    "@id": "_:df_2_58",
+    "@id": "_:df_2_57",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3871,7 +3872,7 @@
     ]
   },
   {
-    "@id": "_:df_2_59",
+    "@id": "_:df_2_58",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3916,64 +3917,7 @@
     ]
   },
   {
-    "@id": "_:df_2_6",
-    "@type": [
-      "http://www.w3.org/ns/shacl#PropertyShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "value"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Measure.Value"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#description": [
-      {
-        "@language": "en",
-        "@value": "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."
-      }
-    ],
-    "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#minCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#name": [
-      {
-        "@language": "en",
-        "@value": "value"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#nodeKind": [
-      {
-        "@id": "http://www.w3.org/ns/shacl#Literal"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#path": [
-      {
-        "@id": "https://qudt.org/schema/qudt/value"
-      }
-    ]
-  },
-  {
-    "@id": "_:df_2_60",
+    "@id": "_:df_2_59",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4018,7 +3962,58 @@
     ]
   },
   {
-    "@id": "_:df_2_61",
+    "@id": "_:df_2_6",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Name of the scheme used to construct the identifier."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "schemeName"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Identifier.SchemeName"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#datatype": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#description": [
+      {
+        "@language": "en",
+        "@value": "Name of the scheme used to construct the identifier."
+      }
+    ],
+    "http://www.w3.org/ns/shacl#maxCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#name": [
+      {
+        "@language": "en",
+        "@value": "schemeName"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#path": [
+      {
+        "@id": "http://purl.org/dc/terms/conformsTo"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_60",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4063,7 +4058,7 @@
     ]
   },
   {
-    "@id": "_:df_2_62",
+    "@id": "_:df_2_61",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4114,7 +4109,7 @@
     ]
   },
   {
-    "@id": "_:df_2_63",
+    "@id": "_:df_2_62",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4159,7 +4154,7 @@
     ]
   },
   {
-    "@id": "_:df_2_64",
+    "@id": "_:df_2_63",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4199,12 +4194,12 @@
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo"
+        "@id": "http://www.w3.org/ns/prov#wasAssociatedWith"
       }
     ]
   },
   {
-    "@id": "_:df_2_65",
+    "@id": "_:df_2_64",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4261,7 +4256,7 @@
     ]
   },
   {
-    "@id": "_:df_2_66",
+    "@id": "_:df_2_65",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4312,7 +4307,7 @@
     ]
   },
   {
-    "@id": "_:df_2_67",
+    "@id": "_:df_2_66",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4364,12 +4359,12 @@
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy"
+        "@id": "http://www.w3.org/ns/prov#wasAssociatedWith"
       }
     ]
   },
   {
-    "@id": "_:df_2_68",
+    "@id": "_:df_2_67",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4421,7 +4416,7 @@
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy"
+        "@id": "http://www.w3.org/ns/prov#wasAssociatedWith"
       }
     ]
   },
@@ -4433,29 +4428,29 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A comment about minor flows affecting the fire hydrant despite being operational."
+        "@value": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "status remark"
+        "@value": "sourceOfName"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#FireHydrant.StatusRemark"
+        "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalName.SourceOfName"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#datatype": [
       {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString"
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
-        "@value": "A comment about minor flows affecting the fire hydrant despite being operational."
+        "@value": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available."
       }
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
@@ -4467,12 +4462,12 @@
     "http://www.w3.org/ns/shacl#name": [
       {
         "@language": "en",
-        "@value": "status remark"
+        "@value": "sourceOfName"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#statusRemark"
+        "@id": "http://vocab.belgif.be/ns/building#sourceOfName"
       }
     ]
   },
@@ -4484,38 +4479,32 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The nominal rate at which water flows through the pipe."
+        "@value": "A proper way of writing the geographical name."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "flow rate"
+        "@value": "spelling"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.FlowRate"
+        "@id": "https://belgif.github.io/thematic/models/hydrant#GeographicalName.Spelling"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#datatype": [
       {
-        "@id": "http://inspire.ec.europa.eu/ont/base#Measure"
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
-        "@value": "The nominal rate at which water flows through the pipe."
+        "@value": "A proper way of writing the geographical name."
       }
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#integer",
-        "@value": "null"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#minCount": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
@@ -4524,12 +4513,12 @@
     "http://www.w3.org/ns/shacl#name": [
       {
         "@language": "en",
-        "@value": "flow rate"
+        "@value": "spelling"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#Pipe.flowRate"
+        "@id": "http://vocab.belgif.be/ns/building#spelling"
       }
     ]
   },
@@ -4541,29 +4530,29 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The categorisation of pipes."
+        "@value": "The legally recognised name of the organization"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "classification"
+        "@value": "name"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#Pipe.Classification"
+        "@id": "https://belgif.github.io/thematic/models/hydrant#Organization.Name"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "en",
-        "@value": "The categorisation of pipes."
+        "@value": "The legally recognised name of the organization"
       }
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
@@ -4572,15 +4561,441 @@
         "@value": "1"
       }
     ],
+    "http://www.w3.org/ns/shacl#minCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
     "http://www.w3.org/ns/shacl#name": [
       {
         "@language": "en",
-        "@value": "classification"
+        "@value": "name"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
       {
-        "@id": "http://vocab.belgif.be/ns/hydrant#Pipe.classification"
+        "@id": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_12",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_13",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_14",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_12"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_15"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_15",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_13"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_17",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_18",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_19",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_17"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_20"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_20",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_18"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_32",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_33",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_34",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_32"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_35"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_35",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_33"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_36",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_37",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_38",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_36"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_39"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_39",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_37"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_40",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_41",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_42",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_40"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_43"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_43",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_41"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_45",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_46",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_47",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_45"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_48"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_48",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_46"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_51",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_52",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_53",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_51"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_54"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_54",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_52"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_58",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_59",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_60",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_58"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_61"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_61",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_59"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_77",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_78",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_79",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_77"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_80"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_80",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_78"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_81",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_82",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://qudt.org/schema/qudt/Unit"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_83",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_81"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_84"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_84",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_82"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
       }
     ]
   }

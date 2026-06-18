@@ -1,9 +1,43 @@
 {
   "@id": "https://belgif.github.io/thematic/models/hydrant",
-  "generatedAtTime": "2026-06-18T08:00:24.895Z",
+  "generatedAtTime": "2026-06-18T12:06:12.847Z",
   "classes": [
     {
-      "@id": "urn:oslo-toolchain:a284be2e688759091ad920a8e3309ed4cf3262f0271cfaaed211a3622f95d240",
+      "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Concept"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "An idea or notion."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "Intended to organize knowledge, for example in a code list or taxonomy (a so-called ConceptScheme). See <a href=\"https://www.w3.org/TR/skos-reference/\">SKOS</a> for more information."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:ff1c793b312d9c8bb77c75e904c905603c6c976d3045d208d527d0512e967cb2",
       "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
       "vocLabel": [
         {
@@ -28,7 +62,7 @@
       "vocUsageNote": [
         {
           "@language": "en",
-          "@value": "NOTE The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
+          "@value": "The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
         },
         {
           "@language": "fr",
@@ -43,6 +77,16 @@
         {
           "@language": "en",
           "@value": "pipe classification type"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The types of categorisation of pipes."
         },
         {
           "@language": "fr",
@@ -145,6 +189,50 @@
         {
           "@language": "en",
           "@value": "The act of looking at something carefully in order to discover information."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:861a46820ced9e76777e0bccaffb626a65491dc886891536a68ca0fbd0c525a3",
+      "assignedURI": "http://qudt.org/schema/qudt/Unit",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Concept"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
         },
         {
           "@language": "fr",
@@ -613,6 +701,128 @@
       ]
     },
     {
+      "@id": "urn:oslo-toolchain:d3f32ebdf8ff186e7e2b9473e65e86adc057f45ad2c8306bf69891bdba315c03",
+      "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "gml"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The geometry written in Geography Markup Language."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The geometry written in Geography Markup Language."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:4da35394e8beab1cbf6d64e307139dfd4d1a794d6e33f6643c6835e03fb509a5",
+      "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "wkt"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The well-known text representation string describing the point, line or polygon."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The well-known text representation string describing the point, line or polygon."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:8600eaf65e1bd197b27b8784b6bcf83753e53d0abe4e151de6a55f8c92c702d6",
+      "assignedURI": "http://qudt.org/schema/qudt/value",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Value"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A property to relate an observable thing with a value expressed as a decimal."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "A property to relate an observable thing with a value expressed as a decimal."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
       "@id": "urn:oslo-toolchain:a6804dfb1c662a21d7b2c5187678b17e0b7b3d568f856509f0c2decfed0ecfd8",
       "assignedURI": "http://vocab.belgif.be/ns/hydrant#startDate",
       "vocLabel": [
@@ -639,6 +849,74 @@
         {
           "@language": "en",
           "@value": "The date on which the current version of the area or object starts to be used."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:640d948e58dc3ca5df80ff3ee1566ca1742945d88980c9f0a5b732df34a0396c",
+      "assignedURI": "http://www.w3.org/ns/adms#schemeAgency",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "issuingAuthorityName"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The name of the agency responsible for issuing the Identifier."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The name of the agency responsible for issuing the Identifier."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:e27341a2c1cee8e110825cb57363795b9a8636fee77897d6aea91c30e27fab86",
+      "assignedURI": "http://purl.org/dc/terms/conformsTo",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "schemeName"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Name of the scheme used to construct the identifier."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "Name of the scheme used to construct the identifier."
         },
         {
           "@language": "fr",
@@ -721,64 +999,6 @@
         {
           "@language": "en",
           "@value": "The legally recognised name of the organization"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:820567e7aa2bf534a7940e4033127436fab69c3b3937dcf680b9055bc7ba4130",
-      "assignedURI": "http://vocab.belgif.be/ns/building#uom",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "uom"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Standard units of measurements used when accounting for stock, and expressing them in quantities."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "Concepts of this codelist should be used from the EU Vocabulary <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/measurement-unit\">Measurement unit</a>."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:cd458fadedccb89070823fd81e9e39268854d47cdf7e3652fa9226fcbc2ef132",
-      "assignedURI": "https://qudt.org/schema/qudt/value",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "value"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."
         },
         {
           "@language": "fr",
@@ -1263,6 +1483,40 @@
       ]
     },
     {
+      "@id": "urn:oslo-toolchain:95cac444e4446ecf7966b93e8d4ef664b876e6f8369d217821bf4d5b7cd36382",
+      "assignedURI": "http://qudt.org/schema/qudt/hasUnit",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Unit(QuantityValue)"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>(a) defined by the system,</li>\r\n  <li>(b) accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>(c) a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>defined by the system,</li>\r\n  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
       "@id": "urn:oslo-toolchain:57d70bbf67816f934971dd14fcc1596a863ab73217d8de56b2113f21e46ff85a",
       "assignedURI": "http://vocab.belgif.be/ns/hydrant#flowPressure",
       "vocLabel": [
@@ -1289,6 +1543,40 @@
         {
           "@language": "en",
           "@value": "The amount of force with which water moves to a pipe."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:7b2dd4248982d6fbb5163dc57545e1668da7039321c1652148c1b803cc392d5a",
+      "assignedURI": "http://purl.org/dc/terms/type",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "type"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The particular kind of fire hydrant."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The particular kind of fire hydrant."
         },
         {
           "@language": "fr",
@@ -1523,6 +1811,40 @@
         {
           "@language": "nl",
           "@value": "Typically measured in liter per minute (L/min)"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:1d67e3e94dd1e2f403c04672a00d93f31c0f88a71f783aaa9e34ccce06f0d47c",
+      "assignedURI": "http://www.w3.org/ns/adms#status",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "status"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The condition in which a fire hydrant can be found."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The condition in which a fire hydrant can be found."
         },
         {
           "@language": "fr",
@@ -1881,84 +2203,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:60deb8320ec62cfd78e9d57e924f968be5fc7050679b7049cfb43474d4d14c27",
-      "assignedURI": "https://www.w3.org/ns/locn#coordinates",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "coordinates"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The coordinate list."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The coordinate list."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:9b0eb68282bfc72409c7d9fdf4e20dfa886e3c8c3bd77a68760d3ae7d7891a56",
-      "assignedURI": "https://www.w3.org/ns/locn#crs",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "crs"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "An identifier for the coordinate reference system."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "An identifier for the coordinate reference system."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "nl",
-          "@value": "This property contains the CRS code of the coordinate reference system used for the geometry.\nA closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84.\nLambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:d9994ff002f837695a2f0151794ae5b4b3fc905d90a1c970abff99c8d3a3ed00",
       "assignedURI": "http://purl.org/dc/terms/issued",
       "vocLabel": [
@@ -2277,196 +2521,6 @@
         {
           "@language": "en",
           "@value": "The address representation that corresponds to the pipe."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:788788f0b34f520fbc73db263cefef0c2dcbb1c0f650088765fa0609be8f20dc",
-      "assignedURI": "https://www.w3.org/ns/locn#geometryType",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "geometryType"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry type, e.g. point, line or polygon."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry type, e.g. point, line or polygon."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:1c2bee5c833349d2e95f8d7003a4c162a88c1f752fa26a922c589c4837710c8d",
-      "assignedURI": "https://www.w3.org/ns/locn#gml",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "gml"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry written in Geography Markup Language."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The geometry written in Geography Markup Language."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:93385b20042fa82c2455a9f5cf98ee0db7478b84798292eef6f34a688426a8de",
-      "assignedURI": "https://www.w3.org/ns/locn#latitude",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "latitude"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The latitude."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The latitude."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:9fad9d950f27384bd39ab6dc847e33400a635a364641bc2cd3dafbd48f5cc2a8",
-      "assignedURI": "https://www.w3.org/ns/locn#longitude",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "longitude"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The longitude."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The longitude."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:8c9ef844fae78a63ec22176f0fab36a49b80a326d748b5fac1294dfd006fa964",
-      "assignedURI": "https://www.w3.org/ns/locn#wkt",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "wkt"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The well-known text representation string describing the point, line or polygon."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The well-known text representation string describing the point, line or polygon."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
         },
         {
           "@language": "fr",
@@ -2816,7 +2870,7 @@
     },
     {
       "@id": "urn:oslo-toolchain:c3527401ac99accb8f4f5b28b00c0a8ec5ca78552e452b7e704794dcdd425649",
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+      "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "vocLabel": [
         {
           "@language": "en",
@@ -2928,7 +2982,7 @@
     },
     {
       "@id": "urn:oslo-toolchain:c325d48e7d1a7c32c3dfe7f78fcd4d7aef49855ceb3cf801aa431fa395c6225c",
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "vocLabel": [
         {
           "@language": "en",
@@ -2962,7 +3016,7 @@
     },
     {
       "@id": "urn:oslo-toolchain:6e8a7cef5e86d27117f7171801b750c4d899d5704c3c13998050a51de52c620e",
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
       "vocLabel": [
         {
           "@language": "en",
@@ -2997,65 +3051,7 @@
   ],
   "datatypes": [
     {
-      "@id": "urn:oslo-toolchain:8a6ad69b96f5383d3a9330607cb59e65cd0af2e25e25dcfd3214ff1b40a48d20",
-      "assignedURI": "http://inspire.ec.europa.eu/ont/base#Measure",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "Measure"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "A representation of a measure value. The decimal value is followed by a space and the unit of the measure."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:c0b8ea859625b0bc7b69950cb9c97b57024e622cc1611cb964027fb315d03674",
-      "assignedURI": "http://vocab.belgif.be/ns/building#GeographicalName",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "GeographicalName"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Proper noun applied to a real world entity."
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocUsageNote": [
-        {
-          "@language": "en",
-          "@value": "This can be substituted by LangString"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:8042c04d04d3bf412bc118b5172e0e9faa76d364f3666e72515238671ec3319e",
+      "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0",
       "assignedURI": "http://www.w3.org/ns/locn#Geometry",
       "vocLabel": [
         {
@@ -3091,6 +3087,74 @@
         {
           "@language": "en",
           "@value": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f",
+      "assignedURI": "http://qudt.org/schema/qudt/QuantityValue",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "QuantityValue"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A Quantity Value."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "A Quantity Value."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:c0b8ea859625b0bc7b69950cb9c97b57024e622cc1611cb964027fb315d03674",
+      "assignedURI": "http://vocab.belgif.be/ns/building#GeographicalName",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "GeographicalName"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Proper noun applied to a real world entity."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "This can be substituted by LangString."
         },
         {
           "@language": "fr",
@@ -3181,6 +3245,10 @@
       "assignedURI": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
+      "@id": "urn:oslo-toolchain:2049156247",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    {
       "@id": "urn:oslo-toolchain:499715870",
       "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
@@ -3207,34 +3275,6 @@
         {
           "@language": "en",
           "@value": "The datatype of language-tagged string values"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:ac916c88bd64baaee8592cab30ade15e7500ed0be2fe9f18a72f8a6aedddedc8",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660",
-      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "Literal"
-        },
-        {
-          "@language": "fr",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The class of literal values, eg. textual strings and integers."
         },
         {
           "@language": "fr",
@@ -3279,8 +3319,28 @@
       "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     {
-      "@id": "urn:oslo-toolchain:b7b2be09bd8d1c05936eed4fbf4872845e1ead5f32d80c40cf5a069d32bb9760",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Literal"
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The class of literal values, eg. textual strings and integers."
+        },
+        {
+          "@language": "fr",
+          "@value": "Enter your translation here"
+        }
+      ]
     }
   ]
 }

@@ -16,7 +16,20 @@
       "$ref": "#/components/schemas/LangString"
     },
     "type": {
-      "$ref": "#/components/schemas/Concept"
+      "oneOf": [
+        {
+          "$ref": "#/components/schemas/Concept"
+        },
+        {
+          "$ref": "#/components/schemas/Concept"
+        }
+      ],
+      "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+          "Concept": "#/components/schemas/Concept"
+        }
+      }
     },
     "contactPoint": {
       "type": "array",

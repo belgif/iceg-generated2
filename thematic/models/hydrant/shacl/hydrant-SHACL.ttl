@@ -1,12 +1,14 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix org: <http://www.w3.org/ns/org#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://belgif.github.io/thematic/models/hydrant#> rdfs:member <https://belgif.github.io/thematic/models/hydrant#NameStatusValueShape>,
+<https://belgif.github.io/thematic/models/hydrant#> rdfs:member <https://belgif.github.io/thematic/models/hydrant#ConceptShape>,
+    <https://belgif.github.io/thematic/models/hydrant#NameStatusValueShape>,
     <https://belgif.github.io/thematic/models/hydrant#PipeClassificationTypeShape>,
     <https://belgif.github.io/thematic/models/hydrant#MaintenanceShape>,
     <https://belgif.github.io/thematic/models/hydrant#UsageShape>,
@@ -24,12 +26,12 @@
     <https://belgif.github.io/thematic/models/hydrant#OpeningKeyTypeShape>,
     <https://belgif.github.io/thematic/models/hydrant#NativenessValueShape>,
     <https://belgif.github.io/thematic/models/hydrant#StringShape>,
+    <https://belgif.github.io/thematic/models/hydrant#GeometryShape>,
+    <https://belgif.github.io/thematic/models/hydrant#QuantityValueShape>,
     <https://belgif.github.io/thematic/models/hydrant#DateTimeShape>,
+    <https://belgif.github.io/thematic/models/hydrant#IdentifierShape>,
     <https://belgif.github.io/thematic/models/hydrant#GeographicalNameShape>,
     <https://belgif.github.io/thematic/models/hydrant#LangStringShape>,
-    <https://belgif.github.io/thematic/models/hydrant#MeasureShape>,
-    <https://belgif.github.io/thematic/models/hydrant#GeometryShape>,
-    <https://belgif.github.io/thematic/models/hydrant#IdentifierShape>,
     <https://belgif.github.io/thematic/models/hydrant#AddressRepresentationShape> .
 
 <https://belgif.github.io/thematic/models/hydrant#AddressRepresentationShape> a shacl:NodeShape;
@@ -79,6 +81,16 @@
     shacl:path <http://vocab.belgif.be/ns/building#municipalityName>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
+
+<https://belgif.github.io/thematic/models/hydrant#ConceptShape> a shacl:NodeShape;
+  rdfs:label "Concept"@en;
+  <http://purl.org/vocab/vann/usageNote> "Intended to organize knowledge, for example in a code list or taxonomy (a so-called ConceptScheme). See <a href=\"https://www.w3.org/TR/skos-reference/\">SKOS</a> for more information."@en,
+    "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."@en;
+  rdfs:comment "An idea or notion."@en,
+    "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."@en;
+  shacl:closed false;
+  shacl:targetClass skos:Concept,
+    <http://qudt.org/schema/qudt/Unit> .
 
 <https://belgif.github.io/thematic/models/hydrant#ContactPointShape> a shacl:NodeShape;
   rdfs:label "ContactPoint"@en;
@@ -140,6 +152,17 @@
     shacl:path <http://vocab.belgif.be/ns/hydrant#statusRemark>
   ], [
     a shacl:PropertyShape;
+    rdfs:label "type"@en;
+    rdfs:comment "The particular kind of fire hydrant."@en;
+    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#FireHydrant.Type>;
+    shacl:description "The particular kind of fire hydrant."@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "type"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
+    shacl:path dc:type
+  ], [
+    a shacl:PropertyShape;
     rdfs:label "identifier"@en;
     rdfs:comment "Any identifier issued by any authority, whether a government agency or not."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#FireHydrant.Identifier>;
@@ -152,11 +175,21 @@
     rdfs:label "flow rate"@en;
     rdfs:comment "The nominal rate at which water flows through the fire hydrant."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#FireHydrant.FlowRate>;
-    shacl:class <http://inspire.ec.europa.eu/ont/base#Measure>;
+    shacl:class <http://qudt.org/schema/qudt/QuantityValue>;
     shacl:description "The nominal rate at which water flows through the fire hydrant."@en;
     shacl:maxCount 1;
     shacl:name "flow rate"@en;
     shacl:path <http://vocab.belgif.be/ns/hydrant#FireHydrant.flowRate>
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "status"@en;
+    rdfs:comment "The condition in which a fire hydrant can be found."@en;
+    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#FireHydrant.Status>;
+    shacl:description "The condition in which a fire hydrant can be found."@en;
+    shacl:maxCount 1;
+    shacl:name "status"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
+    shacl:path <http://www.w3.org/ns/adms#status>
   ], [
     a shacl:PropertyShape;
     rdfs:label "geometry"@en;
@@ -244,13 +277,13 @@
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "isOperatedBy"@en;
-    shacl:path <http://vocab.belgif.be/ns/hydrant#isOperatedBy>
+    shacl:path prov:wasAssociatedWith
   ];
   shacl:targetClass <https://saref.etsi.org/saref4watr/FireHydrant> .
 
 <https://belgif.github.io/thematic/models/hydrant#GeographicalNameShape> a shacl:NodeShape;
   rdfs:label "GeographicalName"@en;
-  <http://purl.org/vocab/vann/usageNote> "This can be substituted by LangString"@en;
+  <http://purl.org/vocab/vann/usageNote> "This can be substituted by LangString."@en;
   rdfs:comment "Proper noun applied to a real world entity."@en;
   shacl:closed false;
   shacl:property [
@@ -281,10 +314,10 @@
 Concepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."""@en;
     rdfs:comment "Qualitative information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#GeographicalName.NameStatus>;
-    shacl:class skos:Concept;
     shacl:description "Qualitative information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality."@en;
     shacl:maxCount 1;
     shacl:name "nameStatus"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path <http://vocab.belgif.be/ns/building#nameStatus>
   ], [
     a shacl:PropertyShape;
@@ -292,10 +325,10 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     <http://purl.org/vocab/vann/usageNote> "Concepts of this codelist should be used from the INSPIRE <a href=\"http://inspire.ec.europa.eu/codelist/NativenessValue\">Nativeness</a> code list."@en;
     rdfs:comment "Information enabling to acknowledge if the name is the one that is/was used in the area where the spatial object is situated at the instant when the name is/was in use."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#GeographicalName.Nativeness>;
-    shacl:class skos:Concept;
     shacl:description "Information enabling to acknowledge if the name is the one that is/was used in the area where the spatial object is situated at the instant when the name is/was in use."@en;
     shacl:maxCount 1;
     shacl:name "nativeness"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path <http://vocab.belgif.be/ns/building#nativeness>
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/building#GeographicalName> .
@@ -307,37 +340,6 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
-    rdfs:label "coordinates"@en;
-    rdfs:comment "The coordinate list."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Geometry.Coordinates>;
-    shacl:class xsd:String;
-    shacl:description "The coordinate list."@en;
-    shacl:maxCount 1;
-    shacl:name "coordinates"@en;
-    shacl:path <https://www.w3.org/ns/locn#coordinates>
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "crs"@en;
-    rdfs:comment "An identifier for the coordinate reference system."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Geometry.Crs>;
-    shacl:class xsd:anyURI;
-    shacl:description "An identifier for the coordinate reference system."@en;
-    shacl:maxCount 1;
-    shacl:name "crs"@en;
-    shacl:path <https://www.w3.org/ns/locn#crs>
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "geometryType"@en;
-    rdfs:comment "The geometry type, e.g. point, line or polygon."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Geometry.GeometryType>;
-    shacl:class skos:Concept;
-    shacl:description "The geometry type, e.g. point, line or polygon."@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "geometryType"@en;
-    shacl:path <https://www.w3.org/ns/locn#geometryType>
-  ], [
-    a shacl:PropertyShape;
     rdfs:label "gml"@en;
     <http://purl.org/vocab/vann/usageNote> "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."@en;
     rdfs:comment "The geometry written in Geography Markup Language."@en;
@@ -346,27 +348,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     shacl:maxCount 1;
     shacl:name "gml"@en;
     shacl:nodeKind shacl:Literal;
-    shacl:path <https://www.w3.org/ns/locn#gml>
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "latitude"@en;
-    rdfs:comment "The latitude."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Geometry.Latitude>;
-    shacl:class xsd:String;
-    shacl:description "The latitude."@en;
-    shacl:maxCount 1;
-    shacl:name "latitude"@en;
-    shacl:path <https://www.w3.org/ns/locn#latitude>
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "longitude"@en;
-    rdfs:comment "The longitude."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Geometry.Longitude>;
-    shacl:class xsd:String;
-    shacl:description "The longitude."@en;
-    shacl:maxCount 1;
-    shacl:name "longitude"@en;
-    shacl:path <https://www.w3.org/ns/locn#longitude>
+    shacl:path <http://www.opengis.net/ont/geosparql#asGML>
   ], [
     a shacl:PropertyShape;
     rdfs:label "wkt"@en;
@@ -377,7 +359,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     shacl:maxCount 1;
     shacl:name "wkt"@en;
     shacl:nodeKind shacl:Literal;
-    shacl:path <https://www.w3.org/ns/locn#wkt>
+    shacl:path <http://www.opengis.net/ont/geosparql#asWKT>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Geometry> .
 
@@ -392,6 +374,26 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
   rdfs:comment "The Identifier class represents any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued."@en;
   shacl:closed false;
   shacl:property [
+    a shacl:PropertyShape;
+    rdfs:label "issuingAuthorityName"@en;
+    rdfs:comment "The name of the agency responsible for issuing the Identifier."@en;
+    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Identifier.IssuingAuthorityName>;
+    shacl:datatype xsd:string;
+    shacl:description "The name of the agency responsible for issuing the Identifier."@en;
+    shacl:maxCount 1;
+    shacl:name "issuingAuthorityName"@en;
+    shacl:path <http://www.w3.org/ns/adms#schemeAgency>
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "schemeName"@en;
+    rdfs:comment "Name of the scheme used to construct the identifier."@en;
+    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Identifier.SchemeName>;
+    shacl:datatype xsd:string;
+    shacl:description "Name of the scheme used to construct the identifier."@en;
+    shacl:maxCount 1;
+    shacl:name "schemeName"@en;
+    shacl:path dc:conformsTo
+  ], [
     a shacl:PropertyShape;
     rdfs:label "dateOfIssue"@en;
     rdfs:comment "The date on which the Identifier was assigned."@en;
@@ -519,39 +521,9 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/hydrant#Maintenance> .
 
-<https://belgif.github.io/thematic/models/hydrant#MeasureShape> a shacl:NodeShape;
-  rdfs:label "Measure"@en;
-  rdfs:comment "A representation of a measure value. The decimal value is followed by a space and the unit of the measure."@en;
-  shacl:closed false;
-  shacl:property [
-    a shacl:PropertyShape;
-    rdfs:label "uom"@en;
-    <http://purl.org/vocab/vann/usageNote> "Concepts of this codelist should be used from the EU Vocabulary <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/measurement-unit\">Measurement unit</a>."@en;
-    rdfs:comment "Standard units of measurements used when accounting for stock, and expressing them in quantities."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Measure.Uom>;
-    shacl:class skos:Concept;
-    shacl:description "Standard units of measurements used when accounting for stock, and expressing them in quantities."@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "uom"@en;
-    shacl:path <http://vocab.belgif.be/ns/building#uom>
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "value"@en;
-    rdfs:comment "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."@en;
-    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Measure.Value>;
-    shacl:description "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "value"@en;
-    shacl:nodeKind shacl:Literal;
-    shacl:path <https://qudt.org/schema/qudt/value>
-  ];
-  shacl:targetClass <http://inspire.ec.europa.eu/ont/base#Measure> .
-
 <https://belgif.github.io/thematic/models/hydrant#NameStatusValueShape> a shacl:NodeShape;
   rdfs:label "name status value"@en;
-  <http://purl.org/vocab/vann/usageNote> "NOTE The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."@en;
+  <http://purl.org/vocab/vann/usageNote> "The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."@en;
   rdfs:comment "The status of a geographical name, that is the information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality."@en;
   shacl:closed false;
   shacl:targetClass skos:Concept .
@@ -589,10 +561,10 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     rdfs:label "type"@en;
     rdfs:comment "The distinction between whether an organisation is a private or public entity."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Organization.Type>;
-    shacl:class skos:Concept;
     shacl:description "The distinction between whether an organisation is a private or public entity."@en;
     shacl:maxCount 1;
     shacl:name "type"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path org:classification
   ], [
     a shacl:PropertyShape;
@@ -625,7 +597,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     rdfs:label "diameter"@en;
     rdfs:comment "The measurement of the circular opening through which water can be discharged from a fire hydrant."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Outlet.Diameter>;
-    shacl:class <http://inspire.ec.europa.eu/ont/base#Measure>;
+    shacl:class <http://qudt.org/schema/qudt/QuantityValue>;
     shacl:description "The measurement of the circular opening through which water can be discharged from a fire hydrant."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
@@ -647,6 +619,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 
 <https://belgif.github.io/thematic/models/hydrant#PipeClassificationTypeShape> a shacl:NodeShape;
   rdfs:label "pipe classification type"@en;
+  rdfs:comment "The types of categorisation of pipes."@en;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
@@ -659,7 +632,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     rdfs:label "flow rate"@en;
     rdfs:comment "The nominal rate at which water flows through the pipe."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.FlowRate>;
-    shacl:class <http://inspire.ec.europa.eu/ont/base#Measure>;
+    shacl:class <http://qudt.org/schema/qudt/QuantityValue>;
     shacl:description "The nominal rate at which water flows through the pipe."@en;
     shacl:maxCount "null"^^xsd:integer;
     shacl:minCount 1;
@@ -670,17 +643,17 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     rdfs:label "classification"@en;
     rdfs:comment "The categorisation of pipes."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.Classification>;
-    shacl:class skos:Concept;
     shacl:description "The categorisation of pipes."@en;
     shacl:maxCount 1;
     shacl:name "classification"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path <http://vocab.belgif.be/ns/hydrant#Pipe.classification>
   ], [
     a shacl:PropertyShape;
     rdfs:label "flow pressure"@en;
     rdfs:comment "The amount of force with which water moves to a pipe."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.FlowPressure>;
-    shacl:class <http://inspire.ec.europa.eu/ont/base#Measure>;
+    shacl:class <http://qudt.org/schema/qudt/QuantityValue>;
     shacl:description "The amount of force with which water moves to a pipe."@en;
     shacl:maxCount 1;
     shacl:name "flow pressure"@en;
@@ -690,29 +663,29 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     rdfs:label "type"@en;
     rdfs:comment "The particular kind of pipe."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.Type>;
-    shacl:class skos:Concept;
     shacl:description "The particular kind of pipe."@en;
     shacl:maxCount 1;
     shacl:name "type"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path dc:type
   ], [
     a shacl:PropertyShape;
     rdfs:label "water type"@en;
     rdfs:comment "The particular kind of liquid which is running through a pipe."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.WaterType>;
-    shacl:class skos:Concept;
     shacl:description "The particular kind of liquid which is running through a pipe."@en;
     shacl:name "water type"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path <http://vocab.belgif.be/ns/hydrant#waterType>
   ], [
     a shacl:PropertyShape;
     rdfs:label "status"@en;
     rdfs:comment "The condition in which a pipe can be found."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.Status>;
-    shacl:class skos:Concept;
     shacl:description "The condition in which a pipe can be found."@en;
     shacl:maxCount 1;
     shacl:name "status"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path <http://www.w3.org/ns/adms#status>
   ], [
     a shacl:PropertyShape;
@@ -730,7 +703,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     <http://purl.org/vocab/vann/usageNote> "Only the inner/net diameter of a pipe is necessary."@en;
     rdfs:comment "The nominal diameter of the underground water pipe going along the street."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Pipe.Diameter>;
-    shacl:class <http://inspire.ec.europa.eu/ont/base#Measure>;
+    shacl:class <http://qudt.org/schema/qudt/QuantityValue>;
     shacl:description "The nominal diameter of the underground water pipe going along the street."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
@@ -771,7 +744,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     shacl:class <https://saref.etsi.org/saref4watr/Pipe>;
     shacl:description "A pipe can be attached to other pipes."@en;
     shacl:name "is connected to"@en;
-    shacl:path <http://vocab.belgif.be/ns/hydrant#isConnectedTo>
+    shacl:path prov:wasAssociatedWith
   ], [
     a shacl:PropertyShape;
     rdfs:label "is operated by"@en;
@@ -782,7 +755,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "is operated by"@en;
-    shacl:path <http://vocab.belgif.be/ns/hydrant#isOperatedBy>
+    shacl:path prov:wasAssociatedWith
   ];
   shacl:targetClass <https://saref.etsi.org/saref4watr/Pipe> .
 
@@ -791,6 +764,49 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
   rdfs:comment "The type of pipe."@en;
   shacl:closed false;
   shacl:targetClass skos:Concept .
+
+<https://belgif.github.io/thematic/models/hydrant#QuantityValueShape> a shacl:NodeShape;
+  rdfs:label "QuantityValue"@en;
+  rdfs:comment "A Quantity Value."@en;
+  shacl:closed false;
+  shacl:property [
+    a shacl:PropertyShape;
+    rdfs:label "Value"@en;
+    rdfs:comment "A property to relate an observable thing with a value expressed as a decimal."@en;
+    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#QuantityValue.Value>;
+    shacl:description "A property to relate an observable thing with a value expressed as a decimal."@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Value"@en;
+    shacl:nodeKind shacl:Literal;
+    shacl:path <http://qudt.org/schema/qudt/value>
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "Unit(QuantityValue)"@en;
+    rdfs:comment """<p>
+Relates a factor unit to its unit or system of units with a unit of measure that is either:
+</p>
+<ul>
+  <li>defined by the system,</li>
+  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>
+  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>
+</ul>"""@en;
+    rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#QuantityValue.Unit(QuantityValue)>;
+    shacl:class <http://qudt.org/schema/qudt/Unit>;
+    shacl:description """<p>
+Relates a factor unit to its unit or system of units with a unit of measure that is either:
+</p>
+<ul>
+  <li>defined by the system,</li>
+  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>
+  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>
+</ul>"""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Unit(QuantityValue)"@en;
+    shacl:path <http://qudt.org/schema/qudt/hasUnit>
+  ];
+  shacl:targetClass <http://qudt.org/schema/qudt/QuantityValue> .
 
 <https://belgif.github.io/thematic/models/hydrant#StatusShape> a shacl:NodeShape;
   rdfs:label "Status"@en;
@@ -858,17 +874,17 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
     rdfs:label "opening key"@en;
     rdfs:comment "A tool used to open a fire hydrant by removing the cover of a fire hydrant's outlet."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Valve.OpeningKey>;
-    shacl:class skos:Concept;
     shacl:description "A tool used to open a fire hydrant by removing the cover of a fire hydrant's outlet."@en;
     shacl:maxCount 1;
     shacl:name "opening key"@en;
+    shacl:or ([shacl:class skos:Concept] [shacl:class <http://qudt.org/schema/qudt/Unit>]);
     shacl:path <http://vocab.belgif.be/ns/hydrant#openingKey>
   ], [
     a shacl:PropertyShape;
     rdfs:label "diameter"@en;
     rdfs:comment "The netto diameter of the water flow regulator."@en;
     rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrant#Valve.Diameter>;
-    shacl:class <http://inspire.ec.europa.eu/ont/base#Measure>;
+    shacl:class <http://qudt.org/schema/qudt/QuantityValue>;
     shacl:description "The netto diameter of the water flow regulator."@en;
     shacl:maxCount 1;
     shacl:name "diameter"@en;
