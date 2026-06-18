@@ -1,0 +1,19 @@
+{
+  "title": "Waarschuwingstype",
+  "type": "object",
+  "description": "Classificatie van soorten waarschuwingen.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Waarschuwingstype)",
+      "pattern": "^Waarschuwingstype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

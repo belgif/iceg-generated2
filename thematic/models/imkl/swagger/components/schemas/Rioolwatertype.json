@@ -1,0 +1,19 @@
+{
+  "title": "Rioolwatertype",
+  "type": "object",
+  "description": "Aard van het rioolwater.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Rioolwatertype)",
+      "pattern": "^Rioolwatertype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

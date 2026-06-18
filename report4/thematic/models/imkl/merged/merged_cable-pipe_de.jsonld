@@ -1,5 +1,8 @@
 {
   "@context": {
+    "AbstractClass": {
+      "@id": "oslo:AbstractClass"
+    },
     "Class": {
       "@id": "owl:Class"
     },
@@ -16,6 +19,10 @@
       "@id": "owl:ObjectProperty"
     },
     "Package": "oslo:Package",
+    "RootClass": {
+      "@id": "oslo:RootClass"
+    },
+    "abstractClasses": "@included",
     "adms": "http://www.w3.org/ns/adms#",
     "affiliation": {
       "@id": "schema:affiliation"
@@ -106,6 +113,7 @@
     "rec": "http://www.w3.org/2001/02pd/rec54#",
     "redefinedAttributes": "@included",
     "referencedEntities": "@included",
+    "rootClasses": "@included",
     "schema": "https://schema.org/",
     "scope": {
       "@id": "oslo:scope",
@@ -133,6 +141,40 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@id": "https://belgif.github.io/thematic/models/imkl",
+  "abstractClasses": [
+    {
+      "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5f622bfba8e6448888fe3b8086d19296654488cc7e3a30c77cb5061886b532b8",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:9b1e756aec6f36b1dab8d0822fe0cbf76a10bd67979a956f1c29bd67cf011e8b",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5817fe86926e269adb63eeb96e28254f4d31d4b27ab44f6bfedf23bf71ec8b5e",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:45a858024fe653e9dcfb28ce249619d79778b2d5160abfcfa93595bfe024ab7d",
+      "@type": "AbstractClass"
+    }
+  ],
   "attributes": [
     {
       "@id": "urn:oslo-toolchain:996f6e878db82deae555a0771edaf06d9f2eb7f2f2ee65fd3d27f35c100c31ef",
@@ -165,11 +207,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -245,11 +287,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -311,11 +353,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -377,11 +419,11 @@
         "@id": "urn:oslo-toolchain:93b037b054f6fa763958254386a03a25628699597d9a4873c83b4571af3cf8f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -453,11 +495,11 @@
         "@id": "urn:oslo-toolchain:de4714694db6ef04890b172a08455ce32656b6acd6ace8a2914ec82310b44bd9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -525,11 +567,11 @@
         "@id": "urn:oslo-toolchain:2b9522b9fbc82a80bb24fe525cefe6be13e524c79255f4530dd0f488cb3088ea"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -611,11 +653,11 @@
         "@id": "urn:oslo-toolchain:2b9522b9fbc82a80bb24fe525cefe6be13e524c79255f4530dd0f488cb3088ea"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -697,11 +739,11 @@
         "@id": "urn:oslo-toolchain:273c701bfc000e880edf040e13c2784fb44e6f511913de1d32a8b4267c3fdb9a"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -783,11 +825,11 @@
         "@id": "urn:oslo-toolchain:273c701bfc000e880edf040e13c2784fb44e6f511913de1d32a8b4267c3fdb9a"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -855,11 +897,11 @@
         "@id": "urn:oslo-toolchain:273c701bfc000e880edf040e13c2784fb44e6f511913de1d32a8b4267c3fdb9a"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -921,11 +963,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -987,11 +1029,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1059,11 +1101,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1145,11 +1187,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1217,11 +1259,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1289,11 +1331,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1361,11 +1403,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "parent": {
@@ -1450,11 +1492,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1522,11 +1564,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1608,11 +1650,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1680,11 +1722,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "parent": {
@@ -1755,11 +1797,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1827,11 +1869,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "parent": {
@@ -1902,11 +1944,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -1968,11 +2010,11 @@
         "@id": "urn:oslo-toolchain:48632fa82e04e942a458b75885acc2b271e059d4d6ff7dbad36a97c40cac995c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -2040,11 +2082,11 @@
         "@id": "urn:oslo-toolchain:6d8cdfc16aebb2158e5b225e5cefa6cb64aee36f26f960269014216a69cb3f04"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2122,11 +2164,11 @@
         "@id": "urn:oslo-toolchain:6d8cdfc16aebb2158e5b225e5cefa6cb64aee36f26f960269014216a69cb3f04"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2198,11 +2240,11 @@
         "@id": "urn:oslo-toolchain:5c8840a7f6c891973115feaf755f0f207b47ba3913b6db57a1dbb7bdd1960cf5"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2270,11 +2312,11 @@
         "@id": "urn:oslo-toolchain:354c960634342862b70ac44d91762896a16260b6fcd67cd6f9dec6d336c2d004"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -2350,11 +2392,11 @@
         "@id": "urn:oslo-toolchain:48632fa82e04e942a458b75885acc2b271e059d4d6ff7dbad36a97c40cac995c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2422,11 +2464,11 @@
         "@id": "urn:oslo-toolchain:bb000521751f23af4c30fc971de62106ffaacabc7cd0bb0beb9fa75d07cb2232"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2502,11 +2544,11 @@
         "@id": "urn:oslo-toolchain:07e03e1998a822192a92f69d82f4736dedcadd2a89e5a2caee8edde3c26324e8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2574,11 +2616,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2646,11 +2688,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "parent": {
@@ -2723,11 +2765,11 @@
         "@id": "urn:oslo-toolchain:07e03e1998a822192a92f69d82f4736dedcadd2a89e5a2caee8edde3c26324e8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2789,11 +2831,11 @@
         "@id": "urn:oslo-toolchain:64e3e87d69a053c6d400bd30da7e07eb0dea5bf17a147bc1706ff58008d027e9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2855,11 +2897,11 @@
         "@id": "urn:oslo-toolchain:e38c203adff5defc378049acc8876b8abbd0e0683b96f864986843300e70abfa"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -2927,11 +2969,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3007,11 +3049,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3073,11 +3115,11 @@
         "@id": "urn:oslo-toolchain:5f622bfba8e6448888fe3b8086d19296654488cc7e3a30c77cb5061886b532b8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3139,11 +3181,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3205,11 +3247,11 @@
         "@id": "urn:oslo-toolchain:7db3ba207fa63b4d68a1d016394c7a04654c42a6a1e0e8388ddad11920092df3"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -3271,11 +3313,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3337,11 +3379,11 @@
         "@id": "urn:oslo-toolchain:64e3e87d69a053c6d400bd30da7e07eb0dea5bf17a147bc1706ff58008d027e9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3403,11 +3445,11 @@
         "@id": "urn:oslo-toolchain:5f622bfba8e6448888fe3b8086d19296654488cc7e3a30c77cb5061886b532b8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3475,11 +3517,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3547,11 +3589,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "parent": {
@@ -3616,11 +3658,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -3688,11 +3730,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3756,11 +3798,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -3828,11 +3870,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -3914,11 +3956,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -4000,11 +4042,11 @@
         "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4080,11 +4122,11 @@
         "@id": "urn:oslo-toolchain:5ad15a8b6b20b88bfb112e6222adaab71e044cde718de12f0ca2a748aec9d23e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4146,11 +4188,11 @@
         "@id": "urn:oslo-toolchain:5ad15a8b6b20b88bfb112e6222adaab71e044cde718de12f0ca2a748aec9d23e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4212,11 +4254,11 @@
         "@id": "urn:oslo-toolchain:593ec8c7daee0e0f816d186a0ee7984140df5214fa3fa0469dba8a4581a87cab"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4278,11 +4320,11 @@
         "@id": "urn:oslo-toolchain:6b2c28248112418de391884bf2c747d6f30cc0ff571917dbcf5b0925ea36eaf2"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4350,11 +4392,11 @@
         "@id": "urn:oslo-toolchain:93b037b054f6fa763958254386a03a25628699597d9a4873c83b4571af3cf8f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4430,11 +4472,11 @@
         "@id": "urn:oslo-toolchain:d064bd047461849d9df1c82a9e673b4a3aae1e3ec0f87693aa0265c898e18cbf"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4496,11 +4538,11 @@
         "@id": "urn:oslo-toolchain:ecf95b3a4194e53c8f55872a5daf33344d0af672cf9835705aad8efb1ac8757e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -4568,11 +4610,11 @@
         "@id": "urn:oslo-toolchain:64e3e87d69a053c6d400bd30da7e07eb0dea5bf17a147bc1706ff58008d027e9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4650,11 +4692,11 @@
         "@id": "urn:oslo-toolchain:64e3e87d69a053c6d400bd30da7e07eb0dea5bf17a147bc1706ff58008d027e9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -4726,11 +4768,11 @@
         "@id": "urn:oslo-toolchain:e38c203adff5defc378049acc8876b8abbd0e0683b96f864986843300e70abfa"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4802,11 +4844,11 @@
         "@id": "urn:oslo-toolchain:ff1fb120922477729d8b44c30cceb6e9a4862403f6d440ecc4ad5ec5e9625691"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4868,11 +4910,11 @@
         "@id": "urn:oslo-toolchain:bb4a240272f11d2062a4c26f21a58f3faa8919a4e21492ee42f449cb5019115e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -4934,11 +4976,11 @@
         "@id": "urn:oslo-toolchain:bb4a240272f11d2062a4c26f21a58f3faa8919a4e21492ee42f449cb5019115e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5006,11 +5048,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5086,11 +5128,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5158,11 +5200,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5238,11 +5280,11 @@
         "@id": "urn:oslo-toolchain:b2d1986eaa45b8299cfa2d5f75b5bd2258d183a7110ef44c69d7cb342739975c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "parent": {
@@ -5307,11 +5349,11 @@
         "@id": "urn:oslo-toolchain:ff1fb120922477729d8b44c30cceb6e9a4862403f6d440ecc4ad5ec5e9625691"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "parent": {
@@ -5376,11 +5418,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "parent": {
@@ -5445,11 +5487,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5511,11 +5553,11 @@
         "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5583,11 +5625,11 @@
         "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5663,11 +5705,11 @@
         "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -5729,11 +5771,11 @@
         "@id": "urn:oslo-toolchain:743922133d68394af436515f2fa1588dfa70382d9107d0dd831f5bef503b0830"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -5795,11 +5837,11 @@
         "@id": "urn:oslo-toolchain:743922133d68394af436515f2fa1588dfa70382d9107d0dd831f5bef503b0830"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -5861,11 +5903,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -5927,11 +5969,11 @@
         "@id": "urn:oslo-toolchain:b2d1986eaa45b8299cfa2d5f75b5bd2258d183a7110ef44c69d7cb342739975c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -5993,11 +6035,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6065,11 +6107,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6141,11 +6183,11 @@
         "@id": "urn:oslo-toolchain:08e6707e39d2c645f8324d2eec283b7d5eac452d010e672ae1909ac9c9aacb4b"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6207,11 +6249,11 @@
         "@id": "urn:oslo-toolchain:93b037b054f6fa763958254386a03a25628699597d9a4873c83b4571af3cf8f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6273,11 +6315,11 @@
         "@id": "urn:oslo-toolchain:93b037b054f6fa763958254386a03a25628699597d9a4873c83b4571af3cf8f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6355,11 +6397,11 @@
         "@id": "urn:oslo-toolchain:de4714694db6ef04890b172a08455ce32656b6acd6ace8a2914ec82310b44bd9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6435,11 +6477,11 @@
         "@id": "urn:oslo-toolchain:de4714694db6ef04890b172a08455ce32656b6acd6ace8a2914ec82310b44bd9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -6501,11 +6543,11 @@
         "@id": "urn:oslo-toolchain:de4714694db6ef04890b172a08455ce32656b6acd6ace8a2914ec82310b44bd9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -6573,11 +6615,11 @@
         "@id": "urn:oslo-toolchain:273c701bfc000e880edf040e13c2784fb44e6f511913de1d32a8b4267c3fdb9a"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -6639,11 +6681,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -6705,11 +6747,11 @@
         "@id": "urn:oslo-toolchain:ecf95b3a4194e53c8f55872a5daf33344d0af672cf9835705aad8efb1ac8757e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6771,11 +6813,11 @@
         "@id": "urn:oslo-toolchain:b33e4432e3002c7b83a69857665d52b58971b6d8d2f108353535b765f34835f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6837,11 +6879,11 @@
         "@id": "urn:oslo-toolchain:b33e4432e3002c7b83a69857665d52b58971b6d8d2f108353535b765f34835f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -6903,11 +6945,11 @@
         "@id": "urn:oslo-toolchain:ff1fb120922477729d8b44c30cceb6e9a4862403f6d440ecc4ad5ec5e9625691"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -6969,11 +7011,11 @@
         "@id": "urn:oslo-toolchain:ff1fb120922477729d8b44c30cceb6e9a4862403f6d440ecc4ad5ec5e9625691"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7035,11 +7077,11 @@
         "@id": "urn:oslo-toolchain:2cb2071a5c90bf1b657ace963b78e2c2431e8cccee3ea3d42826b772ddceddb0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7101,11 +7143,11 @@
         "@id": "urn:oslo-toolchain:e56826bef047d4d1c55d826bf6329f1340d4f4afb02f4d01899723c5a19c799e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7169,11 +7211,11 @@
         "@id": "urn:oslo-toolchain:bb4a240272f11d2062a4c26f21a58f3faa8919a4e21492ee42f449cb5019115e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7241,11 +7283,11 @@
         "@id": "urn:oslo-toolchain:81dce404dc3cc3084f0f98384ca6fe30e85d61cda9490d766898d35c436ca1b9"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7327,11 +7369,11 @@
         "@id": "urn:oslo-toolchain:bb000521751f23af4c30fc971de62106ffaacabc7cd0bb0beb9fa75d07cb2232"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7407,11 +7449,11 @@
         "@id": "urn:oslo-toolchain:bb000521751f23af4c30fc971de62106ffaacabc7cd0bb0beb9fa75d07cb2232"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7483,11 +7525,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7555,11 +7597,11 @@
         "@id": "urn:oslo-toolchain:bb000521751f23af4c30fc971de62106ffaacabc7cd0bb0beb9fa75d07cb2232"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7637,11 +7679,11 @@
         "@id": "urn:oslo-toolchain:bb000521751f23af4c30fc971de62106ffaacabc7cd0bb0beb9fa75d07cb2232"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7717,11 +7759,11 @@
         "@id": "urn:oslo-toolchain:e56826bef047d4d1c55d826bf6329f1340d4f4afb02f4d01899723c5a19c799e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7793,11 +7835,11 @@
         "@id": "urn:oslo-toolchain:8d47ad7d63e922c10eaed6d38f6eaacb7ec05e983a7bcb1e086ade52de59844f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7859,11 +7901,11 @@
         "@id": "urn:oslo-toolchain:93b037b054f6fa763958254386a03a25628699597d9a4873c83b4571af3cf8f4"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -7925,11 +7967,11 @@
         "@id": "urn:oslo-toolchain:48632fa82e04e942a458b75885acc2b271e059d4d6ff7dbad36a97c40cac995c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -7991,11 +8033,11 @@
         "@id": "urn:oslo-toolchain:48632fa82e04e942a458b75885acc2b271e059d4d6ff7dbad36a97c40cac995c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -8057,11 +8099,11 @@
         "@id": "urn:oslo-toolchain:48632fa82e04e942a458b75885acc2b271e059d4d6ff7dbad36a97c40cac995c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8129,11 +8171,11 @@
         "@id": "urn:oslo-toolchain:ce3c3d8929ffb5d505c922736001f7a4ece48b51f9775e4ee3649b5ca7cfc2dc"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8211,11 +8253,11 @@
         "@id": "urn:oslo-toolchain:ce3c3d8929ffb5d505c922736001f7a4ece48b51f9775e4ee3649b5ca7cfc2dc"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8291,11 +8333,11 @@
         "@id": "urn:oslo-toolchain:6d8cdfc16aebb2158e5b225e5cefa6cb64aee36f26f960269014216a69cb3f04"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8357,11 +8399,11 @@
         "@id": "urn:oslo-toolchain:5c8840a7f6c891973115feaf755f0f207b47ba3913b6db57a1dbb7bdd1960cf5"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -8423,11 +8465,11 @@
         "@id": "urn:oslo-toolchain:5c8840a7f6c891973115feaf755f0f207b47ba3913b6db57a1dbb7bdd1960cf5"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8489,11 +8531,11 @@
         "@id": "urn:oslo-toolchain:6f0c0c70dbda8b5df396d9dc49d39c93a4eb886367da06490bdd1f5098c67d5c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -8561,11 +8603,11 @@
         "@id": "urn:oslo-toolchain:143a580caf2abcaf54b4b53a093a4ed568d666ac4e8d52d7f3c86cef2a1f754b"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8647,11 +8689,11 @@
         "@id": "urn:oslo-toolchain:143a580caf2abcaf54b4b53a093a4ed568d666ac4e8d52d7f3c86cef2a1f754b"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8723,11 +8765,11 @@
         "@id": "urn:oslo-toolchain:2b9522b9fbc82a80bb24fe525cefe6be13e524c79255f4530dd0f488cb3088ea"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8789,11 +8831,11 @@
         "@id": "urn:oslo-toolchain:5c8840a7f6c891973115feaf755f0f207b47ba3913b6db57a1dbb7bdd1960cf5"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -8861,11 +8903,11 @@
         "@id": "urn:oslo-toolchain:88bce17a15a3d15f384266d1b1eaae43d5dda95179e9682053f1566972724c3e"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -8941,11 +8983,11 @@
         "@id": "urn:oslo-toolchain:48632fa82e04e942a458b75885acc2b271e059d4d6ff7dbad36a97c40cac995c"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9013,11 +9055,11 @@
         "@id": "urn:oslo-toolchain:2cb2071a5c90bf1b657ace963b78e2c2431e8cccee3ea3d42826b772ddceddb0"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9091,11 +9133,11 @@
         "@id": "urn:oslo-toolchain:ce3c3d8929ffb5d505c922736001f7a4ece48b51f9775e4ee3649b5ca7cfc2dc"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9171,11 +9213,11 @@
         "@id": "urn:oslo-toolchain:9637aea0455e85ce57a624bf9d1081d53c2928b21ec9e90a1870a067a8edcc0f"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9237,11 +9279,11 @@
         "@id": "urn:oslo-toolchain:a16794ca738c33281bdaa7a07153135f6fb8c76332ef6da60173dc4e9e6d8951"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9303,11 +9345,11 @@
         "@id": "urn:oslo-toolchain:07e03e1998a822192a92f69d82f4736dedcadd2a89e5a2caee8edde3c26324e8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9369,11 +9411,11 @@
         "@id": "urn:oslo-toolchain:07e03e1998a822192a92f69d82f4736dedcadd2a89e5a2caee8edde3c26324e8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9435,11 +9477,11 @@
         "@id": "urn:oslo-toolchain:07e03e1998a822192a92f69d82f4736dedcadd2a89e5a2caee8edde3c26324e8"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9501,11 +9543,11 @@
         "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9573,11 +9615,11 @@
         "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -9645,11 +9687,11 @@
         "@id": "urn:oslo-toolchain:f6c72cc64e5b32d43b0acf0fb9e33e50ede0c54cf733949151d1af32dd2f9878"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9711,11 +9753,11 @@
         "@id": "urn:oslo-toolchain:ff452289a6a3e2ae756eb61d815e0dd542cc7bd6ab599898e5d8f4aded45aa42"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9783,11 +9825,11 @@
         "@id": "urn:oslo-toolchain:143a580caf2abcaf54b4b53a093a4ed568d666ac4e8d52d7f3c86cef2a1f754b"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9865,11 +9907,11 @@
         "@id": "urn:oslo-toolchain:ce3c3d8929ffb5d505c922736001f7a4ece48b51f9775e4ee3649b5ca7cfc2dc"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -9945,11 +9987,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -10011,11 +10053,11 @@
         "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "*"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "0"
       },
       "range": {
@@ -10077,11 +10119,11 @@
         "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db"
       },
       "maxCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "minCount": {
-        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       },
       "range": {
@@ -16673,7 +16715,7 @@
   ],
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
   "filename": "config/cable-pipe.json",
-  "generatedAtTime": "2026-03-05T10:26:20.800Z",
+  "generatedAtTime": "2026-06-18T07:09:57.797Z",
   "hostname": "https://belgif.github.io/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "name": "cable-pipe",
@@ -17095,12 +17137,13 @@
   ],
   "repository": "https://github.com/belgif/ICEGthema-imkl",
   "repourl": "https://github.com/belgif/ICEGthema-imkl/tree/main",
+  "rootClasses": [],
   "site": "site-skeleton/cable-pipe",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-kabels-en-leidingen",
   "subsettedAttributes": [],
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "b6dc65ac0e4c678e280be87d3c16106c6eef6a2d",
+  "toolchaincommit": "1aad4c553477b59b4b1d8113b22e7569038a4488",
   "translation": [
     {
       "language": "en",

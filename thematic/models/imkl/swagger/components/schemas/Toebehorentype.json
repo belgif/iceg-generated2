@@ -1,0 +1,19 @@
+{
+  "title": "Toebehorentype",
+  "type": "object",
+  "description": "Classificatie van de toebehoren.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Toebehorentype)",
+      "pattern": "^Toebehorentype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

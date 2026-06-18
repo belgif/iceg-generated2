@@ -1,0 +1,19 @@
+{
+  "title": "Zichtbaarheidstype",
+  "type": "object",
+  "description": "In welke mate het object waarneembaar is.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Zichtbaarheidstype)",
+      "pattern": "^Zichtbaarheidstype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

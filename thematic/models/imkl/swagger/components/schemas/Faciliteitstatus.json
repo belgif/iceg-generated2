@@ -1,0 +1,19 @@
+{
+  "title": "Faciliteitstatus",
+  "type": "object",
+  "description": "De hoedanigheid van het faciliteitsonderdeel.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Faciliteitstatus)",
+      "pattern": "^Faciliteitstatus$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

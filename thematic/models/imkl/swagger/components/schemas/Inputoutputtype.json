@@ -1,0 +1,19 @@
+{
+  "title": "Inputoutputtype",
+  "type": "object",
+  "description": "De waarde van de input en output.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Inputoutputtype)",
+      "pattern": "^Inputoutputtype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

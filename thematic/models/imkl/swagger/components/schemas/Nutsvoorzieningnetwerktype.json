@@ -1,0 +1,19 @@
+{
+  "title": "Nutsvoorzieningnetwerktype",
+  "type": "object",
+  "description": "Classificatie van typen nutsvoorzieningnetwerken.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Nutsvoorzieningnetwerktype)",
+      "pattern": "^Nutsvoorzieningnetwerktype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

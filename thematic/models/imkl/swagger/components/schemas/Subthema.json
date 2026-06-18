@@ -1,0 +1,19 @@
+{
+  "title": "Subthema",
+  "type": "object",
+  "description": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Subthema)",
+      "pattern": "^Subthema$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Annotatietype",
+  "type": "object",
+  "description": "Aard van de annotatie",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Annotatietype)",
+      "pattern": "^Annotatietype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

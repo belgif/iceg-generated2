@@ -2,6 +2,426 @@
   "baseURI": "https://vocab.belgif.be/ns/utility-services#",
   "classes": [
     {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#validFrom",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "de": "DateTime"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#validTo",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "de": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#identifier",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/ns/adms#Identifier",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/relation",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://xmlns.com/foaf/0.1/Document",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          }
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "parents": [
+            {
+              "id": "https://vocab.belgif.be/ns/network#inNetwork"
+            }
+          ],
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#Node.geometry",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "http://www.opengis.net/ont/sf#Point",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#beginLink",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#endLink",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
+            "listedInDocument": false
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
       "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
       "vocabularyLabel": {
         "de": "Enter your translation here"
@@ -235,7 +655,234 @@
       ]
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "id": "https://vocab.belgif.be/ns/utility-services#Cable",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          }
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          }
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "properties": [
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/network#Node.geometry",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "http://www.opengis.net/ont/sf#Point",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://vocab.belgif.be/ns/utility-services#node",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+          "range": {
+            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/prov#Entity",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
       "vocabularyLabel": {
         "de": "Enter your translation here"
       },
@@ -246,213 +893,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "properties": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#validFrom",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "listedInDocument": false,
-            "vocabularyLabel": {
-              "de": "DateTime"
-            },
-            "applicationProfileLabel": {
-              "de": "DateTime"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#validTo",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "listedInDocument": false,
-            "vocabularyLabel": {
-              "de": "DateTime"
-            },
-            "applicationProfileLabel": {
-              "de": "DateTime"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyUsageNote": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "*"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyUsageNote": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#identifier",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "http://www.w3.org/ns/adms#Identifier",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "http://purl.org/dc/elements/1.1/relation",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "http://xmlns.com/foaf/0.1/Document",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "*"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#currentStatus",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "*"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "applicationProfileLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "applicationProfileDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "*"
-        }
-      ]
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
     },
     {
       "id": "https://vocab.belgif.be/ns/generic#ActivityComplex",
@@ -1835,69 +2276,6 @@
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#Cable",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "parents": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          }
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "properties": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
-          "range": {
-            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        }
-      ]
-    },
-    {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
       "vocabularyLabel": {
         "de": "Enter your translation here"
@@ -2457,206 +2835,6 @@
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
-      "parents": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          }
-        },
-        {
-          "id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "properties": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyUsageNote": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyUsageNote": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "parents": [
-            {
-              "id": "https://vocab.belgif.be/ns/network#inNetwork"
-            }
-          ],
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "*"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/network#Node.geometry",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "http://www.opengis.net/ont/sf#Point",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/network#beginLink",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
-            "listedInDocument": false
-          },
-          "minCount": "0",
-          "maxCount": "*"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/network#endLink",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-          "range": {
-            "id": "https://data.vlaanderen.be/ns/netwerk#Link",
-            "listedInDocument": false
-          },
-          "minCount": "0",
-          "maxCount": "*"
-        }
-      ]
-    },
-    {
       "id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
       "vocabularyLabel": {
         "de": "Enter your translation here"
@@ -2732,159 +2910,6 @@
             }
           },
           "minCount": "1",
-          "maxCount": "*"
-        }
-      ]
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
-      "parents": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          }
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "properties": [
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyUsageNote": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-          "range": {
-            "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-          "range": {
-            "id": "http://www.w3.org/2004/02/skos/core#Concept",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/network#Node.geometry",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-          "range": {
-            "id": "http://www.opengis.net/ont/sf#Point",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "1"
-        },
-        {
-          "id": "https://vocab.belgif.be/ns/utility-services#node",
-          "vocabularyLabel": {
-            "de": "Enter your translation here"
-          },
-          "vocabularyDefinition": {
-            "de": "Enter your translation here"
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-          "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-          "range": {
-            "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "de": "Enter your translation here"
-            }
-          },
-          "minCount": "0",
           "maxCount": "*"
         }
       ]
@@ -3118,17 +3143,6 @@
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
-    },
-    {
-      "id": "http://www.w3.org/ns/prov#Entity",
       "vocabularyLabel": {
         "de": "Enter your translation here"
       },
@@ -3435,20 +3449,6 @@
           }
         }
       ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
     },
@@ -4980,6 +4980,278 @@
   ],
   "properties": [
     {
+      "id": "https://vocab.belgif.be/ns/utility-services#validFrom",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "de": "DateTime"
+        },
+        "applicationProfileLabel": {
+          "de": "DateTime"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#validTo",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "de": "DateTime"
+        },
+        "applicationProfileLabel": {
+          "de": "DateTime"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#identifier",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/ns/adms#Identifier",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "parents": [
+        {
+          "id": "https://vocab.belgif.be/ns/network#inNetwork"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
       "id": "https://vocab.belgif.be/ns/utility-services#technicalSpecification",
       "vocabularyLabel": {
         "de": "Enter your translation here"
@@ -5168,7 +5440,7 @@
       "maxCount": "1"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#validFrom",
+      "id": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
       "vocabularyLabel": {
         "de": "Enter your translation here"
       },
@@ -5177,67 +5449,61 @@
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
       "range": {
-        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "listedInDocument": false,
-        "vocabularyLabel": {
-          "de": "DateTime"
-        },
-        "applicationProfileLabel": {
-          "de": "DateTime"
-        }
-      },
-      "minCount": "1",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#validTo",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-      "range": {
-        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "listedInDocument": false,
-        "vocabularyLabel": {
-          "de": "DateTime"
-        },
-        "applicationProfileLabel": {
-          "de": "DateTime"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-      "range": {
-        "id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
         "listedInDocument": true,
         "vocabularyLabel": {
           "de": "Enter your translation here"
         }
       },
       "minCount": "0",
-      "maxCount": "*"
+      "maxCount": "1"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+      "id": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
       "vocabularyLabel": {
         "de": "Enter your translation here"
       },
@@ -5249,30 +5515,9 @@
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
       "range": {
-        "id": "http://www.w3.org/2004/02/skos/core#Concept",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "1",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#identifier",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-      "range": {
-        "id": "http://www.w3.org/ns/adms#Identifier",
+        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
         "listedInDocument": true,
         "vocabularyLabel": {
           "de": "Enter your translation here"
@@ -5282,7 +5527,7 @@
       "maxCount": "1"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
       "vocabularyLabel": {
         "de": "Enter your translation here"
       },
@@ -5291,7 +5536,28 @@
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+      "range": {
+        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",
         "listedInDocument": true,
@@ -5299,11 +5565,11 @@
           "de": "Enter your translation here"
         }
       },
-      "minCount": "1",
+      "minCount": "0",
       "maxCount": "1"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+      "id": "https://vocab.belgif.be/ns/utility-services#node",
       "vocabularyLabel": {
         "de": "Enter your translation here"
       },
@@ -5312,15 +5578,15 @@
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
       "range": {
-        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
         "listedInDocument": true,
         "vocabularyLabel": {
           "de": "Enter your translation here"
         }
       },
-      "minCount": "1",
+      "minCount": "0",
       "maxCount": "*"
     },
     {
@@ -5936,48 +6202,6 @@
       "maxCount": "*"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
-      "range": {
-        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#Cable",
-      "range": {
-        "id": "http://www.w3.org/2004/02/skos/core#Concept",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
       "id": "https://vocab.belgif.be/ns/utility-services#nominalVoltage",
       "vocabularyLabel": {
         "de": "Enter your translation here"
@@ -6172,122 +6396,6 @@
       "maxCount": "1"
     },
     {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-      "range": {
-        "id": "http://www.w3.org/2004/02/skos/core#Concept",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-      "range": {
-        "id": "http://www.w3.org/2004/02/skos/core#Concept",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-      "range": {
-        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "parents": [
-        {
-          "id": "https://vocab.belgif.be/ns/network#inNetwork"
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-      "range": {
-        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "1",
-      "maxCount": "*"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-      "range": {
-        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
       "id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
       "vocabularyLabel": {
         "de": "Enter your translation here"
@@ -6311,114 +6419,6 @@
         }
       },
       "minCount": "1",
-      "maxCount": "*"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-      "range": {
-        "id": "http://www.w3.org/2004/02/skos/core#Concept",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyUsageNote": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-      "range": {
-        "id": "https://vocab.belgif.be/ns/utility-services#Appearance",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-      "range": {
-        "id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-      "range": {
-        "id": "http://www.w3.org/2004/02/skos/core#Concept",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
-      "maxCount": "1"
-    },
-    {
-      "id": "https://vocab.belgif.be/ns/utility-services#node",
-      "vocabularyLabel": {
-        "de": "Enter your translation here"
-      },
-      "vocabularyDefinition": {
-        "de": "Enter your translation here"
-      },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
-      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-      "domain": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
-      "range": {
-        "id": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
-        "listedInDocument": true,
-        "vocabularyLabel": {
-          "de": "Enter your translation here"
-        }
-      },
-      "minCount": "0",
       "maxCount": "*"
     },
     {

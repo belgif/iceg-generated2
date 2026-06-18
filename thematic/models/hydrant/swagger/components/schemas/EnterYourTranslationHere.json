@@ -1,0 +1,22 @@
+{
+  "title": "EnterYourTranslationHere",
+  "type": "object",
+  "description": "Enter your translation here",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse EnterYourTranslationHere)",
+      "pattern": "^EnterYourTranslationHere$"
+    },
+    "enterYourTranslationHere": {
+      "$ref": "#/components/schemas/GeographicalName"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -36,16 +36,16 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieninglinksequentieShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#RisicotypeShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#RisicoTypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#KleurShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#PositionelenauwkeurigheidShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#PositioneleNauwkeurigheidShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#MateriaaltypeShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#MateriaalTypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#SubthemaShape"
@@ -69,7 +69,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#TelecommunicatiekabelShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#OliegaschemicaliënpijpShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicaliëNPijpShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#RioolpijpShape"
@@ -78,7 +78,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#WaterleidingShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#ThermischepijpShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#ThermischePijpShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#ToebehorenShape"
@@ -99,7 +99,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningnetwerktypeShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#GeneriekelinkShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#GeneriekeLinkShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#AgentShape"
@@ -114,7 +114,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#FunctieShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeactiviteittypeShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeActiviteittypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningleveringstypeShape"
@@ -123,7 +123,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#TelecommunicatiekabelmateriaaltypeShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#OliegaschemicalientypeShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicalientypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#RioolwatertypeShape"
@@ -150,13 +150,13 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#ToebehorentypeShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#TopografischelementtypeShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementtypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#DocumentmediumtypeShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#KabelenleidingcontainerShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#KabelEnLeidingContainerShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#InputoutputtypeShape"
@@ -180,7 +180,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#WaarschuwingstypeShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#LengteëenheidShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#LengteëEnheidShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#PlanShape"
@@ -213,10 +213,10 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#LinksequentieShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#LangstringShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#LangStringShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#DatetimeShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#DateTimeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#GeometrieShape"
@@ -231,10 +231,10 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#AdresvoorstellingShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#UriShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#URIShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#DirectepositieShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#DirectePositieShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#OpmetingShape"
@@ -246,7 +246,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#UiterlijkShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalepositieShape"
+        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositieShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#LengteShape"
@@ -302,10 +302,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_95"
+        "@id": "_:df_2_95"
       },
       {
-        "@id": "_:df_7_122"
+        "@id": "_:df_2_122"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -345,25 +345,25 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_3"
+        "@id": "_:df_2_3"
       },
       {
-        "@id": "_:df_7_57"
+        "@id": "_:df_2_57"
       },
       {
-        "@id": "_:df_7_83"
+        "@id": "_:df_2_83"
       },
       {
-        "@id": "_:df_7_84"
+        "@id": "_:df_2_84"
       },
       {
-        "@id": "_:df_7_106"
+        "@id": "_:df_2_106"
       },
       {
-        "@id": "_:df_7_145"
+        "@id": "_:df_2_145"
       },
       {
-        "@id": "_:df_7_151"
+        "@id": "_:df_2_151"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -438,49 +438,49 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_12"
+        "@id": "_:df_2_12"
       },
       {
-        "@id": "_:df_7_13"
+        "@id": "_:df_2_13"
       },
       {
-        "@id": "_:df_7_14"
+        "@id": "_:df_2_14"
       },
       {
-        "@id": "_:df_7_15"
+        "@id": "_:df_2_15"
       },
       {
-        "@id": "_:df_7_16"
+        "@id": "_:df_2_16"
       },
       {
-        "@id": "_:df_7_17"
+        "@id": "_:df_2_17"
       },
       {
-        "@id": "_:df_7_18"
+        "@id": "_:df_2_18"
       },
       {
-        "@id": "_:df_7_19"
+        "@id": "_:df_2_19"
       },
       {
-        "@id": "_:df_7_20"
+        "@id": "_:df_2_20"
       },
       {
-        "@id": "_:df_7_21"
+        "@id": "_:df_2_21"
       },
       {
-        "@id": "_:df_7_22"
+        "@id": "_:df_2_22"
       },
       {
-        "@id": "_:df_7_23"
+        "@id": "_:df_2_23"
       },
       {
-        "@id": "_:df_7_32"
+        "@id": "_:df_2_32"
       },
       {
-        "@id": "_:df_7_33"
+        "@id": "_:df_2_33"
       },
       {
-        "@id": "_:df_7_98"
+        "@id": "_:df_2_98"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -549,30 +549,33 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_30"
+        "@id": "_:df_2_30"
       },
       {
-        "@id": "_:df_7_99"
+        "@id": "_:df_2_99"
       },
       {
-        "@id": "_:df_7_100"
+        "@id": "_:df_2_100"
       },
       {
-        "@id": "_:df_7_102"
+        "@id": "_:df_2_102"
       },
       {
-        "@id": "_:df_7_103"
+        "@id": "_:df_2_103"
       },
       {
-        "@id": "_:df_7_148"
+        "@id": "_:df_2_148"
       },
       {
-        "@id": "_:df_7_149"
+        "@id": "_:df_2_149"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Annotation"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Dimension"
       }
     ]
   },
@@ -636,19 +639,19 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_31"
+        "@id": "_:df_2_31"
       },
       {
-        "@id": "_:df_7_34"
+        "@id": "_:df_2_34"
       },
       {
-        "@id": "_:df_7_126"
+        "@id": "_:df_2_126"
       },
       {
-        "@id": "_:df_7_127"
+        "@id": "_:df_2_127"
       },
       {
-        "@id": "_:df_7_128"
+        "@id": "_:df_2_128"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -751,7 +754,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#DatetimeShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#DateTimeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -797,7 +800,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_125"
+        "@id": "_:df_2_125"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -807,7 +810,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#DirectepositieShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#DirectePositieShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -837,13 +840,13 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_25"
+        "@id": "_:df_2_25"
       },
       {
-        "@id": "_:df_7_26"
+        "@id": "_:df_2_26"
       },
       {
-        "@id": "_:df_7_112"
+        "@id": "_:df_2_112"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -906,27 +909,30 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_24"
+        "@id": "_:df_2_24"
       },
       {
-        "@id": "_:df_7_29"
+        "@id": "_:df_2_29"
       },
       {
-        "@id": "_:df_7_107"
+        "@id": "_:df_2_107"
       },
       {
-        "@id": "_:df_7_108"
+        "@id": "_:df_2_108"
       },
       {
-        "@id": "_:df_7_109"
+        "@id": "_:df_2_109"
       },
       {
-        "@id": "_:df_7_121"
+        "@id": "_:df_2_121"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://xmlns.com/foaf/0.1/Document"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Plan"
       }
     ]
   },
@@ -960,7 +966,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeactiviteittypeShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeActiviteittypeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -1013,10 +1019,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_53"
+        "@id": "_:df_2_53"
       },
       {
-        "@id": "_:df_7_54"
+        "@id": "_:df_2_54"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1079,16 +1085,16 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_4"
+        "@id": "_:df_2_4"
       },
       {
-        "@id": "_:df_7_85"
+        "@id": "_:df_2_85"
       },
       {
-        "@id": "_:df_7_86"
+        "@id": "_:df_2_86"
       },
       {
-        "@id": "_:df_7_87"
+        "@id": "_:df_2_87"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1098,7 +1104,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#GeneriekelinkShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#GeneriekeLinkShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -1123,6 +1129,12 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/network#GenericLink"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/network#Link"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/network#LinkSequence"
       }
     ]
   },
@@ -1157,18 +1169,24 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_5"
+        "@id": "_:df_2_5"
       },
       {
-        "@id": "_:df_7_6"
+        "@id": "_:df_2_6"
       },
       {
-        "@id": "_:df_7_118"
+        "@id": "_:df_2_118"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://www.w3.org/ns/locn#Geometry"
+      },
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      },
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
       }
     ]
   },
@@ -1197,10 +1215,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_91"
+        "@id": "_:df_2_91"
       },
       {
-        "@id": "_:df_7_92"
+        "@id": "_:df_2_92"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1269,7 +1287,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_124"
+        "@id": "_:df_2_124"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1309,16 +1327,16 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_7"
+        "@id": "_:df_2_7"
       },
       {
-        "@id": "_:df_7_8"
+        "@id": "_:df_2_8"
       },
       {
-        "@id": "_:df_7_9"
+        "@id": "_:df_2_9"
       },
       {
-        "@id": "_:df_7_88"
+        "@id": "_:df_2_88"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1357,7 +1375,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#KabelenleidingcontainerShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#KabelEnLeidingContainerShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -1416,15 +1434,21 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_39"
+        "@id": "_:df_2_39"
       },
       {
-        "@id": "_:df_7_44"
+        "@id": "_:df_2_44"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
       }
     ]
   },
@@ -1453,19 +1477,19 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_36"
+        "@id": "_:df_2_36"
       },
       {
-        "@id": "_:df_7_62"
+        "@id": "_:df_2_62"
       },
       {
-        "@id": "_:df_7_138"
+        "@id": "_:df_2_138"
       },
       {
-        "@id": "_:df_7_140"
+        "@id": "_:df_2_140"
       },
       {
-        "@id": "_:df_7_142"
+        "@id": "_:df_2_142"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1568,7 +1592,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#LangstringShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#LangStringShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -1590,7 +1614,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#LengteëenheidShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#LengteëEnheidShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -1655,7 +1679,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_120"
+        "@id": "_:df_2_120"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -1852,15 +1876,20 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_76"
-      },
-      {
-        "@id": "_:df_7_77"
+        "@id": "_:df_2_76"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      },
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#xone": [
+      {
+        "@id": "_:df_2_156"
       }
     ]
   },
@@ -1900,7 +1929,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#MateriaaltypeShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#MateriaalTypeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -1953,12 +1982,15 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_28"
+        "@id": "_:df_2_28"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
+      },
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
       }
     ]
   },
@@ -2028,36 +2060,96 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_1"
+        "@id": "_:df_2_1"
       },
       {
-        "@id": "_:df_7_2"
+        "@id": "_:df_2_2"
       },
       {
-        "@id": "_:df_7_45"
+        "@id": "_:df_2_45"
       },
       {
-        "@id": "_:df_7_50"
+        "@id": "_:df_2_50"
       },
       {
-        "@id": "_:df_7_89"
+        "@id": "_:df_2_89"
       },
       {
-        "@id": "_:df_7_101"
+        "@id": "_:df_2_101"
       },
       {
-        "@id": "_:df_7_129"
+        "@id": "_:df_2_129"
       },
       {
-        "@id": "_:df_7_146"
+        "@id": "_:df_2_146"
       },
       {
-        "@id": "_:df_7_152"
+        "@id": "_:df_2_152"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Duct"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Tower"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pole"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Manhole"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cabinet"
       }
     ]
   },
@@ -2092,27 +2184,39 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_73"
+        "@id": "_:df_2_73"
       },
       {
-        "@id": "_:df_7_74"
+        "@id": "_:df_2_74"
       },
       {
-        "@id": "_:df_7_75"
+        "@id": "_:df_2_75"
       },
       {
-        "@id": "_:df_7_130"
+        "@id": "_:df_2_130"
       },
       {
-        "@id": "_:df_7_137"
+        "@id": "_:df_2_137"
       },
       {
-        "@id": "_:df_7_143"
+        "@id": "_:df_2_143"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Tower"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pole"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Manhole"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cabinet"
       }
     ]
   },
@@ -2147,33 +2251,39 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_66"
+        "@id": "_:df_2_66"
       },
       {
-        "@id": "_:df_7_67"
+        "@id": "_:df_2_67"
       },
       {
-        "@id": "_:df_7_68"
+        "@id": "_:df_2_68"
       },
       {
-        "@id": "_:df_7_71"
+        "@id": "_:df_2_71"
       },
       {
-        "@id": "_:df_7_72"
+        "@id": "_:df_2_72"
       },
       {
-        "@id": "_:df_7_78"
+        "@id": "_:df_2_78"
       },
       {
-        "@id": "_:df_7_135"
+        "@id": "_:df_2_135"
       },
       {
-        "@id": "_:df_7_136"
+        "@id": "_:df_2_136"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
       }
     ]
   },
@@ -2237,10 +2347,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_69"
+        "@id": "_:df_2_69"
       },
       {
-        "@id": "_:df_7_79"
+        "@id": "_:df_2_79"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2280,36 +2390,63 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_0"
+        "@id": "_:df_2_0"
       },
       {
-        "@id": "_:df_7_37"
+        "@id": "_:df_2_37"
       },
       {
-        "@id": "_:df_7_38"
+        "@id": "_:df_2_38"
       },
       {
-        "@id": "_:df_7_40"
+        "@id": "_:df_2_40"
       },
       {
-        "@id": "_:df_7_42"
+        "@id": "_:df_2_42"
       },
       {
-        "@id": "_:df_7_46"
+        "@id": "_:df_2_46"
       },
       {
-        "@id": "_:df_7_47"
+        "@id": "_:df_2_47"
       },
       {
-        "@id": "_:df_7_51"
+        "@id": "_:df_2_51"
       },
       {
-        "@id": "_:df_7_52"
+        "@id": "_:df_2_52"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Duct"
       }
     ]
   },
@@ -2338,16 +2475,16 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_63"
+        "@id": "_:df_2_63"
       },
       {
-        "@id": "_:df_7_70"
+        "@id": "_:df_2_70"
       },
       {
-        "@id": "_:df_7_93"
+        "@id": "_:df_2_93"
       },
       {
-        "@id": "_:df_7_94"
+        "@id": "_:df_2_94"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2387,34 +2524,34 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_10"
+        "@id": "_:df_2_10"
       },
       {
-        "@id": "_:df_7_11"
+        "@id": "_:df_2_11"
       },
       {
-        "@id": "_:df_7_48"
+        "@id": "_:df_2_48"
       },
       {
-        "@id": "_:df_7_49"
+        "@id": "_:df_2_49"
       },
       {
-        "@id": "_:df_7_80"
+        "@id": "_:df_2_80"
       },
       {
-        "@id": "_:df_7_81"
+        "@id": "_:df_2_81"
       },
       {
-        "@id": "_:df_7_105"
+        "@id": "_:df_2_105"
       },
       {
-        "@id": "_:df_7_144"
+        "@id": "_:df_2_144"
       },
       {
-        "@id": "_:df_7_147"
+        "@id": "_:df_2_147"
       },
       {
-        "@id": "_:df_7_150"
+        "@id": "_:df_2_150"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2482,7 +2619,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#OliegaschemicaliënpijpShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicaliëNPijpShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -2506,7 +2643,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_132"
+        "@id": "_:df_2_132"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2516,7 +2653,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#OliegaschemicalientypeShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicalientypeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -2569,16 +2706,16 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_27"
+        "@id": "_:df_2_27"
       },
       {
-        "@id": "_:df_7_113"
+        "@id": "_:df_2_113"
       },
       {
-        "@id": "_:df_7_114"
+        "@id": "_:df_2_114"
       },
       {
-        "@id": "_:df_7_119"
+        "@id": "_:df_2_119"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2647,7 +2784,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_131"
+        "@id": "_:df_2_131"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2681,27 +2818,39 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_35"
+        "@id": "_:df_2_35"
       },
       {
-        "@id": "_:df_7_43"
+        "@id": "_:df_2_43"
       },
       {
-        "@id": "_:df_7_60"
+        "@id": "_:df_2_60"
       },
       {
-        "@id": "_:df_7_61"
+        "@id": "_:df_2_61"
       },
       {
-        "@id": "_:df_7_139"
+        "@id": "_:df_2_139"
       },
       {
-        "@id": "_:df_7_141"
+        "@id": "_:df_2_141"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
       }
     ]
   },
@@ -2736,7 +2885,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_115"
+        "@id": "_:df_2_115"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2746,7 +2895,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#PositionelenauwkeurigheidShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#PositioneleNauwkeurigheidShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -2846,13 +2995,13 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_116"
+        "@id": "_:df_2_116"
       },
       {
-        "@id": "_:df_7_117"
+        "@id": "_:df_2_117"
       },
       {
-        "@id": "_:df_7_133"
+        "@id": "_:df_2_133"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2915,7 +3064,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_56"
+        "@id": "_:df_2_56"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -2954,7 +3103,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#RisicotypeShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#RisicoTypeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -3116,7 +3265,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_55"
+        "@id": "_:df_2_55"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -3126,7 +3275,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#ThermischepijpShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#ThermischePijpShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -3150,10 +3299,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_59"
+        "@id": "_:df_2_59"
       },
       {
-        "@id": "_:df_7_90"
+        "@id": "_:df_2_90"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -3222,18 +3371,23 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_64"
+        "@id": "_:df_2_65"
       },
       {
-        "@id": "_:df_7_65"
-      },
-      {
-        "@id": "_:df_7_97"
+        "@id": "_:df_2_97"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#xone": [
+      {
+        "@id": "_:df_2_161"
       }
     ]
   },
@@ -3297,10 +3451,10 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_96"
+        "@id": "_:df_2_96"
       },
       {
-        "@id": "_:df_7_104"
+        "@id": "_:df_2_104"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -3310,7 +3464,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#TopografischelementtypeShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementtypeShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -3369,7 +3523,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_82"
+        "@id": "_:df_2_82"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -3403,7 +3557,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_41"
+        "@id": "_:df_2_41"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -3413,7 +3567,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#UriShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#URIShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -3435,7 +3589,7 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#VerticalepositieShape",
+    "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositieShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
     ],
@@ -3459,21 +3613,32 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_110"
+        "@id": "_:df_2_110"
       },
       {
-        "@id": "_:df_7_111"
+        "@id": "_:df_2_111"
       },
       {
-        "@id": "_:df_7_123"
-      },
-      {
-        "@id": "_:df_7_134"
+        "@id": "_:df_2_134"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Height"
+      },
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Depth"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#xone": [
+      {
+        "@id": "_:df_2_166"
+      },
+      {
+        "@id": "_:df_2_171"
       }
     ]
   },
@@ -3560,7 +3725,7 @@
     ],
     "http://www.w3.org/ns/shacl#property": [
       {
-        "@id": "_:df_7_58"
+        "@id": "_:df_2_58"
       }
     ],
     "http://www.w3.org/ns/shacl#targetClass": [
@@ -3628,7 +3793,7 @@
     ]
   },
   {
-    "@id": "_:df_7_0",
+    "@id": "_:df_2_0",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3652,7 +3817,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Technischespecificatie"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.TechnischeSpecificatie"
       }
     ],
     "http://www.w3.org/ns/shacl#datatype": [
@@ -3679,7 +3844,7 @@
     ]
   },
   {
-    "@id": "_:df_7_1",
+    "@id": "_:df_2_1",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3697,7 +3862,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Geldigvan"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.GeldigVan"
       }
     ],
     "http://www.w3.org/ns/shacl#datatype": [
@@ -3713,11 +3878,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -3734,7 +3901,7 @@
     ]
   },
   {
-    "@id": "_:df_7_10",
+    "@id": "_:df_2_10",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3752,7 +3919,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Geografischenaam"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.GeografischeNaam"
       }
     ],
     "http://www.w3.org/ns/shacl#datatype": [
@@ -3779,7 +3946,7 @@
     ]
   },
   {
-    "@id": "_:df_7_100",
+    "@id": "_:df_2_100",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3813,11 +3980,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -3834,7 +4003,7 @@
     ]
   },
   {
-    "@id": "_:df_7_101",
+    "@id": "_:df_2_101",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3855,11 +4024,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Documentatie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://xmlns.com/foaf/0.1/Document"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -3872,6 +4036,11 @@
         "@value": "documentatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_162"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://purl.org/dc/elements/1.1/relation"
@@ -3879,7 +4048,7 @@
     ]
   },
   {
-    "@id": "_:df_7_102",
+    "@id": "_:df_2_102",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3906,11 +4075,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Annotatie.Locatie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -3919,11 +4083,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -3933,6 +4099,11 @@
         "@value": "locatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_167"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -3940,7 +4111,7 @@
     ]
   },
   {
-    "@id": "_:df_7_103",
+    "@id": "_:df_2_103",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -3967,11 +4138,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Annotatie.Rotatiehoek"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -3980,6 +4146,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -3989,6 +4156,11 @@
         "@value": "rotatiehoek"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_172"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#rotationAngle"
@@ -3996,7 +4168,7 @@
     ]
   },
   {
-    "@id": "_:df_7_104",
+    "@id": "_:df_2_104",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4017,11 +4189,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElement.Locatie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4030,11 +4197,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4044,6 +4213,11 @@
         "@value": "locatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_177"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -4051,7 +4225,7 @@
     ]
   },
   {
-    "@id": "_:df_7_105",
+    "@id": "_:df_2_105",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4072,11 +4246,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Documentatie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://xmlns.com/foaf/0.1/Document"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4089,6 +4258,11 @@
         "@value": "documentatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_182"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#documentation"
@@ -4096,7 +4270,7 @@
     ]
   },
   {
-    "@id": "_:df_7_106",
+    "@id": "_:df_2_106",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4117,11 +4291,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Activiteitencomplex.Documentatie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://xmlns.com/foaf/0.1/Document"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4134,6 +4303,11 @@
         "@value": "documentatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_186"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#documentation"
@@ -4141,7 +4315,7 @@
     ]
   },
   {
-    "@id": "_:df_7_107",
+    "@id": "_:df_2_107",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4175,11 +4349,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4196,7 +4372,7 @@
     ]
   },
   {
-    "@id": "_:df_7_108",
+    "@id": "_:df_2_108",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4214,7 +4390,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Document.Documenttype"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Document.DocumentType"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -4230,11 +4406,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4251,7 +4429,7 @@
     ]
   },
   {
-    "@id": "_:df_7_109",
+    "@id": "_:df_2_109",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4285,6 +4463,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4301,7 +4480,7 @@
     ]
   },
   {
-    "@id": "_:df_7_11",
+    "@id": "_:df_2_11",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4346,7 +4525,7 @@
     ]
   },
   {
-    "@id": "_:df_7_110",
+    "@id": "_:df_2_110",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4370,12 +4549,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Verticalepositie.Ligging"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
+        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositie.Ligging"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -4386,6 +4560,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4395,6 +4570,11 @@
         "@value": "ligging"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_194"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -4402,7 +4582,7 @@
     ]
   },
   {
-    "@id": "_:df_7_111",
+    "@id": "_:df_2_111",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4426,7 +4606,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Verticalepositie.Verticalepositie"
+        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositie.VerticalePositie"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -4442,6 +4622,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4458,7 +4639,7 @@
     ]
   },
   {
-    "@id": "_:df_7_112",
+    "@id": "_:df_2_112",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4476,7 +4657,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Directepositie.Opmeting"
+        "@id": "https://belgif.github.io/thematic/models/imkl#DirectePositie.Opmeting"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -4492,6 +4673,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4508,7 +4690,7 @@
     ]
   },
   {
-    "@id": "_:df_7_113",
+    "@id": "_:df_2_113",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4542,11 +4724,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4563,7 +4747,7 @@
     ]
   },
   {
-    "@id": "_:df_7_114",
+    "@id": "_:df_2_114",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4581,7 +4765,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Opmeting.Uitgevoerddoor"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Opmeting.UitgevoerdDoor"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -4597,6 +4781,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4613,7 +4798,7 @@
     ]
   },
   {
-    "@id": "_:df_7_115",
+    "@id": "_:df_2_115",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4634,11 +4819,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Plan.Locatie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4647,11 +4827,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4661,6 +4843,11 @@
         "@value": "locatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_204"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -4668,7 +4855,7 @@
     ]
   },
   {
-    "@id": "_:df_7_116",
+    "@id": "_:df_2_116",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4692,7 +4879,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Referentieoppervlak.Verticalepositie"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Referentieoppervlak.VerticalePositie"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -4708,6 +4895,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4724,7 +4912,7 @@
     ]
   },
   {
-    "@id": "_:df_7_117",
+    "@id": "_:df_2_117",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4764,6 +4952,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4780,7 +4969,7 @@
     ]
   },
   {
-    "@id": "_:df_7_118",
+    "@id": "_:df_2_118",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4814,6 +5003,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4830,7 +5020,7 @@
     ]
   },
   {
-    "@id": "_:df_7_119",
+    "@id": "_:df_2_119",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4864,6 +5054,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4880,7 +5071,7 @@
     ]
   },
   {
-    "@id": "_:df_7_12",
+    "@id": "_:df_2_12",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4920,6 +5111,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4936,7 +5128,7 @@
     ]
   },
   {
-    "@id": "_:df_7_120",
+    "@id": "_:df_2_120",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -4976,11 +5168,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -4997,7 +5191,7 @@
     ]
   },
   {
-    "@id": "_:df_7_121",
+    "@id": "_:df_2_121",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5015,7 +5209,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Document.Verwijstnaar"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Document.VerwijstNaar"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -5042,7 +5236,7 @@
     ]
   },
   {
-    "@id": "_:df_7_122",
+    "@id": "_:df_2_122",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5082,11 +5276,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5103,7 +5299,7 @@
     ]
   },
   {
-    "@id": "_:df_7_123",
+    "@id": "_:df_2_123",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5127,12 +5323,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Verticalepositie.Afstand"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositie.Afstand"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -5143,6 +5334,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5152,6 +5344,11 @@
         "@value": "afstand"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_216"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#distance"
@@ -5159,7 +5356,7 @@
     ]
   },
   {
-    "@id": "_:df_7_124",
+    "@id": "_:df_2_124",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5180,11 +5377,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Hoogte.Hoogte"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5193,6 +5385,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5202,6 +5395,11 @@
         "@value": "hoogte"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_220"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://schema.org/height"
@@ -5209,7 +5407,7 @@
     ]
   },
   {
-    "@id": "_:df_7_125",
+    "@id": "_:df_2_125",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5230,11 +5428,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Diepte.Diepte"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5243,6 +5436,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5252,6 +5446,11 @@
         "@value": "diepte"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_224"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#depth"
@@ -5259,7 +5458,7 @@
     ]
   },
   {
-    "@id": "_:df_7_126",
+    "@id": "_:df_2_126",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5280,11 +5479,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebied.Geometrie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5293,6 +5487,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5302,6 +5497,11 @@
         "@value": "geometrie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_229"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -5309,7 +5509,7 @@
     ]
   },
   {
-    "@id": "_:df_7_127",
+    "@id": "_:df_2_127",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5343,11 +5543,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5364,7 +5566,7 @@
     ]
   },
   {
-    "@id": "_:df_7_128",
+    "@id": "_:df_2_128",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5398,6 +5600,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5414,7 +5617,7 @@
     ]
   },
   {
-    "@id": "_:df_7_129",
+    "@id": "_:df_2_129",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5432,7 +5635,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Huidigestatus"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.HuidigeStatus"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -5448,11 +5651,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5469,7 +5674,7 @@
     ]
   },
   {
-    "@id": "_:df_7_13",
+    "@id": "_:df_2_13",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5509,6 +5714,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5525,7 +5731,7 @@
     ]
   },
   {
-    "@id": "_:df_7_130",
+    "@id": "_:df_2_130",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5565,6 +5771,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5581,7 +5788,7 @@
     ]
   },
   {
-    "@id": "_:df_7_131",
+    "@id": "_:df_2_131",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5615,11 +5822,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5636,7 +5845,7 @@
     ]
   },
   {
-    "@id": "_:df_7_132",
+    "@id": "_:df_2_132",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5654,7 +5863,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Oliegaschemicaliënpijp.Oliegaschemicaliënproducttype"
+        "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicaliëNPijp.OlieGasChemicaliëNProducttype"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -5670,11 +5879,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5691,7 +5902,7 @@
     ]
   },
   {
-    "@id": "_:df_7_133",
+    "@id": "_:df_2_133",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5718,11 +5929,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Referentieoppervlak.Ligging"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5731,11 +5937,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5745,6 +5953,11 @@
         "@value": "ligging"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_241"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -5752,7 +5965,7 @@
     ]
   },
   {
-    "@id": "_:df_7_134",
+    "@id": "_:df_2_134",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5776,7 +5989,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Verticalepositie.Referentieoppervlak"
+        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositie.ReferentieOppervlak"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -5792,11 +6005,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5813,7 +6028,7 @@
     ]
   },
   {
-    "@id": "_:df_7_135",
+    "@id": "_:df_2_135",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5834,11 +6049,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.Beginlink"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://data.vlaanderen.be/ns/netwerk#Link"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5851,6 +6061,11 @@
         "@value": "beginlink"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_247"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/network#beginLink"
@@ -5858,7 +6073,7 @@
     ]
   },
   {
-    "@id": "_:df_7_136",
+    "@id": "_:df_2_136",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5879,11 +6094,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.Eindlink"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://data.vlaanderen.be/ns/netwerk#Link"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5896,6 +6106,11 @@
         "@value": "eindlink"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_251"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/network#endLink"
@@ -5903,7 +6118,7 @@
     ]
   },
   {
-    "@id": "_:df_7_137",
+    "@id": "_:df_2_137",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5937,11 +6152,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -5958,7 +6175,7 @@
     ]
   },
   {
-    "@id": "_:df_7_138",
+    "@id": "_:df_2_138",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -5979,11 +6196,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Kanaal.Pijp"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5996,6 +6208,11 @@
         "@value": "pijp"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_259"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Duct.pipe"
@@ -6003,7 +6220,7 @@
     ]
   },
   {
-    "@id": "_:df_7_139",
+    "@id": "_:df_2_139",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6024,11 +6241,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Pijp.Kabel"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6041,6 +6253,11 @@
         "@value": "kabel"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_267"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Pipe.cable"
@@ -6048,7 +6265,7 @@
     ]
   },
   {
-    "@id": "_:df_7_14",
+    "@id": "_:df_2_14",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6088,6 +6305,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -6104,7 +6322,7 @@
     ]
   },
   {
-    "@id": "_:df_7_140",
+    "@id": "_:df_2_140",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6125,11 +6343,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Kanaal.Kabel"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6142,6 +6355,11 @@
         "@value": "kabel"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_273"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Duct.cable"
@@ -6149,7 +6367,7 @@
     ]
   },
   {
-    "@id": "_:df_7_141",
+    "@id": "_:df_2_141",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6170,11 +6388,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Pijp.Pijp"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6187,6 +6400,11 @@
         "@value": "pijp"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_281"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Pipe.pipe"
@@ -6194,7 +6412,7 @@
     ]
   },
   {
-    "@id": "_:df_7_142",
+    "@id": "_:df_2_142",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6239,7 +6457,7 @@
     ]
   },
   {
-    "@id": "_:df_7_143",
+    "@id": "_:df_2_143",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6260,11 +6478,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoopcontainer.Knoop"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6277,6 +6490,11 @@
         "@value": "knoop"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_290"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#node"
@@ -6284,7 +6502,7 @@
     ]
   },
   {
-    "@id": "_:df_7_144",
+    "@id": "_:df_2_144",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6335,7 +6553,7 @@
     ]
   },
   {
-    "@id": "_:df_7_145",
+    "@id": "_:df_2_145",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6356,11 +6574,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Activiteitencomplex.Op"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6373,6 +6586,11 @@
         "@value": "op"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_315"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#on"
@@ -6380,7 +6598,7 @@
     ]
   },
   {
-    "@id": "_:df_7_146",
+    "@id": "_:df_2_146",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6398,7 +6616,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Nutsvoorzieninginrichtingreferentie"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.NutsvoorzieningInrichtingReferentie"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -6425,7 +6643,7 @@
     ]
   },
   {
-    "@id": "_:df_7_147",
+    "@id": "_:df_2_147",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6443,7 +6661,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Nutsvoorzieninginrichtingreferentie"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.NutsvoorzieningInrichtingReferentie"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -6470,7 +6688,7 @@
     ]
   },
   {
-    "@id": "_:df_7_148",
+    "@id": "_:df_2_148",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6497,11 +6715,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Annotatie.Geheel"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#Annotation"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6514,6 +6727,11 @@
         "@value": "geheel"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_340"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#whole"
@@ -6521,7 +6739,7 @@
     ]
   },
   {
-    "@id": "_:df_7_149",
+    "@id": "_:df_2_149",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6548,11 +6766,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Annotatie.Deel"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#Annotation"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6565,6 +6778,11 @@
         "@value": "deel"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_344"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#part"
@@ -6572,7 +6790,7 @@
     ]
   },
   {
-    "@id": "_:df_7_15",
+    "@id": "_:df_2_15",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6623,7 +6841,7 @@
     ]
   },
   {
-    "@id": "_:df_7_150",
+    "@id": "_:df_2_150",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6644,11 +6862,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Element"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -6661,6 +6874,11 @@
         "@value": "element"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_367"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#element"
@@ -6668,7 +6886,7 @@
     ]
   },
   {
-    "@id": "_:df_7_151",
+    "@id": "_:df_2_151",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6686,7 +6904,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Activiteitencomplex.Innetwerk"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Activiteitencomplex.InNetwerk"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -6719,7 +6937,7 @@
     ]
   },
   {
-    "@id": "_:df_7_152",
+    "@id": "_:df_2_152",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6737,7 +6955,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Innetwerk"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.InNetwerk"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -6770,7 +6988,92 @@
     ]
   },
   {
-    "@id": "_:df_7_16",
+    "@id": "_:df_2_153",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_154",
+    "http://www.w3.org/ns/shacl#not": [
+      {
+        "@id": "_:df_2_153"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_77"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_155",
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_120"
+      },
+      {
+        "@id": "_:df_2_153"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_156",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_154"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_2_157"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_157",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_155"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_158",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_159",
+    "http://www.w3.org/ns/shacl#not": [
+      {
+        "@id": "_:df_2_158"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_64"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_16",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6810,6 +7113,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -6826,7 +7130,129 @@
     ]
   },
   {
-    "@id": "_:df_7_17",
+    "@id": "_:df_2_160",
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_122"
+      },
+      {
+        "@id": "_:df_2_158"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_161",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_159"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_2_162"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_162",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_160"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_163",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Height"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_164",
+    "http://www.w3.org/ns/shacl#not": [
+      {
+        "@id": "_:df_2_163"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_123"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_165",
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_124"
+      },
+      {
+        "@id": "_:df_2_163"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_166",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_164"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_2_167"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_167",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_165"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_168",
+    "@type": [
+      "http://www.w3.org/ns/shacl#PropertyShape"
+    ],
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Depth"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_169",
+    "http://www.w3.org/ns/shacl#not": [
+      {
+        "@id": "_:df_2_168"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_123"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_17",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6877,7 +7303,44 @@
     ]
   },
   {
-    "@id": "_:df_7_18",
+    "@id": "_:df_2_170",
+    "http://www.w3.org/ns/shacl#property": [
+      {
+        "@id": "_:df_2_125"
+      },
+      {
+        "@id": "_:df_2_168"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_171",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_169"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_2_172"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_172",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_2_170"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_2_18",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6917,6 +7380,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -6933,7 +7397,7 @@
     ]
   },
   {
-    "@id": "_:df_7_19",
+    "@id": "_:df_2_19",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -6973,6 +7437,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -6989,7 +7454,7 @@
     ]
   },
   {
-    "@id": "_:df_7_2",
+    "@id": "_:df_2_2",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7007,7 +7472,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Geldigtot"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.GeldigTot"
       }
     ],
     "http://www.w3.org/ns/shacl#datatype": [
@@ -7023,6 +7488,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7039,7 +7505,7 @@
     ]
   },
   {
-    "@id": "_:df_7_20",
+    "@id": "_:df_2_20",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7079,6 +7545,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7095,7 +7562,7 @@
     ]
   },
   {
-    "@id": "_:df_7_21",
+    "@id": "_:df_2_21",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7135,6 +7602,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7151,7 +7619,7 @@
     ]
   },
   {
-    "@id": "_:df_7_22",
+    "@id": "_:df_2_22",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7191,6 +7659,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7207,7 +7676,7 @@
     ]
   },
   {
-    "@id": "_:df_7_23",
+    "@id": "_:df_2_23",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7247,6 +7716,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7263,7 +7733,7 @@
     ]
   },
   {
-    "@id": "_:df_7_24",
+    "@id": "_:df_2_24",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7297,11 +7767,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7318,7 +7790,7 @@
     ]
   },
   {
-    "@id": "_:df_7_25",
+    "@id": "_:df_2_25",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7342,7 +7814,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Directepositie.Wkt"
+        "@id": "https://belgif.github.io/thematic/models/imkl#DirectePositie.Wkt"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -7353,6 +7825,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7374,7 +7847,7 @@
     ]
   },
   {
-    "@id": "_:df_7_26",
+    "@id": "_:df_2_26",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7398,7 +7871,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Directepositie.Gml"
+        "@id": "https://belgif.github.io/thematic/models/imkl#DirectePositie.Gml"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -7409,6 +7882,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7430,7 +7904,7 @@
     ]
   },
   {
-    "@id": "_:df_7_27",
+    "@id": "_:df_2_27",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7464,6 +7938,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7480,7 +7955,7 @@
     ]
   },
   {
-    "@id": "_:df_7_28",
+    "@id": "_:df_2_28",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7520,11 +7995,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7541,7 +8018,7 @@
     ]
   },
   {
-    "@id": "_:df_7_29",
+    "@id": "_:df_2_29",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7575,6 +8052,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7591,7 +8069,7 @@
     ]
   },
   {
-    "@id": "_:df_7_3",
+    "@id": "_:df_2_3",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7625,6 +8103,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7641,7 +8120,7 @@
     ]
   },
   {
-    "@id": "_:df_7_30",
+    "@id": "_:df_2_30",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7692,7 +8171,7 @@
     ]
   },
   {
-    "@id": "_:df_7_31",
+    "@id": "_:df_2_31",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7726,6 +8205,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7742,7 +8222,7 @@
     ]
   },
   {
-    "@id": "_:df_7_32",
+    "@id": "_:df_2_32",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7782,6 +8262,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7798,7 +8279,7 @@
     ]
   },
   {
-    "@id": "_:df_7_33",
+    "@id": "_:df_2_33",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7838,6 +8319,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7854,7 +8336,7 @@
     ]
   },
   {
-    "@id": "_:df_7_34",
+    "@id": "_:df_2_34",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7888,6 +8370,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7904,7 +8387,7 @@
     ]
   },
   {
-    "@id": "_:df_7_35",
+    "@id": "_:df_2_35",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7938,6 +8421,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -7954,7 +8438,7 @@
     ]
   },
   {
-    "@id": "_:df_7_36",
+    "@id": "_:df_2_36",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -7988,6 +8472,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8004,7 +8489,7 @@
     ]
   },
   {
-    "@id": "_:df_7_37",
+    "@id": "_:df_2_37",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8044,6 +8529,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8060,7 +8546,7 @@
     ]
   },
   {
-    "@id": "_:df_7_38",
+    "@id": "_:df_2_38",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8105,7 +8591,7 @@
     ]
   },
   {
-    "@id": "_:df_7_39",
+    "@id": "_:df_2_39",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8126,11 +8612,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Kabel.Kabeldiameter"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8139,6 +8620,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8148,6 +8630,11 @@
         "@value": "kabeldiameter"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_41"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#cableDiameter"
@@ -8155,7 +8642,7 @@
     ]
   },
   {
-    "@id": "_:df_7_4",
+    "@id": "_:df_2_4",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8189,6 +8676,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8205,7 +8693,7 @@
     ]
   },
   {
-    "@id": "_:df_7_40",
+    "@id": "_:df_2_40",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8239,6 +8727,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8255,7 +8744,7 @@
     ]
   },
   {
-    "@id": "_:df_7_41",
+    "@id": "_:df_2_41",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8289,11 +8778,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8310,7 +8801,7 @@
     ]
   },
   {
-    "@id": "_:df_7_42",
+    "@id": "_:df_2_42",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8344,6 +8835,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8360,7 +8852,7 @@
     ]
   },
   {
-    "@id": "_:df_7_43",
+    "@id": "_:df_2_43",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8394,6 +8886,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8410,7 +8903,7 @@
     ]
   },
   {
-    "@id": "_:df_7_44",
+    "@id": "_:df_2_44",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8444,6 +8937,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8460,7 +8954,7 @@
     ]
   },
   {
-    "@id": "_:df_7_45",
+    "@id": "_:df_2_45",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8484,12 +8978,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Verticalepositiedetail"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.VerticalePositiedetail"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -8504,6 +8993,11 @@
         "@value": "verticalePositiedetail"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_51"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail"
@@ -8511,7 +9005,7 @@
     ]
   },
   {
-    "@id": "_:df_7_46",
+    "@id": "_:df_2_46",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8529,7 +9023,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Innetwerk"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.InNetwerk"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -8545,6 +9039,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8561,7 +9056,7 @@
     ]
   },
   {
-    "@id": "_:df_7_47",
+    "@id": "_:df_2_47",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8595,6 +9090,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8611,7 +9107,7 @@
     ]
   },
   {
-    "@id": "_:df_7_48",
+    "@id": "_:df_2_48",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8635,12 +9131,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Standaardverticalepositiedetail"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.StandaardVerticalePositiedetail"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -8655,6 +9146,11 @@
         "@value": "standaardVerticalePositiedetail"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_59"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail"
@@ -8662,7 +9158,7 @@
     ]
   },
   {
-    "@id": "_:df_7_49",
+    "@id": "_:df_2_49",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8680,7 +9176,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Beschermdgebied"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.BeschermdGebied"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -8707,7 +9203,7 @@
     ]
   },
   {
-    "@id": "_:df_7_5",
+    "@id": "_:df_2_5",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8731,7 +9227,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Geometrie.AlsWkt"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Geometrie.AlsWKT"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -8742,6 +9238,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8763,7 +9260,7 @@
     ]
   },
   {
-    "@id": "_:df_7_50",
+    "@id": "_:df_2_50",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8787,7 +9284,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.Verticalepositie"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.VerticalePositie"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -8803,11 +9300,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8824,7 +9323,7 @@
     ]
   },
   {
-    "@id": "_:df_7_51",
+    "@id": "_:df_2_51",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8864,6 +9363,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8880,7 +9380,7 @@
     ]
   },
   {
-    "@id": "_:df_7_52",
+    "@id": "_:df_2_52",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8920,11 +9420,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8941,7 +9443,7 @@
     ]
   },
   {
-    "@id": "_:df_7_53",
+    "@id": "_:df_2_53",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -8962,11 +9464,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Electriciteitskabel.NominaleSpanning"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8975,11 +9472,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -8989,6 +9488,11 @@
         "@value": "nominale Spanning"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_68"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#nominalVoltage"
@@ -8996,7 +9500,7 @@
     ]
   },
   {
-    "@id": "_:df_7_54",
+    "@id": "_:df_2_54",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9017,11 +9521,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Electriciteitskabel.Werkspanning"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9030,11 +9529,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9044,6 +9545,11 @@
         "@value": "werkspanning"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_72"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#operatingVoltage"
@@ -9051,7 +9557,7 @@
     ]
   },
   {
-    "@id": "_:df_7_55",
+    "@id": "_:df_2_55",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9085,11 +9591,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9106,7 +9614,7 @@
     ]
   },
   {
-    "@id": "_:df_7_56",
+    "@id": "_:df_2_56",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9140,11 +9648,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9161,7 +9671,7 @@
     ]
   },
   {
-    "@id": "_:df_7_57",
+    "@id": "_:df_2_57",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9201,6 +9711,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9217,7 +9728,7 @@
     ]
   },
   {
-    "@id": "_:df_7_58",
+    "@id": "_:df_2_58",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9251,11 +9762,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9272,7 +9785,7 @@
     ]
   },
   {
-    "@id": "_:df_7_59",
+    "@id": "_:df_2_59",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9290,12 +9803,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Thermischepijp.Temperatuur"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+        "@id": "https://belgif.github.io/thematic/models/imkl#ThermischePijp.Temperatuur"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -9306,6 +9814,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9315,6 +9824,11 @@
         "@value": "temperatuur"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_80"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#temperature"
@@ -9322,7 +9836,7 @@
     ]
   },
   {
-    "@id": "_:df_7_6",
+    "@id": "_:df_2_6",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9346,7 +9860,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Geometrie.AlsGml"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Geometrie.AlsGML"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -9357,6 +9871,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9378,7 +9893,7 @@
     ]
   },
   {
-    "@id": "_:df_7_60",
+    "@id": "_:df_2_60",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9405,11 +9920,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Pijp.Pijpdiameter"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9418,11 +9928,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9432,6 +9944,11 @@
         "@value": "pijpdiameter"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_84"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#pipeDiameter"
@@ -9439,7 +9956,7 @@
     ]
   },
   {
-    "@id": "_:df_7_61",
+    "@id": "_:df_2_61",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9466,11 +9983,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Pijp.Druk"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9479,6 +9991,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9488,6 +10001,11 @@
         "@value": "druk"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_88"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#pressure"
@@ -9495,7 +10013,7 @@
     ]
   },
   {
-    "@id": "_:df_7_62",
+    "@id": "_:df_2_62",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9529,11 +10047,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9550,7 +10070,7 @@
     ]
   },
   {
-    "@id": "_:df_7_63",
+    "@id": "_:df_2_63",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9584,11 +10104,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9605,7 +10127,7 @@
     ]
   },
   {
-    "@id": "_:df_7_64",
+    "@id": "_:df_2_64",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9639,11 +10161,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9660,7 +10184,7 @@
     ]
   },
   {
-    "@id": "_:df_7_65",
+    "@id": "_:df_2_65",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9694,6 +10218,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9710,7 +10235,7 @@
     ]
   },
   {
-    "@id": "_:df_7_66",
+    "@id": "_:df_2_66",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9750,6 +10275,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9766,7 +10292,7 @@
     ]
   },
   {
-    "@id": "_:df_7_67",
+    "@id": "_:df_2_67",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9800,6 +10326,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9816,7 +10343,7 @@
     ]
   },
   {
-    "@id": "_:df_7_68",
+    "@id": "_:df_2_68",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9856,6 +10383,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9872,7 +10400,7 @@
     ]
   },
   {
-    "@id": "_:df_7_69",
+    "@id": "_:df_2_69",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9890,7 +10418,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinksequentie.Innetwerk"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinksequentie.InNetwerk"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -9906,6 +10434,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9922,7 +10451,7 @@
     ]
   },
   {
-    "@id": "_:df_7_7",
+    "@id": "_:df_2_7",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9957,11 +10486,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -9978,7 +10509,7 @@
     ]
   },
   {
-    "@id": "_:df_7_70",
+    "@id": "_:df_2_70",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -9996,7 +10527,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglink.Innetwerk"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglink.InNetwerk"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -10012,6 +10543,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10028,7 +10560,7 @@
     ]
   },
   {
-    "@id": "_:df_7_71",
+    "@id": "_:df_2_71",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10046,7 +10578,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.Innetwerk"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.InNetwerk"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -10062,6 +10594,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10078,7 +10611,7 @@
     ]
   },
   {
-    "@id": "_:df_7_72",
+    "@id": "_:df_2_72",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10096,12 +10629,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.Oriëntatie"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.OriëNtatie"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -10112,6 +10640,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10121,6 +10650,11 @@
         "@value": "oriëntatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_102"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation"
@@ -10128,7 +10662,7 @@
     ]
   },
   {
-    "@id": "_:df_7_73",
+    "@id": "_:df_2_73",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10162,6 +10696,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10178,7 +10713,7 @@
     ]
   },
   {
-    "@id": "_:df_7_74",
+    "@id": "_:df_2_74",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10218,6 +10753,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10234,7 +10770,7 @@
     ]
   },
   {
-    "@id": "_:df_7_75",
+    "@id": "_:df_2_75",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10252,12 +10788,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoopcontainer.Oriëntatie"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoopcontainer.OriëNtatie"
       }
     ],
     "http://www.w3.org/ns/shacl#description": [
@@ -10268,6 +10799,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10277,6 +10809,11 @@
         "@value": "oriëntatie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_108"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation"
@@ -10284,7 +10821,7 @@
     ]
   },
   {
-    "@id": "_:df_7_76",
+    "@id": "_:df_2_76",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10318,11 +10855,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10339,7 +10878,7 @@
     ]
   },
   {
-    "@id": "_:df_7_77",
+    "@id": "_:df_2_77",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10360,11 +10899,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Maat.Eenheid"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -10373,11 +10907,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10387,6 +10923,11 @@
         "@value": "eenheid"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_113"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom"
@@ -10394,7 +10935,7 @@
     ]
   },
   {
-    "@id": "_:df_7_78",
+    "@id": "_:df_2_78",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10428,11 +10969,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10449,7 +10992,7 @@
     ]
   },
   {
-    "@id": "_:df_7_79",
+    "@id": "_:df_2_79",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10483,6 +11026,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10499,7 +11043,7 @@
     ]
   },
   {
-    "@id": "_:df_7_8",
+    "@id": "_:df_2_8",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10523,7 +11067,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Identificator.ToegekendDoor(string)"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Identificator.ToegekendDoor(String)"
       }
     ],
     "http://www.w3.org/ns/shacl#datatype": [
@@ -10539,6 +11083,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10555,7 +11100,7 @@
     ]
   },
   {
-    "@id": "_:df_7_80",
+    "@id": "_:df_2_80",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10573,7 +11118,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Bevoegdepartij"
+        "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.BevoegdePartij"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -10589,6 +11134,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10605,7 +11151,7 @@
     ]
   },
   {
-    "@id": "_:df_7_81",
+    "@id": "_:df_2_81",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10645,11 +11191,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10666,7 +11214,7 @@
     ]
   },
   {
-    "@id": "_:df_7_82",
+    "@id": "_:df_2_82",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10700,11 +11248,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10721,7 +11271,7 @@
     ]
   },
   {
-    "@id": "_:df_7_83",
+    "@id": "_:df_2_83",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10742,11 +11292,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Activiteitencomplex.Geometrie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/ns/locn#Geometry"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -10755,11 +11300,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10769,6 +11316,11 @@
         "@value": "geometrie"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_123"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "http://www.w3.org/ns/locn#geometry"
@@ -10776,7 +11328,7 @@
     ]
   },
   {
-    "@id": "_:df_7_84",
+    "@id": "_:df_2_84",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10810,6 +11362,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10826,7 +11379,7 @@
     ]
   },
   {
-    "@id": "_:df_7_85",
+    "@id": "_:df_2_85",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10866,6 +11419,7 @@
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -10882,7 +11436,7 @@
     ]
   },
   {
-    "@id": "_:df_7_86",
+    "@id": "_:df_2_86",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10927,7 +11481,7 @@
     ]
   },
   {
-    "@id": "_:df_7_87",
+    "@id": "_:df_2_87",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -10972,7 +11526,7 @@
     ]
   },
   {
-    "@id": "_:df_7_88",
+    "@id": "_:df_2_88",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11012,6 +11566,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11028,7 +11583,7 @@
     ]
   },
   {
-    "@id": "_:df_7_89",
+    "@id": "_:df_2_89",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11062,6 +11617,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11078,7 +11634,7 @@
     ]
   },
   {
-    "@id": "_:df_7_9",
+    "@id": "_:df_2_9",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11118,6 +11674,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11134,7 +11691,7 @@
     ]
   },
   {
-    "@id": "_:df_7_90",
+    "@id": "_:df_2_90",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11152,7 +11709,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#Thermischepijp.Thermischproducttype"
+        "@id": "https://belgif.github.io/thematic/models/imkl#ThermischePijp.ThermischProducttype"
       }
     ],
     "http://www.w3.org/ns/shacl#class": [
@@ -11168,11 +11725,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11189,7 +11748,7 @@
     ]
   },
   {
-    "@id": "_:df_7_91",
+    "@id": "_:df_2_91",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11210,11 +11769,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#GerichteLink.Link"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://data.vlaanderen.be/ns/netwerk#Link"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11223,11 +11777,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11237,6 +11793,11 @@
         "@value": "link"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_135"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/network#DirectedLink.link"
@@ -11244,7 +11805,7 @@
     ]
   },
   {
-    "@id": "_:df_7_92",
+    "@id": "_:df_2_92",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11278,11 +11839,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11299,7 +11862,7 @@
     ]
   },
   {
-    "@id": "_:df_7_93",
+    "@id": "_:df_2_93",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11320,11 +11883,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglink.Eindknoop"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11333,6 +11891,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11342,6 +11901,11 @@
         "@value": "eindknoop"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_142"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/network#endNode"
@@ -11349,7 +11913,7 @@
     ]
   },
   {
-    "@id": "_:df_7_94",
+    "@id": "_:df_2_94",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11370,11 +11934,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglink.Startknoop"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11383,6 +11942,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11392,6 +11952,11 @@
         "@value": "startknoop"
       }
     ],
+    "http://www.w3.org/ns/shacl#or": [
+      {
+        "@id": "_:df_4_150"
+      }
+    ],
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/network#beginNode"
@@ -11399,7 +11964,7 @@
     ]
   },
   {
-    "@id": "_:df_7_95",
+    "@id": "_:df_2_95",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11433,6 +11998,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11449,7 +12015,7 @@
     ]
   },
   {
-    "@id": "_:df_7_96",
+    "@id": "_:df_2_96",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11483,11 +12049,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11504,7 +12072,7 @@
     ]
   },
   {
-    "@id": "_:df_7_97",
+    "@id": "_:df_2_97",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11538,11 +12106,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11559,7 +12129,7 @@
     ]
   },
   {
-    "@id": "_:df_7_98",
+    "@id": "_:df_2_98",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11599,6 +12169,7 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11615,7 +12186,7 @@
     ]
   },
   {
-    "@id": "_:df_7_99",
+    "@id": "_:df_2_99",
     "@type": [
       "http://www.w3.org/ns/shacl#PropertyShape"
     ],
@@ -11655,11 +12226,13 @@
     ],
     "http://www.w3.org/ns/shacl#maxCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
     "http://www.w3.org/ns/shacl#minCount": [
       {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
         "@value": "1"
       }
     ],
@@ -11672,6 +12245,2904 @@
     "http://www.w3.org/ns/shacl#path": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#associatedWith"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_100",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_101",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_102",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_100"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_103"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_103",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_101"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_106",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_107",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_108",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_106"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_109"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_109",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_107"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_111",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_112",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_113",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_111"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_114"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_114",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_112"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_120",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_121",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_122",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_123",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_120"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_124"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_124",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_121"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_125"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_125",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_122"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_133",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://data.vlaanderen.be/ns/netwerk#Link"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_134",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_135",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_133"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_136"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_136",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_134"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_138",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_139",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_140",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_141",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_142",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_138"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_143"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_143",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_139"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_144"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_144",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_140"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_145"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_145",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_141"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_146",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://data.vlaanderen.be/ns/netwerk#Knoop"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_147",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_148",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_149",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_150",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_146"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_151"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_151",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_147"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_152"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_152",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_148"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_153"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_153",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_149"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_160",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Document"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_161",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Plan"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_162",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_160"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_163"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_163",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_161"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_164",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_165",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_166",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_167",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_164"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_168"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_168",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_165"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_169"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_169",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_166"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_170",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_171",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_172",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_170"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_173"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_173",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_171"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_174",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_175",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_176",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_177",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_174"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_178"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_178",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_175"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_179"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_179",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_176"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_180",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Document"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_181",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Plan"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_182",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_180"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_183"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_183",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_181"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_184",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Document"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_185",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Plan"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_186",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_184"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_187"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_187",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_185"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_191",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_192",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_193",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_194",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_191"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_195"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_195",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_192"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_196"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_196",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_193"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_201",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_202",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_203",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_204",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_201"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_205"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_205",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_202"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_206"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_206",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_203"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_214",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_215",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_216",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_214"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_217"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_217",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_215"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_218",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_219",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_220",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_218"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_221"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_221",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_219"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_222",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_223",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_224",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_222"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_225"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_225",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_223"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_226",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_227",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_228",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_229",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_226"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_230"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_230",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_227"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_231"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_231",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_228"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_238",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.w3.org/ns/locn#Geometry"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_239",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/geosparql#Curve"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_240",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://www.opengis.net/ont/sf#Point"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_241",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_238"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_242"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_242",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_239"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_243"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_243",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_240"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_245",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://data.vlaanderen.be/ns/netwerk#Link"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_246",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_247",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_245"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_248"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_248",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_246"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_249",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://data.vlaanderen.be/ns/netwerk#Link"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_250",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_251",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_249"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_252"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_252",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_250"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_254",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_255",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_256",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_257",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_258",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_259",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_254"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_260"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_260",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_255"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_261"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_261",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_256"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_262"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_262",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_257"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_263"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_263",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_258"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_264",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_265",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_266",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_267",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_264"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_268"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_268",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_265"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_269"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_269",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_266"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_270",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_271",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_272",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_273",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_270"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_274"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_274",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_271"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_275"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_275",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_272"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_276",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_277",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_278",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_279",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_280",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_281",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_276"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_282"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_282",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_277"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_283"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_283",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_278"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_284"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_284",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_279"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_285"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_285",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_280"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_287",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_288",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_289",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_290",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_287"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_291"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_291",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_288"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_292"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_292",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_289"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_294",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_295",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_296",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_297",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_298",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_299",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_300",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_301",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_302",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_303",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_304",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_305",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_306",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_307",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Duct"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_308",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_309",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_310",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_311",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Tower"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_312",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pole"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_313",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Manhole"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_314",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cabinet"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_315",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_294"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_316"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_316",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_295"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_317"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_317",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_296"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_318"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_318",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_297"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_319"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_319",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_298"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_320"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_320",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_299"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_321"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_321",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_300"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_322"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_322",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_301"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_323"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_323",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_302"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_324"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_324",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_303"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_325"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_325",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_304"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_326"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_326",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_305"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_327"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_327",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_306"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_328"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_328",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_307"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_329"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_329",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_308"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_330"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_330",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_309"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_331"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_331",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_310"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_332"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_332",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_311"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_333"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_333",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_312"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_334"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_334",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_313"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_335"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_335",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_314"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_338",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Annotation"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_339",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Dimension"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_340",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_338"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_341"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_341",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_339"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_342",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Annotation"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_343",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Dimension"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_344",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_342"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_345"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_345",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_343"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_346",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_347",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_348",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_349",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Connection"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_350",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_351",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_352",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_353",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_354",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_355",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_356",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_357",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_358",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_359",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Duct"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_360",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_361",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_362",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_363",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Tower"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_364",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Pole"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_365",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Manhole"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_366",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Cabinet"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_367",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_346"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_368"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_368",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_347"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_369"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_369",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_348"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_370"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_370",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_349"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_371"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_371",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_350"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_372"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_372",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_351"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_373"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_373",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_352"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_374"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_374",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_353"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_375"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_375",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_354"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_376"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_376",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_355"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_377"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_377",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_356"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_378"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_378",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_357"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_379"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_379",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_358"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_380"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_380",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_359"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_381"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_381",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_360"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_382"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_382",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_361"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_383"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_383",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_362"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_384"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_384",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_363"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_385"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_385",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_364"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_386"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_386",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_365"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_387"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_387",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_366"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_39",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_40",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_41",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_39"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_42"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_42",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_40"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_48",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_49",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Height"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_50",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Depth"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_51",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_48"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_52"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_52",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_49"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_53"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_53",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_50"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_56",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_57",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Height"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_58",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "https://vocab.belgif.be/ns/utility-services#Depth"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_59",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_56"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_60"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_60",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_57"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_61"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_61",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_58"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_66",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_67",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_68",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_66"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_69"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_69",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_67"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_70",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_71",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_72",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_70"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_73"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_73",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_71"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_78",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_79",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_80",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_78"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_81"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_81",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_79"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_82",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_83",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_84",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_82"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_85"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_85",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_83"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_86",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_87",
+    "http://www.w3.org/ns/shacl#class": [
+      {
+        "@id": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_88",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_86"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:df_4_89"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_4_89",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:df_4_87"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
       }
     ]
   }

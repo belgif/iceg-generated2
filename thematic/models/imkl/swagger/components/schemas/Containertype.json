@@ -1,0 +1,19 @@
+{
+  "title": "Containertype",
+  "type": "object",
+  "description": "Aard van de container.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Containertype)",
+      "pattern": "^Containertype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "title": "Maataanduiding",
+  "type": "object",
+  "description": "Soort Annotatie dat de maat van een Object aangeeft.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Maataanduiding)",
+      "pattern": "^Maataanduiding$"
+    },
+    "tekst": {
+      "type": "array",
+      "description": "Lijst van LangString items.",
+      "items": {
+        "type": "object",
+        "description": "Tekst van de Annotatie. Bvb de maat in het geval van een Maataanduiding.",
+        "properties": {
+          "@value": {
+            "type": "string"
+          },
+          "@language": {
+            "type": "string",
+            "pattern": "^nl$"
+          }
+        },
+        "required": [
+          "@value",
+          "@language"
+        ]
+      },
+      "minItems": 1
+    },
+    "geassocieerdMet": {
+      "$ref": "#/components/schemas/Object"
+    },
+    "annotatietype": {
+      "$ref": "#/components/schemas/Annotatietype"
+    },
+    "locatie": {
+      "oneOf": [
+        {
+          "$ref": "#/components/schemas/Geometrie"
+        },
+        {
+          "$ref": "#/components/schemas/Curve"
+        },
+        {
+          "$ref": "#/components/schemas/Punt"
+        }
+      ],
+      "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+          "Geometrie": "#/components/schemas/Geometrie",
+          "Curve": "#/components/schemas/Curve",
+          "Punt": "#/components/schemas/Punt"
+        }
+      }
+    },
+    "rotatiehoek": {
+      "oneOf": [
+        {
+          "$ref": "#/components/schemas/Maat"
+        },
+        {
+          "$ref": "#/components/schemas/Lengte"
+        }
+      ],
+      "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+          "Maat": "#/components/schemas/Maat",
+          "Lengte": "#/components/schemas/Lengte"
+        }
+      }
+    },
+    "geheel": {
+      "type": "array",
+      "description": "Lijst van Annotatie items.",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/Annotatie"
+          },
+          {
+            "$ref": "#/components/schemas/Maataanduiding"
+          }
+        ],
+        "discriminator": {
+          "propertyName": "@type",
+          "mapping": {
+            "Annotatie": "#/components/schemas/Annotatie",
+            "Maataanduiding": "#/components/schemas/Maataanduiding"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "deel": {
+      "type": "array",
+      "description": "Lijst van Annotatie items.",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/Annotatie"
+          },
+          {
+            "$ref": "#/components/schemas/Maataanduiding"
+          }
+        ],
+        "discriminator": {
+          "propertyName": "@type",
+          "mapping": {
+            "Annotatie": "#/components/schemas/Annotatie",
+            "Maataanduiding": "#/components/schemas/Maataanduiding"
+          }
+        }
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "@type",
+    "geassocieerdMet",
+    "annotatietype",
+    "locatie"
+  ]
+}

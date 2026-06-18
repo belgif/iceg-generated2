@@ -1,3 +1,22 @@
 {
-  "@context": {}
+  "@context": {
+    "DateTime": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "EnterYourTranslationHere": "http://www.w3.org/2004/02/skos/core#Concept",
+    "EnterYourTranslationHere.enterYourTranslationHere": {
+      "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "@type": "@id"
+    },
+    "LangString": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "String": "http://www.w3.org/2001/XMLSchema#string",
+    "Watertype": "http://www.w3.org/2004/02/skos/core#Concept",
+    "enterYourTranslationHere": {
+      "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "@type": "@id"
+    },
+    "type": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/hydrant#type",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
 }

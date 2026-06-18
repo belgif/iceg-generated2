@@ -1,0 +1,236 @@
+{
+  "contributors": [
+    {
+      "lastName": "Baele",
+      "affiliation": {
+        "affiliationName": "ZS 4 Vesdre Hoëgne et Plateau"
+      }
+    },
+    {
+      "lastName": "Cogels",
+      "affiliation": {
+        "affiliationName": "Zone de secours Hainout"
+      }
+    },
+    {
+      "lastName": "De Backer",
+      "affiliation": {
+        "affiliationName": "FOD IBZ"
+      }
+    },
+    {
+      "lastName": "De Latthauwer",
+      "affiliation": {
+        "affiliationName": "De Watergroep"
+      }
+    },
+    {
+      "lastName": "De Moor",
+      "affiliation": {
+        "affiliationName": "Waterlink"
+      }
+    },
+    {
+      "lastName": "De Saedeleer",
+      "affiliation": {
+        "affiliationName": "FOD IBZ"
+      }
+    },
+    {
+      "lastName": "Declercq",
+      "affiliation": {
+        "affiliationName": "HVZ Fluvia"
+      }
+    },
+    {
+      "lastName": "Derveaux",
+      "affiliation": {
+        "affiliationName": "FOD IBZ"
+      }
+    },
+    {
+      "lastName": "Engelen",
+      "affiliation": {
+        "affiliationName": "HVZ Zuid-West Limburg"
+      }
+    },
+    {
+      "lastName": "Fanuel",
+      "affiliation": {
+        "affiliationName": "ZS 3 HEMECO (Huy-Hamoir)"
+      }
+    },
+    {
+      "lastName": "Ghoula",
+      "affiliation": {
+        "affiliationName": "AWV"
+      }
+    },
+    {
+      "lastName": "Gillaux",
+      "affiliation": {
+        "affiliationName": "IDEN"
+      }
+    },
+    {
+      "lastName": "Gilquin",
+      "affiliation": {
+        "affiliationName": "SWDE (Société wallonne des distributions d'eau)"
+      }
+    },
+    {
+      "lastName": "Goethals",
+      "affiliation": {
+        "affiliationName": "Brandweer Zone Centrum Gent"
+      }
+    },
+    {
+      "lastName": "Guillaume",
+      "affiliation": {
+        "affiliationName": "INBW (Intercommunale Brabant-Wallon)"
+      }
+    },
+    {
+      "lastName": "Houcque",
+      "affiliation": {
+        "affiliationName": "HVZ Waasland"
+      }
+    },
+    {
+      "lastName": "Laarmans",
+      "affiliation": {
+        "affiliationName": "FOD IBZ"
+      }
+    },
+    {
+      "lastName": "Loos",
+      "affiliation": {
+        "affiliationName": "HVZ Taxandria"
+      }
+    },
+    {
+      "lastName": "Maes",
+      "affiliation": {
+        "affiliationName": "FDG Brussel"
+      }
+    },
+    {
+      "lastName": "Mijnendonckx",
+      "affiliation": {
+        "affiliationName": "Pidpa"
+      }
+    },
+    {
+      "lastName": "Nahon",
+      "affiliation": {
+        "affiliationName": "FDG Liége"
+      }
+    },
+    {
+      "lastName": "Pierson",
+      "affiliation": {
+        "affiliationName": "SWDE (Société wallonne des distributions d'eau)"
+      }
+    },
+    {
+      "lastName": "Poppe",
+      "affiliation": {
+        "affiliationName": "Farys"
+      }
+    },
+    {
+      "lastName": "Reynaert",
+      "affiliation": {
+        "affiliationName": "PIDPA"
+      }
+    },
+    {
+      "lastName": "Soenens",
+      "affiliation": {
+        "affiliationName": "HVZ Zone 1"
+      }
+    },
+    {
+      "lastName": "Stichelbaut",
+      "affiliation": {
+        "affiliationName": "HVZ Fluvia"
+      }
+    },
+    {
+      "lastName": "Theys",
+      "affiliation": {
+        "affiliationName": "ZS 4 Vesdre Hoëgne et Plateau"
+      }
+    },
+    {
+      "lastName": "Van den Bergh",
+      "affiliation": {
+        "affiliationName": "FOD IBZ"
+      }
+    },
+    {
+      "lastName": "Van Der Stuyft",
+      "affiliation": {
+        "affiliationName": "AWV"
+      }
+    },
+    {
+      "lastName": "Vanassche",
+      "affiliation": {
+        "affiliationName": "Brandweerzone Centrum Gent"
+      }
+    },
+    {
+      "lastName": "Verhulst",
+      "affiliation": {
+        "affiliationName": "HVZ Antwerpen"
+      }
+    },
+    {
+      "lastName": "Vermetten",
+      "affiliation": {
+        "affiliationName": "Pidpa"
+      }
+    },
+    {
+      "lastName": "Wauthier",
+      "affiliation": {
+        "affiliationName": "INBW (Intercommunale Brabant-Wallon)"
+      }
+    }
+  ],
+  "authors": [
+    {
+      "lastName": "Kruk",
+      "affiliation": {
+        "affiliationName": "NGI"
+      }
+    }
+  ],
+  "editors": [
+    {
+      "lastName": "Bahim",
+      "affiliation": {
+        "affiliationName": "PwC"
+      }
+    },
+    {
+      "lastName": "Barthelemy",
+      "affiliation": {
+        "affiliationName": "PwC"
+      }
+    },
+    {
+      "lastName": "De Cock",
+      "affiliation": {
+        "affiliationName": "PwC"
+      }
+    },
+    {
+      "lastName": "Feremans",
+      "affiliation": {
+        "affiliationName": "PwC"
+      }
+    }
+  ]
+}

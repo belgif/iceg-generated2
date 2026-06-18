@@ -1,0 +1,19 @@
+{
+  "title": "Nutsvoorzieningleveringstype",
+  "type": "object",
+  "description": "Classificatie van typen nutsvoorzieningsleveringen.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Nutsvoorzieningleveringstype)",
+      "pattern": "^Nutsvoorzieningleveringstype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Documentmediumtype",
+  "type": "object",
+  "description": "Aard van het documentmedium",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Documentmediumtype)",
+      "pattern": "^Documentmediumtype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -2,135 +2,107 @@
 
 #||# -------------------------------------  
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_en.json
+Template render error: (/tmp/workspace/report4/thematic/models/hydrant/templates/hydrant.j2)
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+  Template render error: (/tmp/workspace/report4/thematic/models/hydrant/templates/hydrant.j2)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+  Error: template not found: iceg_hydrants_ap.j2
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
+    at Object._prettifyError (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:32:11)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:464:19
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/thematic/models/hydrant/stakeholders.json
+    at Template.root [as rootRenderFunc] (eval at _compile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:39:3)
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at Template.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:454:10)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:301:27
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:95:18)
+    at createTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:254:9)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at handle (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:265:11)
 
-Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_en.json
+    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:276:9
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:258:7)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
-
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
-
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at Object.asyncIter (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:263:3)
 
 #||# oslo-generator-html for language nl  
 
 #||# -------------------------------------  
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_nl.json
+Error: template not found: /tmp/workspace/report4/thematic/models/hydrant/templates/hydrant_nl.j2
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at createTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:234:15)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:260:7)
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
+    at handle (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:267:11)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:276:9
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/thematic/models/hydrant/stakeholders.json
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:258:7)
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at Object.asyncIter (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:263:3)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at Environment.getTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:259:9)
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:95:18)
+    at Environment.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:295:10)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at Object.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/index.js:72:14)
 
-Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_nl.json
-
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
-
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
-
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
-
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:118:25)
 
 #||# oslo-generator-html for language fr  
 
 #||# -------------------------------------  
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_fr.json
+Error: template not found: /tmp/workspace/report4/thematic/models/hydrant/templates/hydrant_fr.j2
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at createTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:234:15)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:260:7)
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
+    at handle (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:267:11)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:276:9
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/thematic/models/hydrant/stakeholders.json
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:258:7)
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at Object.asyncIter (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:263:3)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at Environment.getTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:259:9)
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:95:18)
+    at Environment.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:295:10)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at Object.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/index.js:72:14)
 
-Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_fr.json
-
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
-
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
-
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
-
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:118:25)
 
 #||# oslo-generator-html for language de  
 
 #||# -------------------------------------  
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_de.json
+Error: template not found: /tmp/workspace/report4/thematic/models/hydrant/templates/hydrant_de.j2
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at createTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:234:15)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:260:7)
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
+    at handle (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:267:11)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:276:9
 
-Error reading or parsing config file: Error: Path does not refer to a valid file: /tmp/workspace/report4/thematic/models/hydrant/stakeholders.json
+    at next (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:258:7)
 
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
+    at Object.asyncIter (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/lib.js:263:3)
 
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
+    at Environment.getTemplate (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:259:9)
 
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:95:18)
+    at Environment.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/src/environment.js:295:10)
 
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at Object.render (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/nunjucks/index.js:72:14)
 
-Error: Path does not refer to a valid file: /tmp/workspace/report4/html/thematic/models/hydrant/html/int_hydrant_de.json
-
-    at fetchFileOrUrl (/usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/utils/fetchFileOrUrl.js:18:15)
-
-    at HtmlGenerationService.readConfigFile (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:130:60)
-
-    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:94:18)
-
-    at /usr/local/lib/node_modules/@oslo-flanders/html-generator/node_modules/@oslo-flanders/core/lib/interfaces/AppRunner.js:37:33
+    at HtmlGenerationService.run (/usr/local/lib/node_modules/@oslo-flanders/html-generator/lib/HtmlGenerationService.js:118:25)
 

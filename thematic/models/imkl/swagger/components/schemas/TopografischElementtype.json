@@ -1,0 +1,19 @@
+{
+  "title": "TopografischElementtype",
+  "type": "object",
+  "description": "Classificatie van het topografisch element.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse TopografischElementtype)",
+      "pattern": "^TopografischElementtype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

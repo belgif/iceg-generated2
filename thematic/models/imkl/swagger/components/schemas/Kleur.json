@@ -1,0 +1,19 @@
+{
+  "title": "Kleur",
+  "type": "object",
+  "description": "De kleur van het element",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Kleur)",
+      "pattern": "^Kleur$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Measure",
+  "type": "object",
+  "description": "A representation of a measure value. The decimal value is followed by a space and the unit of the measure.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Measure)",
+      "pattern": "^Measure$"
+    },
+    "uom": {
+      "$ref": "#/components/schemas/Concept"
+    },
+    "value": {
+      "type": "object",
+      "description": "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "@value"
+      ]
+    }
+  },
+  "required": [
+    "@type",
+    "uom",
+    "value"
+  ]
+}

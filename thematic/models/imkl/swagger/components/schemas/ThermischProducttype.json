@@ -1,0 +1,19 @@
+{
+  "title": "ThermischProducttype",
+  "type": "object",
+  "description": "Classificatie van het termisch product.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse ThermischProducttype)",
+      "pattern": "^ThermischProducttype$"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

@@ -1,0 +1,3216 @@
+{
+  "baseURI": "http://vocab.belgif.be/ns/hydrant#",
+  "classes": [
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Outlet",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#outletDiameter",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
+          "range": {
+            "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/isPartOf",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/FireHydrant",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#type",
+          "vocabularyLabel": {
+            "de": "type"
+          },
+          "applicationProfileLabel": {
+            "de": "type"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "String"
+            },
+            "applicationProfileLabel": {
+              "de": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#startDate",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "de": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#statusRemark",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#identifier",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://www.w3.org/ns/adms#Identifier",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.flowRate",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://w3.org/ns/locn#address",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Address",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://purl.org/dc/terms/hasPart",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://vocab.belgif.be/ns/hydrant#Outlet",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.hasMaintenance",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.hasUsage",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://vocab.belgif.be/ns/hydrant#Usage",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.hasInspection",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#isSuppliedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/Pipe",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/Pipe",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "range": {
+            "id": "http://www.w3.org/ns/org#Organization",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/org#Organization",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/org#Organization",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/org#classification",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/org#Organization",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Concept"
+            },
+            "applicationProfileLabel": {
+              "de": "Concept"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://data.europa.eu/m8g/contactPoint",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/org#Organization",
+          "range": {
+            "id": "http://data.europa.eu/m8g/ContactPoint",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "https://saref.etsi.org/saref4watr/Pipe",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Pipe.flowRate",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "null"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Pipe.classification",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#flowPressure",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/type",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#waterType",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#status",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#geometry",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Pipe.diameter",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#identifier",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/ns/adms#Identifier",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://w3.org/ns/locn#address",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Address",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#supplies",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/FireHydrant",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/Pipe",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Pipe",
+          "range": {
+            "id": "http://www.w3.org/ns/org#Organization",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Maintenance.requestedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+          "range": {
+            "id": "http://www.w3.org/ns/org#Organization",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/date",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/description",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Maintenance.performedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+          "range": {
+            "id": "http://www.w3.org/ns/org#Organization",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "https://saref.etsi.org/saref4watr/Valve",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#openingKey",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Valve",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Valve.diameter",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "https://saref.etsi.org/saref4watr/Valve",
+          "range": {
+            "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/isPartOf",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "https://saref.etsi.org/saref4watr/Valve",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/FireHydrant",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Usage",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Usage.performedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
+          "range": {
+            "id": "http://www.w3.org/ns/org#Organization",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/description",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://purl.org/dc/terms/date",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Usage.location",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
+          "range": {
+            "id": "http://www.w3.org/ns/locn#Geometry",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/terms/date",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/description",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#Inspection.performedBy",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
+          "range": {
+            "id": "http://www.w3.org/ns/org#Organization",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://data.europa.eu/m8g/ContactPoint",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://data.europa.eu/m8g/email",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://data.europa.eu/m8g/ContactPoint",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://data.europa.eu/m8g/telephone",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://data.europa.eu/m8g/ContactPoint",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    }
+  ],
+  "dataTypes": [
+    {
+      "id": "http://vocab.belgif.be/ns/building#GeographicalName",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/building#sourceOfName",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "LangString"
+            },
+            "applicationProfileLabel": {
+              "de": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/building#spelling",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "range": {
+            "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "LangString"
+            },
+            "applicationProfileLabel": {
+              "de": "LangString"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/building#nameStatus",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/building#nativeness",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/building#uom",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://inspire.ec.europa.eu/ont/base#Measure",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Concept"
+            },
+            "applicationProfileLabel": {
+              "de": "Concept"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://qudt.org/schema/qudt/value",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://inspire.ec.europa.eu/ont/base#Measure",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/locn#Geometry",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "https://www.w3.org/ns/locn#coordinates",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "String"
+            },
+            "applicationProfileLabel": {
+              "de": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://www.w3.org/ns/locn#crs",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "URI"
+            },
+            "applicationProfileLabel": {
+              "de": "URI"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://www.w3.org/ns/locn#geometryType",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Code"
+            },
+            "applicationProfileLabel": {
+              "de": "Code"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://www.w3.org/ns/locn#gml",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://www.w3.org/ns/locn#latitude",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "String"
+            },
+            "applicationProfileLabel": {
+              "de": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://www.w3.org/ns/locn#longitude",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "String"
+            },
+            "applicationProfileLabel": {
+              "de": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://www.w3.org/ns/locn#wkt",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileUsageNote": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/adms#Identifier",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://purl.org/dc/terms/issued",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/creator",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "URI"
+            },
+            "applicationProfileLabel": {
+              "de": "URI"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/conformsTo",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "URI"
+            },
+            "applicationProfileLabel": {
+              "de": "URI"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/2004/02/skos/core#notation",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "Enter your translation here"
+            },
+            "applicationProfileLabel": {
+              "de": "Enter your translation here"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "*"
+        }
+      ]
+    },
+    {
+      "id": "http://www.w3.org/ns/locn#Address",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "String"
+            },
+            "applicationProfileLabel": {
+              "de": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#thoroughfare",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://vocab.belgif.be/ns/hydrant#GeographicalName",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "GeographicalName"
+            },
+            "applicationProfileLabel": {
+              "de": "GeographicalName"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/locn#postCode",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "String"
+            },
+            "applicationProfileLabel": {
+              "de": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/building#municipalityName",
+          "vocabularyLabel": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileLabel": {
+            "de": "Enter your translation here"
+          },
+          "vocabularyDefinition": {
+            "de": "Enter your translation here"
+          },
+          "applicationProfileDefinition": {
+            "de": "Enter your translation here"
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Address",
+          "range": {
+            "id": "http://vocab.belgif.be/ns/hydrant#GeographicalName",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "de": "GeographicalName"
+            },
+            "applicationProfileLabel": {
+              "de": "GeographicalName"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#outletDiameter",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
+      "range": {
+        "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#startDate",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "de": "DateTime"
+        },
+        "applicationProfileLabel": {
+          "de": "DateTime"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#statusRemark",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.flowRate",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.hasMaintenance",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.hasUsage",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://vocab.belgif.be/ns/hydrant#Usage",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#FireHydrant.hasInspection",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#isSuppliedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "https://saref.etsi.org/saref4watr/Pipe",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "https://saref.etsi.org/saref4watr/Pipe",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
+      "range": {
+        "id": "http://www.w3.org/ns/org#Organization",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Pipe.flowRate",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "null"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Pipe.classification",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#flowPressure",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#waterType",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Pipe.diameter",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileUsageNote": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#supplies",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "https://saref.etsi.org/saref4watr/FireHydrant",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "https://saref.etsi.org/saref4watr/Pipe",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Pipe",
+      "range": {
+        "id": "http://www.w3.org/ns/org#Organization",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Maintenance.requestedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+      "range": {
+        "id": "http://www.w3.org/ns/org#Organization",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Maintenance.performedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
+      "range": {
+        "id": "http://www.w3.org/ns/org#Organization",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#openingKey",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Valve",
+      "range": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Valve.diameter",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "https://saref.etsi.org/saref4watr/Valve",
+      "range": {
+        "id": "http://inspire.ec.europa.eu/ont/base#Measure",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Usage.performedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
+      "range": {
+        "id": "http://www.w3.org/ns/org#Organization",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Usage.location",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
+      "range": {
+        "id": "http://www.w3.org/ns/locn#Geometry",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#Inspection.performedBy",
+      "vocabularyLabel": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileLabel": {
+        "de": "Enter your translation here"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
+      "range": {
+        "id": "http://www.w3.org/ns/org#Organization",
+        "listedInDocument": true,
+        "vocabularyLabel": {
+          "de": "Enter your translation here"
+        },
+        "applicationProfileLabel": {
+          "de": "Enter your translation here"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "1"
+    },
+    {
+      "id": "http://vocab.belgif.be/ns/hydrant#type",
+      "vocabularyLabel": {
+        "de": "type"
+      },
+      "applicationProfileLabel": {
+        "de": "type"
+      },
+      "vocabularyDefinition": {
+        "de": "Enter your translation here"
+      },
+      "applicationProfileDefinition": {
+        "de": "Enter your translation here"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
+      "range": {
+        "id": "http://www.w3.org/2001/XMLSchema#string",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "de": "String"
+        },
+        "applicationProfileLabel": {
+          "de": "String"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    }
+  ]
+}
