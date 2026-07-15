@@ -11,5 +11,4 @@ index.html check
 Directory check
 
 index.html check
-error: missing '/tmp/generated/thematic/models/imkl/index.html'
 

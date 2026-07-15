@@ -1,19 +1,14 @@
 {
   "title": "Referentieoppervlaktype",
   "type": "object",
-  "description": "De aard van het referentieoppervlak",
+  "description": "Enumeratie van Referentieoppervlaktype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse Referentieoppervlaktype)",
-      "pattern": "^Referentieoppervlaktype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

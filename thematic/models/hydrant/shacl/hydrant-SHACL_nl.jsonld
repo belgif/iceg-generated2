@@ -6,9 +6,6 @@
         "@id": "https://belgif.github.io/thematic/models/hydrant#EnterYourTranslationHereShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/hydrant#WatertypeShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/hydrant#StringShape"
       },
       {
@@ -16,6 +13,9 @@
       },
       {
         "@id": "https://belgif.github.io/thematic/models/hydrant#LangStringShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrant#WatertypeShape"
       }
     ]
   },
@@ -302,9 +302,6 @@
         "@id": "https://saref.etsi.org/saref4watr/Pipe"
       },
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      },
-      {
         "@id": "http://vocab.belgif.be/ns/hydrant#Maintenance"
       },
       {
@@ -380,35 +377,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/hydrant#WatertypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van het water."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Watertype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -3935,7 +3903,7 @@
   },
   {
     "@id": "_:df_4_12",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -3943,7 +3911,7 @@
   },
   {
     "@id": "_:df_4_13",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -3977,7 +3945,7 @@
   },
   {
     "@id": "_:df_4_17",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -3985,7 +3953,7 @@
   },
   {
     "@id": "_:df_4_18",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4019,7 +3987,7 @@
   },
   {
     "@id": "_:df_4_32",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4027,7 +3995,7 @@
   },
   {
     "@id": "_:df_4_33",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4061,7 +4029,7 @@
   },
   {
     "@id": "_:df_4_36",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4069,7 +4037,7 @@
   },
   {
     "@id": "_:df_4_37",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4103,7 +4071,7 @@
   },
   {
     "@id": "_:df_4_40",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4111,7 +4079,7 @@
   },
   {
     "@id": "_:df_4_41",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4145,7 +4113,7 @@
   },
   {
     "@id": "_:df_4_45",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4153,7 +4121,7 @@
   },
   {
     "@id": "_:df_4_46",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4187,7 +4155,7 @@
   },
   {
     "@id": "_:df_4_51",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4195,7 +4163,7 @@
   },
   {
     "@id": "_:df_4_52",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4229,7 +4197,7 @@
   },
   {
     "@id": "_:df_4_58",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4237,7 +4205,7 @@
   },
   {
     "@id": "_:df_4_59",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4271,7 +4239,7 @@
   },
   {
     "@id": "_:df_4_77",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4279,7 +4247,7 @@
   },
   {
     "@id": "_:df_4_78",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }
@@ -4313,7 +4281,7 @@
   },
   {
     "@id": "_:df_4_81",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
@@ -4321,7 +4289,7 @@
   },
   {
     "@id": "_:df_4_82",
-    "http://www.w3.org/ns/shacl#class": [
+    "http://www.w3.org/ns/shacl#nodeKind": [
       {
         "@id": "http://qudt.org/schema/qudt/Unit"
       }

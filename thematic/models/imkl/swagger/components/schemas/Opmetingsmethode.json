@@ -1,19 +1,14 @@
 {
   "title": "Opmetingsmethode",
   "type": "object",
-  "description": "De manier waarop het meetresultaat is vastgesteld",
+  "description": "Enumeratie van Opmetingsmethode",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse Opmetingsmethode)",
-      "pattern": "^Opmetingsmethode$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

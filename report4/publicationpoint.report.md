@@ -1,3 +1,3 @@
 | Execution | Existence | Support |
 | --- | --- | --- |
-| [commit e302c44758dfd227e0daca8c5c6de31769e736c4](https://github.com/belgif/iceg-publication2/commit/e302c44758dfd227e0daca8c5c6de31769e736c4) | [&#9736;](/report4/existence_publicationpoints.report.md)| [&#9728;](/report4/support_publicationpoints.report.md)|
+| [commit 9ec9dd038baf3f9ed1b6fb8a2a534d2233465a03](https://github.com/belgif/iceg-publication2/commit/9ec9dd038baf3f9ed1b6fb8a2a534d2233465a03) | [&#9729;](/report4/existence_publicationpoints.report.md)| [&#9728;](/report4/support_publicationpoints.report.md)|

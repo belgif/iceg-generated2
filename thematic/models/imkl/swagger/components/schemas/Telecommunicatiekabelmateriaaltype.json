@@ -1,19 +1,14 @@
 {
   "title": "Telecommunicatiekabelmateriaaltype",
   "type": "object",
-  "description": "Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is.",
+  "description": "Enumeratie van Telecommunicatiekabelmateriaaltype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse Telecommunicatiekabelmateriaaltype)",
-      "pattern": "^Telecommunicatiekabelmateriaaltype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

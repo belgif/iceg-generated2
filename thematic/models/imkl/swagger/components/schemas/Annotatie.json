@@ -34,9 +34,6 @@
       },
       "minItems": 1
     },
-    "geassocieerdMet": {
-      "$ref": "#/components/schemas/Object"
-    },
     "annotatietype": {
       "$ref": "#/components/schemas/Annotatietype"
     },
@@ -125,7 +122,6 @@
   },
   "required": [
     "@type",
-    "geassocieerdMet",
     "annotatietype",
     "locatie"
   ]

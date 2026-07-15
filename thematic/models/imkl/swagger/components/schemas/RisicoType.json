@@ -1,19 +1,14 @@
 {
   "title": "RisicoType",
   "type": "object",
-  "description": "De aard van het risico",
+  "description": "Enumeratie van RisicoType",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse RisicoType)",
-      "pattern": "^RisicoType$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

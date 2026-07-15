@@ -50,14 +50,6 @@
     },
     "documentidentificator": {
       "$ref": "#/components/schemas/Identificator"
-    },
-    "verwijstNaar": {
-      "type": "array",
-      "description": "Lijst van Object items.",
-      "items": {
-        "$ref": "#/components/schemas/Object"
-      },
-      "minItems": 1
     }
   },
   "required": [

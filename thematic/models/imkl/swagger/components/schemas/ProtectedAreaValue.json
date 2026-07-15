@@ -1,18 +1,14 @@
 {
   "title": "ProtectedAreaValue",
   "type": "object",
+  "description": "Enumeratie van ProtectedAreaValue",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse ProtectedAreaValue)",
-      "pattern": "^ProtectedAreaValue$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

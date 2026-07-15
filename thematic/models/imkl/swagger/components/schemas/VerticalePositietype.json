@@ -1,19 +1,14 @@
 {
   "title": "VerticalePositietype",
   "type": "object",
-  "description": "TO DO",
+  "description": "Enumeratie van VerticalePositietype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse VerticalePositietype)",
-      "pattern": "^VerticalePositietype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

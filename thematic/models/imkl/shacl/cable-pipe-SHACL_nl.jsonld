@@ -24,31 +24,13 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#KanaalShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#ContainertypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#ZichtbaarheidstypeShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieninglinkShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieninglinksequentieShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#RisicoTypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#KleurShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#PositioneleNauwkeurigheidShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#MateriaalTypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#SubthemaShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#DocumentShape"
@@ -58,9 +40,6 @@
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningknoopcontainerShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositietypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#ElectriciteitskabelShape"
@@ -96,16 +75,10 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#KastShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningnetwerktypeShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#GeneriekeLinkShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#AgentShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#FaciliteitstatusShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#ActiviteitencomplexShape"
@@ -114,52 +87,13 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#FunctieShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeActiviteittypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningleveringstypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#TelecommunicatiekabelmateriaaltypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicalientypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#RioolwatertypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#WatertypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#ThermischProducttypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#TekenShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#ObjectShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#AnnotatietypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#ToebehorentypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementtypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#DocumentmediumtypeShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#KabelEnLeidingContainerShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#InputoutputtypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#AansluitingShape"
@@ -168,16 +102,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#AdresShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#ReferentieoppervlaktypeShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#OpmetingsmethodeShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#MeeteenheidShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#WaarschuwingstypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#LengteëEnheidShape"
@@ -189,13 +114,7 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebiedShape"
       },
       {
-        "@id": "https://belgif.github.io/thematic/models/imkl#DocumenttypeShape"
-      },
-      {
         "@id": "https://belgif.github.io/thematic/models/imkl#MaataanduidingShape"
-      },
-      {
-        "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebiedtypeShape"
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#NetwerkShape"
@@ -274,6 +193,87 @@
       },
       {
         "@id": "https://belgif.github.io/thematic/models/imkl#LocatieShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#ContainertypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#ZichtbaarheidstypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#RisicoTypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#KleurShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#MateriaalTypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#SubthemaShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositietypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningnetwerktypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#FaciliteitstatusShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeActiviteittypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningleveringstypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#TelecommunicatiekabelmateriaaltypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicalientypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#RioolwatertypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#WatertypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#ThermischProducttypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#TekenShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#AnnotatietypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#ToebehorentypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementtypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#DocumentmediumtypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#InputoutputtypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#ReferentieoppervlaktypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#OpmetingsmethodeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#WaarschuwingstypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#DocumenttypeShape"
+      },
+      {
+        "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebiedtypeShape"
       }
     ]
   },
@@ -580,35 +580,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#AnnotatietypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van de annotatie"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Annotatietype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebiedShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -657,64 +628,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebiedtypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van de soorten beschermd gebied"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Beschermd Gebiedtype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#ContainertypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van de container."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Containertype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -856,35 +769,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#DocumentmediumtypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van het documentmedium"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Documentmediumtype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#DocumentShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -937,64 +821,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#DocumenttypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van het document"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Documenttype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#EconomischeActiviteittypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van de economische activiteit."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "EconomischeActiviteittype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#ElectriciteitskabelShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -1028,35 +854,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#FaciliteitstatusShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De hoedanigheid van het faciliteitsonderdeel."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Faciliteitstatus"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -1346,35 +1143,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#InputoutputtypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De waarde van de input en output."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Inputoutputtype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#KabelEnLeidingContainerShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -1530,35 +1298,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#Cabinet"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#KleurShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De kleur van het element"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Kleur"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -1929,35 +1668,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#MateriaalTypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De aard van het gebruikte materiaal"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "MateriaalType"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#MeeteenheidShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -2288,35 +1998,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningleveringstypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van typen nutsvoorzieningsleveringen."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Nutsvoorzieningleveringstype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieninglinksequentieShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -2561,35 +2242,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#NutsvoorzieningnetwerktypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van typen nutsvoorzieningnetwerken."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Nutsvoorzieningnetwerktype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#ObjectShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -2653,35 +2305,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicalientypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van de olie, gas of chemicaliën."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "OlieGasChemicalientype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#OpmetingShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -2721,35 +2344,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/generic#Survey"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#OpmetingsmethodeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De manier waarop het meetresultaat is vastgesteld"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Opmetingsmethode"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -3011,35 +2605,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#ReferentieoppervlaktypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De aard van het referentieoppervlak"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Referentieoppervlaktype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#RioolpijpShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -3074,64 +2639,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#RioolwatertypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van het rioolwater."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Rioolwatertype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#RisicoTypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "De aard van het risico"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "RisicoType"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#StringShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -3150,93 +2657,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#SubthemaShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Subthema"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#TekenShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "TO DO"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Teken"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#TelecommunicatiekabelmateriaaltypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Telecommunicatiekabelmateriaaltype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -3312,35 +2732,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#ThermischProducttypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van het termisch product."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Thermisch Producttype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#ToebehorenShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -3392,35 +2783,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#ToebehorentypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van de toebehoren."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Toebehorentype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -3460,35 +2822,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#TopographicalElement"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElementtypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van het topografisch element."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "TopografischElementtype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -3643,64 +2976,6 @@
     ]
   },
   {
-    "@id": "https://belgif.github.io/thematic/models/imkl#VerticalePositietypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "TO DO"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Verticale Positietype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#WaarschuwingstypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Classificatie van soorten waarschuwingen."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Waarschuwingstype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
     "@id": "https://belgif.github.io/thematic/models/imkl#WaterleidingShape",
     "@type": [
       "http://www.w3.org/ns/shacl#NodeShape"
@@ -3731,64 +3006,6 @@
     "http://www.w3.org/ns/shacl#targetClass": [
       {
         "@id": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#WatertypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "Aard van het water."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Watertype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ]
-  },
-  {
-    "@id": "https://belgif.github.io/thematic/models/imkl#ZichtbaarheidstypeShape",
-    "@type": [
-      "http://www.w3.org/ns/shacl#NodeShape"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "nl",
-        "@value": "In welke mate het object waarneembaar is."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "nl",
-        "@value": "Zichtbaarheidstype"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#closed": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": "false"
-      }
-    ],
-    "http://www.w3.org/ns/shacl#targetClass": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ]
   },
@@ -3967,11 +3184,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Annotatie.Annotatietype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -3994,6 +3206,11 @@
       {
         "@language": "nl",
         "@value": "annotatietype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -4336,11 +3553,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Document.Documentmediumtype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4363,6 +3575,11 @@
       {
         "@language": "nl",
         "@value": "documentmediumtype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -4393,11 +3610,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Document.DocumentType"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4420,6 +3632,11 @@
       {
         "@language": "nl",
         "@value": "documentType"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -4711,11 +3928,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Opmeting.Methode"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4738,6 +3950,11 @@
       {
         "@language": "nl",
         "@value": "methode"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -4939,11 +4156,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Referentieoppervlak.Type"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -4960,6 +4172,11 @@
       {
         "@language": "nl",
         "@value": "type"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -5263,11 +4480,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Aansluiting.Toebehorentype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5290,6 +4502,11 @@
       {
         "@language": "nl",
         "@value": "toebehorentype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -5530,11 +4747,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#BeschermdGebied.Type"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5557,6 +4769,11 @@
       {
         "@language": "nl",
         "@value": "type"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -5638,11 +4855,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.HuidigeStatus"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5665,6 +4877,11 @@
       {
         "@language": "nl",
         "@value": "huidigeStatus"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -5758,11 +4975,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoopcontainer.Zichtbaarheid"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5779,6 +4991,11 @@
       {
         "@language": "nl",
         "@value": "zichtbaarheid"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -5866,11 +5083,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#OlieGasChemicaliëNPijp.OlieGasChemicaliëNProducttype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -5893,6 +5105,11 @@
       {
         "@language": "nl",
         "@value": "olieGasChemicaliënProducttype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8408,11 +7625,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Pijp.Containertype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8429,6 +7641,11 @@
       {
         "@language": "nl",
         "@value": "containertype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8459,11 +7676,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Kanaal.Containertype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8480,6 +7692,11 @@
       {
         "@language": "nl",
         "@value": "containertype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8516,11 +7733,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Zichtbaarheid"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8537,6 +7749,11 @@
       {
         "@language": "nl",
         "@value": "zichtbaarheid"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8567,11 +7784,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Risico"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8582,6 +7794,11 @@
       {
         "@language": "nl",
         "@value": "risico"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8765,11 +7982,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Uiterlijk.Kleur"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8792,6 +8004,11 @@
       {
         "@language": "nl",
         "@value": "kleur"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8822,11 +8039,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Materiaaltype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8843,6 +8055,11 @@
       {
         "@language": "nl",
         "@value": "materiaaltype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8873,11 +8090,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Pijp.Subthema"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8894,6 +8106,11 @@
       {
         "@language": "nl",
         "@value": "subthema"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -8924,11 +8141,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Kabel.Subthema"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -8945,6 +8157,11 @@
       {
         "@language": "nl",
         "@value": "subthema"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -9287,11 +8504,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nustvoorzieningnetwerkelement.VerticalePositie"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9314,6 +8526,11 @@
       {
         "@language": "nl",
         "@value": "verticalePositie"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -9350,11 +8567,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Nutsvoorzieningleveringstype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9371,6 +8583,11 @@
       {
         "@language": "nl",
         "@value": "nutsvoorzieningleveringstype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -9407,11 +8624,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieninglinkset.Waarschuwingstype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9434,6 +8646,11 @@
       {
         "@language": "nl",
         "@value": "waarschuwingstype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -9578,11 +8795,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Telecommunicatiekabel.Telecommunicatiekabelmateriaaltype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9605,6 +8817,11 @@
       {
         "@language": "nl",
         "@value": "telecommunicatiekabelmateriaaltype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -9635,11 +8852,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Rioolpijp.Rioolwatertype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9662,6 +8874,11 @@
       {
         "@language": "nl",
         "@value": "rioolwatertype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -9749,11 +8966,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Waterleiding.Watertype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -9776,6 +8988,11 @@
       {
         "@language": "nl",
         "@value": "watertype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -10148,11 +9365,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Toebehoren.Toebehorentype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -10175,6 +9387,11 @@
       {
         "@language": "nl",
         "@value": "toebehorentype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -10262,11 +9479,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.Zichtbaarheid"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -10283,6 +9495,11 @@
       {
         "@language": "nl",
         "@value": "zichtbaarheid"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -10313,11 +9530,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoop.Risico"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -10334,6 +9546,11 @@
       {
         "@language": "nl",
         "@value": "risico"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -10683,11 +9900,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningknoopcontainer.Risico"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -10704,6 +9916,11 @@
       {
         "@language": "nl",
         "@value": "risico"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -11178,11 +10395,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Nutsvoorzieningnetwerk.Nutsvoorzieningnetwerktype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11205,6 +10417,11 @@
       {
         "@language": "nl",
         "@value": "nutsvoorzieningnetwerktype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -11406,11 +10623,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Functie.Activiteit"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11427,6 +10639,11 @@
       {
         "@language": "nl",
         "@value": "activiteit"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -11457,11 +10674,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Functie.Input"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11472,6 +10684,11 @@
       {
         "@language": "nl",
         "@value": "input"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -11502,11 +10719,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Functie.Output"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11517,6 +10729,11 @@
       {
         "@language": "nl",
         "@value": "output"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -11712,11 +10929,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#ThermischePijp.ThermischProducttype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11739,6 +10951,11 @@
       {
         "@language": "nl",
         "@value": "thermischProducttype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -11826,11 +11043,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#GerichteLink.Richting"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -11853,6 +11065,11 @@
       {
         "@language": "nl",
         "@value": "richting"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -12036,11 +11253,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#TopografischElement.TopografischElementtype"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -12063,6 +11275,11 @@
       {
         "@language": "nl",
         "@value": "topografisch elementtype"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [
@@ -12093,11 +11310,6 @@
         "@id": "https://belgif.github.io/thematic/models/imkl#Toebehoren.Subthema"
       }
     ],
-    "http://www.w3.org/ns/shacl#class": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
-      }
-    ],
     "http://www.w3.org/ns/shacl#description": [
       {
         "@language": "nl",
@@ -12120,6 +11332,11 @@
       {
         "@language": "nl",
         "@value": "subthema"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#nodeKind": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
       }
     ],
     "http://www.w3.org/ns/shacl#path": [

@@ -1,19 +1,14 @@
 {
   "title": "Teken",
   "type": "object",
-  "description": "TO DO",
+  "description": "Enumeratie van Teken",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse Teken)",
-      "pattern": "^Teken$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

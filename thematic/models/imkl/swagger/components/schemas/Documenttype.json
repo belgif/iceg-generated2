@@ -1,19 +1,14 @@
 {
   "title": "Documenttype",
   "type": "object",
-  "description": "Aard van het document",
+  "description": "Enumeratie van Documenttype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse Documenttype)",
-      "pattern": "^Documenttype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

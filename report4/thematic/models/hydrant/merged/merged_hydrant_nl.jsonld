@@ -4996,7 +4996,7 @@
     }
   ],
   "diagram": "ICEG-Hydrants-AP",
-  "documentcommit": "79e7410042ba1a21bba466158fa3dbd8f5221023",
+  "documentcommit": "20e5055d232eefeed9ea0d11d8e14d40fc6360e1",
   "dummy": "006",
   "eap": "ICEG-Hydrants-AP-v13.eap",
   "enumerations": [
@@ -5043,7 +5043,7 @@
   ],
   "feedbackurl": "https://github.com/belgif/thematic/issues",
   "filename": "config/hydrant.json",
-  "generatedAtTime": "2026-06-18T12:44:12.992Z",
+  "generatedAtTime": "2026-07-15T15:07:37.277Z",
   "hostname": "https://belgif.github.io/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "name": "hydrant",
@@ -5055,7 +5055,7 @@
       "baseURI": "http://vocab.belgif.be/ns/hydrant#"
     }
   ],
-  "publication-date": "2024-05-01",
+  "publication-date": "2026-06-18",
   "publication-state": "Under public review",
   "redefinedAttributes": [],
   "referencedEntities": [
@@ -5188,7 +5188,7 @@
   "subsettedAttributes": [],
   "template": "hydrant.j2",
   "title": "Hydrant",
-  "toolchaincommit": "e302c44758dfd227e0daca8c5c6de31769e736c4",
+  "toolchaincommit": "9ec9dd038baf3f9ed1b6fb8a2a534d2233465a03",
   "translation": [
     {
       "autotranslate": false,

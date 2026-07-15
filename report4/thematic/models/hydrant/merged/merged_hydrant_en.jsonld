@@ -141,7 +141,7 @@
     }
   },
   "@id": "https://belgif.github.io/thematic/models/hydrant",
-  "generatedAtTime": "2026-06-18T12:44:12.992Z",
+  "generatedAtTime": "2026-07-15T15:07:37.277Z",
   "packages": [
     {
       "@id": "urn:oslo-toolchain:c09dfee910aec5d0268c9586b9285b101e4c2d781b80815f430b252246c3ae75",
@@ -4050,7 +4050,7 @@
   "template": "hydrant.j2",
   "title": "Hydrant",
   "publication-state": "Under public review",
-  "publication-date": "2024-05-01",
+  "publication-date": "2026-06-18",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Role",
@@ -4099,7 +4099,7 @@
   "filename": "config/hydrant.json",
   "repository": "https://github.com/belgif/ICEGthema-hydrant",
   "urlref": "/thematic/models/hydrant",
-  "documentcommit": "79e7410042ba1a21bba466158fa3dbd8f5221023",
-  "toolchaincommit": "e302c44758dfd227e0daca8c5c6de31769e736c4",
+  "documentcommit": "20e5055d232eefeed9ea0d11d8e14d40fc6360e1",
+  "toolchaincommit": "9ec9dd038baf3f9ed1b6fb8a2a534d2233465a03",
   "hostname": "https://belgif.github.io/"
 }

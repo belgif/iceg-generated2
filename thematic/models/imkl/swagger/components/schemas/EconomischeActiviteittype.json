@@ -1,19 +1,14 @@
 {
   "title": "EconomischeActiviteittype",
   "type": "object",
-  "description": "Classificatie van de economische activiteit.",
+  "description": "Enumeratie van EconomischeActiviteittype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse EconomischeActiviteittype)",
-      "pattern": "^EconomischeActiviteittype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

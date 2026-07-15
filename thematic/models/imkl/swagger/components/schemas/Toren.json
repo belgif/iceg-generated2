@@ -48,17 +48,7 @@
       "type": "array",
       "description": "Lijst van Nutsvoorzieningknoop items.",
       "items": {
-        "oneOf": [
-          {
-            "$ref": "#/components/schemas/Toebehoren"
-          }
-        ],
-        "discriminator": {
-          "propertyName": "@type",
-          "mapping": {
-            "Toebehoren": "#/components/schemas/Toebehoren"
-          }
-        }
+        "$ref": "#/components/schemas/Toebehoren"
       },
       "minItems": 1
     },

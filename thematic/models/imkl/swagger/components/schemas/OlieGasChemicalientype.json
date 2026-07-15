@@ -1,19 +1,14 @@
 {
   "title": "OlieGasChemicalientype",
   "type": "object",
-  "description": "Classificatie van de olie, gas of chemicaliën.",
+  "description": "Enumeratie van OlieGasChemicalientype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse OlieGasChemicalientype)",
-      "pattern": "^OlieGasChemicalientype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

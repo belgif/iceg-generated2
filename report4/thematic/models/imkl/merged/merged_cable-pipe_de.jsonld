@@ -16715,7 +16715,7 @@
   ],
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
   "filename": "config/cable-pipe.json",
-  "generatedAtTime": "2026-06-18T07:09:57.797Z",
+  "generatedAtTime": "2026-07-15T15:07:39.206Z",
   "hostname": "https://belgif.github.io/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "name": "cable-pipe",
@@ -17143,7 +17143,7 @@
   "subsettedAttributes": [],
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "1aad4c553477b59b4b1d8113b22e7569038a4488",
+  "toolchaincommit": "9ec9dd038baf3f9ed1b6fb8a2a534d2233465a03",
   "translation": [
     {
       "language": "en",

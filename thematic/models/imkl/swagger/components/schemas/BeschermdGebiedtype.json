@@ -1,19 +1,14 @@
 {
   "title": "BeschermdGebiedtype",
   "type": "object",
-  "description": "Classificatie van de soorten beschermd gebied",
+  "description": "Enumeratie van BeschermdGebiedtype",
   "properties": {
     "@id": {
       "type": "string",
       "format": "uri"
-    },
-    "@type": {
-      "type": "string",
-      "description": "Object type (klasse BeschermdGebiedtype)",
-      "pattern": "^BeschermdGebiedtype$"
     }
   },
   "required": [
-    "@type"
+    "@id"
   ]
 }

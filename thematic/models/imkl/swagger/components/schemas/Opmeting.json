@@ -33,9 +33,6 @@
     "methode": {
       "$ref": "#/components/schemas/Opmetingsmethode"
     },
-    "uitgevoerdDoor": {
-      "$ref": "#/components/schemas/Agent"
-    },
     "nauwkeurigheid": {
       "$ref": "#/components/schemas/PositioneleNauwkeurigheid"
     }
