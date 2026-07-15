@@ -1,0 +1,81 @@
+{
+  "title": "BeschermdGebied",
+  "type": "object",
+  "description": "Gebied waarbinnen bepaalde voorschriften gelden bij het uitvoeren van werken.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse BeschermdGebied)",
+      "pattern": "^BeschermdGebied$"
+    },
+    "beschrijving": {
+      "type": "object",
+      "description": "Beschrijving van het BeschermdGebied.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        },
+        "@language": {
+          "type": "string",
+          "pattern": "^nl$"
+        }
+      },
+      "required": [
+        "@value",
+        "@language"
+      ]
+    },
+    "naam": {
+      "type": "object",
+      "description": "Naam van het BeschermdGebied.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        },
+        "@language": {
+          "type": "string",
+          "pattern": "^nl$"
+        }
+      },
+      "required": [
+        "@value",
+        "@language"
+      ]
+    },
+    "geometrie": {
+      "oneOf": [
+        {
+          "$ref": "#/components/schemas/Geometrie"
+        },
+        {
+          "$ref": "#/components/schemas/Curve"
+        },
+        {
+          "$ref": "#/components/schemas/Punt"
+        }
+      ],
+      "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+          "Geometrie": "#/components/schemas/Geometrie",
+          "Curve": "#/components/schemas/Curve",
+          "Punt": "#/components/schemas/Punt"
+        }
+      }
+    },
+    "type": {
+      "$ref": "#/components/schemas/BeschermdGebiedtype"
+    },
+    "ligging": {
+      "$ref": "#/components/schemas/Locatie"
+    }
+  },
+  "required": [
+    "@type",
+    "type"
+  ]
+}

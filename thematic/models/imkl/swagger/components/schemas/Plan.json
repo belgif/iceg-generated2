@@ -1,0 +1,83 @@
+{
+  "title": "Plan",
+  "type": "object",
+  "description": "Tekening met de onderdelen of details van iets.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Plan)",
+      "pattern": "^Plan$"
+    },
+    "locatie": {
+      "oneOf": [
+        {
+          "$ref": "#/components/schemas/Geometrie"
+        },
+        {
+          "$ref": "#/components/schemas/Curve"
+        },
+        {
+          "$ref": "#/components/schemas/Punt"
+        }
+      ],
+      "discriminator": {
+        "propertyName": "@type",
+        "mapping": {
+          "Geometrie": "#/components/schemas/Geometrie",
+          "Curve": "#/components/schemas/Curve",
+          "Punt": "#/components/schemas/Punt"
+        }
+      }
+    },
+    "documentlocatie": {
+      "type": "object",
+      "description": "De plaats waar het Document is opgeslagen of raadpleegbaar is.",
+      "properties": {
+        "@id": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "@id"
+      ]
+    },
+    "beschrijving": {
+      "type": "object",
+      "description": "Beschrijving van het Document.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        },
+        "@language": {
+          "type": "string",
+          "pattern": "^nl$"
+        }
+      },
+      "required": [
+        "@value",
+        "@language"
+      ]
+    },
+    "documentmediumtype": {
+      "$ref": "#/components/schemas/Documentmediumtype"
+    },
+    "documentType": {
+      "$ref": "#/components/schemas/Documenttype"
+    },
+    "documentidentificator": {
+      "$ref": "#/components/schemas/Identificator"
+    }
+  },
+  "required": [
+    "@type",
+    "locatie",
+    "documentlocatie",
+    "documentmediumtype",
+    "documentType"
+  ]
+}

@@ -7,6 +7,7 @@
     "self": "https://belgif.github.io//thematic/models/imkl"
   },
   "license": "https://creativecommons.org/licenses/by/4.0/",
+  "branchtag": "main",
   "documenttype": "ap",
   "documentconfig": {},
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",

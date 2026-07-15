@@ -1,0 +1,61 @@
+{
+  "title": "Functie",
+  "type": "object",
+  "description": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Functie)",
+      "pattern": "^Functie$"
+    },
+    "beschrijving": {
+      "type": "object",
+      "description": "Een meer gedtailleerde beschrijving van de functie.",
+      "properties": {
+        "@value": {
+          "type": "string"
+        },
+        "@language": {
+          "type": "string",
+          "pattern": "^nl$"
+        }
+      },
+      "required": [
+        "@value",
+        "@language"
+      ]
+    },
+    "activiteit": {
+      "type": "array",
+      "description": "Lijst van EconomischeActiviteittype items.",
+      "items": {
+        "$ref": "#/components/schemas/EconomischeActiviteittype"
+      },
+      "minItems": 1
+    },
+    "input": {
+      "type": "array",
+      "description": "Lijst van Inputoutputtype items.",
+      "items": {
+        "$ref": "#/components/schemas/Inputoutputtype"
+      },
+      "minItems": 1
+    },
+    "output": {
+      "type": "array",
+      "description": "Lijst van Inputoutputtype items.",
+      "items": {
+        "$ref": "#/components/schemas/Inputoutputtype"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "@type",
+    "activiteit"
+  ]
+}
