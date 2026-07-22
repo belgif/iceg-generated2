@@ -24,39 +24,6 @@
       "scope": "https://data.vlaanderen.be/id/concept/scope/External"
     },
     {
-      "id": "http://qudt.org/schema/qudt/Unit",
-      "vocabularyLabel": {
-        "en": "Concept"
-      },
-      "applicationProfileLabel": {
-        "en": "Concept"
-      },
-      "vocabularyDefinition": {
-        "en": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
-      },
-      "applicationProfileDefinition": {
-        "en": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
-      },
-      "vocabularyUsageNote": {
-        "en": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
-      },
-      "applicationProfileUsageNote": {
-        "en": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
-      },
-      "parents": [
-        {
-          "id": "http://www.w3.org/2004/02/skos/core#Concept",
-          "vocabularyLabel": {
-            "en": "Concept"
-          },
-          "applicationProfileLabel": {
-            "en": "Concept"
-          }
-        }
-      ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
-    },
-    {
       "id": "http://data.europa.eu/m8g/ContactPoint",
       "vocabularyLabel": {
         "en": "ContactPoint"
@@ -65,10 +32,10 @@
         "en": "ContactPoint"
       },
       "vocabularyDefinition": {
-        "en": "Emergency information (i.e., e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with"
+        "en": "Emergency information (like e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with."
       },
       "applicationProfileDefinition": {
-        "en": "Emergency information (i.e., e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with"
+        "en": "Emergency information (like e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with."
       },
       "vocabularyUsageNote": {
         "en": "ContactPoint for urgent matters during firefighting interventions."
@@ -155,7 +122,7 @@
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "properties": [
         {
-          "id": "http://w3.org/ns/locn#address",
+          "id": "http://www.w3.org/ns/locn#Address",
           "vocabularyLabel": {
             "en": "address"
           },
@@ -640,7 +607,7 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
             "listedInDocument": false,
             "vocabularyLabel": {
               "en": "DateTime"
@@ -721,10 +688,10 @@
         "en": "Maintenance"
       },
       "vocabularyDefinition": {
-        "en": "The work needed to keep something in good condition"
+        "en": "The work needed to keep something in good condition."
       },
       "applicationProfileDefinition": {
-        "en": "The work needed to keep something in good condition"
+        "en": "The work needed to keep something in good condition."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "properties": [
@@ -745,7 +712,7 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
             "listedInDocument": false,
             "vocabularyLabel": {
               "en": "DateTime"
@@ -883,10 +850,10 @@
         "en": "The nativeness of a geographical name."
       },
       "vocabularyUsageNote": {
-        "en": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue"
+        "en": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue."
       },
       "applicationProfileUsageNote": {
-        "en": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue"
+        "en": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External"
     },
@@ -960,10 +927,10 @@
             "en": "name"
           },
           "vocabularyDefinition": {
-            "en": "The legally recognised name of the organization"
+            "en": "The legally recognised name of the organization."
           },
           "applicationProfileDefinition": {
-            "en": "The legally recognised name of the organization"
+            "en": "The legally recognised name of the organization."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://www.w3.org/ns/org#Organization",
@@ -1028,35 +995,6 @@
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "properties": [
         {
-          "id": "http://purl.org/dc/terms/isPartOf",
-          "vocabularyLabel": {
-            "en": "contains"
-          },
-          "applicationProfileLabel": {
-            "en": "contains"
-          },
-          "vocabularyDefinition": {
-            "en": "The fire hydrant to which the outlet is physically attached."
-          },
-          "applicationProfileDefinition": {
-            "en": "The fire hydrant to which the outlet is physically attached."
-          },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
-          "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
-          "range": {
-            "id": "https://saref.etsi.org/saref4watr/FireHydrant",
-            "listedInDocument": true,
-            "vocabularyLabel": {
-              "en": "FireHydrant"
-            },
-            "applicationProfileLabel": {
-              "en": "FireHydrant"
-            }
-          },
-          "minCount": "1",
-          "maxCount": "1"
-        },
-        {
           "id": "http://vocab.belgif.be/ns/hydrant#outletDiameter",
           "vocabularyLabel": {
             "en": "diameter"
@@ -1086,12 +1024,41 @@
           "maxCount": "1"
         },
         {
-          "id": "http://vocab.belgif.be/ns/hydrant#type",
+          "id": "http://purl.org/dc/terms/isPartOf",
           "vocabularyLabel": {
-            "en": "type"
+            "en": "is part of"
           },
           "applicationProfileLabel": {
-            "en": "type"
+            "en": "is part of"
+          },
+          "vocabularyDefinition": {
+            "en": "The fire hydrant to which the outlet is physically attached."
+          },
+          "applicationProfileDefinition": {
+            "en": "The fire hydrant to which the outlet is physically attached."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
+          "range": {
+            "id": "https://saref.etsi.org/saref4watr/FireHydrant",
+            "listedInDocument": true,
+            "vocabularyLabel": {
+              "en": "FireHydrant"
+            },
+            "applicationProfileLabel": {
+              "en": "FireHydrant"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://vocab.belgif.be/ns/hydrant#type",
+          "vocabularyLabel": {
+            "en": "type outlet"
+          },
+          "applicationProfileLabel": {
+            "en": "type outlet"
           },
           "vocabularyDefinition": {
             "en": "Type of physical outlet of a fire hydrant to which a hose or coupling can be connected for the withdrawal of firefighting water."
@@ -1125,15 +1092,15 @@
         "en": "Pipe"
       },
       "vocabularyDefinition": {
-        "en": "A pipe is a passage of water flowing in a closed conduit (i.e., not subject to atmospheric pressure)."
+        "en": "A pipe is a passage of water flowing in a closed conduit (meaning it is not subject to atmospheric pressure)."
       },
       "applicationProfileDefinition": {
-        "en": "A pipe is a passage of water flowing in a closed conduit (i.e., not subject to atmospheric pressure)."
+        "en": "A pipe is a passage of water flowing in a closed conduit (meaning it is not subject to atmospheric pressure)."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "properties": [
         {
-          "id": "http://w3.org/ns/locn#address",
+          "id": "http://www.w3.org/ns/locn#Address",
           "vocabularyLabel": {
             "en": "address"
           },
@@ -1325,6 +1292,12 @@
           },
           "applicationProfileDefinition": {
             "en": "Any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued."
+          },
+          "vocabularyUsageNote": {
+            "en": "Usually a combination of letters and numbers, the pipe identifier, assigned by the municipality or water authority, aids swift location and identification for emergency services like firefighters or water maintenance crews."
+          },
+          "applicationProfileUsageNote": {
+            "en": "Usually a combination of letters and numbers, the pipe identifier, assigned by the municipality or water authority, aids swift location and identification for emergency services like firefighters or water maintenance crews."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
@@ -1566,6 +1539,39 @@
       "scope": "https://data.vlaanderen.be/id/concept/scope/External"
     },
     {
+      "id": "http://qudt.org/schema/qudt/Unit",
+      "vocabularyLabel": {
+        "en": "Unit"
+      },
+      "applicationProfileLabel": {
+        "en": "Unit"
+      },
+      "vocabularyDefinition": {
+        "en": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+      },
+      "applicationProfileDefinition": {
+        "en": "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."
+      },
+      "vocabularyUsageNote": {
+        "en": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
+      },
+      "applicationProfileUsageNote": {
+        "en": "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."
+      },
+      "parents": [
+        {
+          "id": "http://www.w3.org/2004/02/skos/core#Concept",
+          "vocabularyLabel": {
+            "en": "Concept"
+          },
+          "applicationProfileLabel": {
+            "en": "Concept"
+          }
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
       "id": "http://vocab.belgif.be/ns/hydrant#Usage",
       "vocabularyLabel": {
         "en": "Usage"
@@ -1598,7 +1604,7 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
             "listedInDocument": false,
             "vocabularyLabel": {
               "en": "DateTime"
@@ -1861,7 +1867,7 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "id": "http://www.w3.org/2001/XMLSchema#string",
             "listedInDocument": false,
             "vocabularyLabel": {
               "en": "String"
@@ -1890,8 +1896,8 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
-            "id": "http://vocab.belgif.be/ns/hydrant#GeographicalName",
-            "listedInDocument": false,
+            "id": "http://vocab.belgif.be/ns/building#GeographicalName",
+            "listedInDocument": true,
             "vocabularyLabel": {
               "en": "GeographicalName"
             },
@@ -1919,7 +1925,7 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#String",
+            "id": "http://www.w3.org/2001/XMLSchema#string",
             "listedInDocument": false,
             "vocabularyLabel": {
               "en": "String"
@@ -1948,8 +1954,8 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
-            "id": "http://vocab.belgif.be/ns/hydrant#GeographicalName",
-            "listedInDocument": false,
+            "id": "http://vocab.belgif.be/ns/building#GeographicalName",
+            "listedInDocument": true,
             "vocabularyLabel": {
               "en": "GeographicalName"
             },
@@ -1999,10 +2005,10 @@
             "en": "Qualitative information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality."
           },
           "vocabularyUsageNote": {
-            "en": "NOTE The Geographical Names application schema does not explicitly make a preference between different names (e.g. official endonyms) of a specific real world entity. The necessary information for making the preference (e.g. the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
+            "en": "The Geographical Names application schema does not explicitly make a preference between different names (like official endonyms) of a specific real world entity. The necessary information for making the preference (like the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
           },
           "applicationProfileUsageNote": {
-            "en": "NOTE The Geographical Names application schema does not explicitly make a preference between different names (e.g. official endonyms) of a specific real world entity. The necessary information for making the preference (e.g. the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
+            "en": "The Geographical Names application schema does not explicitly make a preference between different names (like official endonyms) of a specific real world entity. The necessary information for making the preference (like the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
@@ -2129,10 +2135,10 @@
         "en": "The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
       },
       "vocabularyUsageNote": {
-        "en": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
+        "en": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (like CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
       },
       "applicationProfileUsageNote": {
-        "en": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
+        "en": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (like CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "properties": [
@@ -2241,7 +2247,7 @@
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
-            "id": "http://www.w3.org/2001/XMLSchema#DateTime",
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
             "listedInDocument": false,
             "vocabularyLabel": {
               "en": "DateTime"
@@ -2419,16 +2425,16 @@
         {
           "id": "http://qudt.org/schema/qudt/hasUnit",
           "vocabularyLabel": {
-            "en": "Unit(QuantityValue)"
+            "en": "Unit QuantityValue"
           },
           "applicationProfileLabel": {
-            "en": "Unit(QuantityValue)"
+            "en": "Unit QuantityValue"
           },
           "vocabularyDefinition": {
-            "en": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>(a) defined by the system,</li>\r\n  <li>(b) accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>(c) a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+            "en": "Relates a factor unit to its unit or system of units with a unit of measure that is either: defined by the system, accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system, a reference to the unit of measure of a quantity (variable or constant) of interest."
           },
           "applicationProfileDefinition": {
-            "en": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>defined by the system,</li>\r\n  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+            "en": "Relates a factor unit to its unit or system of units with a unit of measure that is either: defined by the system, accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system, a reference to the unit of measure of a quantity (variable or constant) of interest."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
           "domain": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2436,10 +2442,10 @@
             "id": "http://qudt.org/schema/qudt/Unit",
             "listedInDocument": true,
             "vocabularyLabel": {
-              "en": "Concept"
+              "en": "Unit"
             },
             "applicationProfileLabel": {
-              "en": "Concept"
+              "en": "Unit"
             }
           },
           "minCount": "1",
@@ -3096,10 +3102,10 @@
     {
       "id": "http://vocab.belgif.be/ns/hydrant#type",
       "vocabularyLabel": {
-        "en": "type"
+        "en": "type outlet"
       },
       "applicationProfileLabel": {
-        "en": "type"
+        "en": "type outlet"
       },
       "vocabularyDefinition": {
         "en": "Type of physical outlet of a fire hydrant to which a hose or coupling can be connected for the withdrawal of firefighting water."

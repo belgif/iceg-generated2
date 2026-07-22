@@ -1,6 +1,6 @@
 {
   "@id": "https://belgif.github.io/thematic/models/hydrant",
-  "generatedAtTime": "2026-07-15T15:07:37.277Z",
+  "generatedAtTime": "2026-07-22T12:26:49.312Z",
   "classes": [
     {
       "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d",
@@ -110,7 +110,7 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "The work needed to keep something in good condition"
+          "@value": "The work needed to keep something in good condition."
         },
         {
           "@language": "nl",
@@ -120,7 +120,7 @@
       "apDefinition": [
         {
           "@language": "en",
-          "@value": "The work needed to keep something in good condition"
+          "@value": "The work needed to keep something in good condition."
         },
         {
           "@language": "nl",
@@ -202,7 +202,7 @@
       "vocLabel": [
         {
           "@language": "en",
-          "@value": "Concept"
+          "@value": "Unit"
         },
         {
           "@language": "nl",
@@ -254,7 +254,7 @@
         },
         {
           "@language": "fr",
-          "@value": "Type d'Eau"
+          "@value": "Type dEau"
         }
       ],
       "apLabel": [
@@ -348,7 +348,7 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "A pipe is a passage of water flowing in a closed conduit (i.e., not subject to atmospheric pressure)."
+          "@value": "A pipe is a passage of water flowing in a closed conduit (meaning it is not subject to atmospheric pressure)."
         },
         {
           "@language": "nl",
@@ -358,7 +358,7 @@
       "apDefinition": [
         {
           "@language": "en",
-          "@value": "A pipe is a passage of water flowing in a closed conduit (i.e., not subject to atmospheric pressure)."
+          "@value": "A pipe is a passage of water flowing in a closed conduit (meaning it is not subject to atmospheric pressure)."
         },
         {
           "@language": "nl",
@@ -494,7 +494,7 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "Emergency information (i.e., e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with"
+          "@value": "Emergency information (like e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with."
         },
         {
           "@language": "nl",
@@ -504,7 +504,7 @@
       "apDefinition": [
         {
           "@language": "en",
-          "@value": "Emergency information (i.e., e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with"
+          "@value": "Emergency information (like e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with."
         },
         {
           "@language": "nl",
@@ -646,7 +646,7 @@
       "vocUsageNote": [
         {
           "@language": "en",
-          "@value": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue"
+          "@value": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue."
         },
         {
           "@language": "nl",
@@ -659,6 +659,16 @@
     {
       "@id": "urn:oslo-toolchain:5b5b79c75891d1d881657030f48efb9bf6a442eae7a9b7842d0556773b2604a1",
       "assignedURI": "http://vocab.belgif.be/ns/hydrant#type",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "type outlet"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
       "vocDefinition": [
         {
           "@language": "en",
@@ -672,7 +682,7 @@
       "vocUsageNote": [
         {
           "@language": "nl",
-          "@value": "This attribute specifies the type of coupling of a fire hydrant outlet.\nCommonly used outlet types include DSP and Storz.The outlet type is not modelled as a closed codelist because the set of possible outlet connections is not guaranteed to be exhaustive"
+          "@value": "This attribute specifies the type of coupling of a fire hydrant outlet.\nCommonly used outlet types include DSP and Storz.The outlet type is not modelled as a closed codelist because the set of possible outlet connections is not guaranteed to be exhaustive."
         }
       ]
     },
@@ -713,6 +723,108 @@
         {
           "@language": "en",
           "@value": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:299f92e4699fa17bd14727155b9204c20ba9c3815a75b37bb74b701b36f658fe",
+      "assignedURI": "http://purl.org/dc/terms/date",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "date"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The date and time of the inspection."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The date and time of the inspection."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:15aa05988194b3215fba3cec526616db1b69f18c1c6f27d563df77ea30a5af91",
+      "assignedURI": "http://purl.org/dc/terms/date",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "date"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The date and time of the maintenance."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The date and time of the maintenance."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:430ec1a471d77f7a9b6675c20d1cc27feee705027877fee79212b65619723f5c",
+      "assignedURI": "http://purl.org/dc/terms/date",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "date"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The time and date on which a Fire Hydrant was used during an emergency intervention."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The time and date on which a Fire Hydrant was used during an emergency intervention."
         },
         {
           "@language": "nl",
@@ -833,6 +945,108 @@
       ]
     },
     {
+      "@id": "urn:oslo-toolchain:c77c4046a85003d0a52fdb0de634a70fd483b06acb226a4b022c51440b4d10e9",
+      "assignedURI": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "houseNumber"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Alphanumeric code officially assigned to building units, berths, pitches or parcels."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "Alphanumeric code officially assigned to building units, berths, pitches or parcels."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:fa33076a18dbac10e591211b00dd77aacf24d901c28dc0f9219ca9b08d2a3f2a",
+      "assignedURI": "http://www.w3.org/ns/locn#postCode",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "postalcode"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Code designating the geographical area that groups addresses for postal purposes."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "Code designating the geographical area that groups addresses for postal purposes."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:d9994ff002f837695a2f0151794ae5b4b3fc905d90a1c970abff99c8d3a3ed00",
+      "assignedURI": "http://purl.org/dc/terms/issued",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "dateOfIssue"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The date on which the Identifier was assigned."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The date on which the Identifier was assigned."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
       "@id": "urn:oslo-toolchain:640d948e58dc3ca5df80ff3ee1566ca1742945d88980c9f0a5b732df34a0396c",
       "assignedURI": "http://www.w3.org/ns/adms#schemeAgency",
       "vocLabel": [
@@ -867,6 +1081,40 @@
       ]
     },
     {
+      "@id": "urn:oslo-toolchain:61874aab245ffdbd57e955f76f9ceeacdab7890aa0349ac47f20a53f62c0a375",
+      "assignedURI": "http://purl.org/dc/terms/creator",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "issuingAuthorityURI"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The URI of the issuing authority."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "The URI of the issuing authority."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
       "@id": "urn:oslo-toolchain:e27341a2c1cee8e110825cb57363795b9a8636fee77897d6aea91c30e27fab86",
       "assignedURI": "http://purl.org/dc/terms/conformsTo",
       "vocLabel": [
@@ -893,6 +1141,40 @@
         {
           "@language": "en",
           "@value": "Name of the scheme used to construct the identifier."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:c00694ff74bbfd5a89895fe35b5a848e68c2305db68d40e8d73e84792045e63a",
+      "assignedURI": "http://purl.org/dc/terms/conformsTo",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "schemeURI"
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "URI of the scheme used to construct the identifier."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "en",
+          "@value": "URI of the scheme used to construct the identifier."
         },
         {
           "@language": "nl",
@@ -964,7 +1246,7 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "The legally recognised name of the organization"
+          "@value": "The legally recognised name of the organization."
         },
         {
           "@language": "nl",
@@ -974,7 +1256,7 @@
       "apDefinition": [
         {
           "@language": "en",
-          "@value": "The legally recognised name of the organization"
+          "@value": "The legally recognised name of the organization."
         },
         {
           "@language": "nl",
@@ -1187,40 +1469,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:299f92e4699fa17bd14727155b9204c20ba9c3815a75b37bb74b701b36f658fe",
-      "assignedURI": "http://purl.org/dc/terms/date",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "date"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The date and time of the inspection."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The date and time of the inspection."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:c5dd5cf9e6c007d249e9a179aef6744b3acdf83a7ca6539ff00b460181530a20",
       "assignedURI": "http://purl.org/dc/terms/description",
       "vocLabel": [
@@ -1281,40 +1529,6 @@
         {
           "@language": "en",
           "@value": "The organisation that performed the inspection."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:15aa05988194b3215fba3cec526616db1b69f18c1c6f27d563df77ea30a5af91",
-      "assignedURI": "http://purl.org/dc/terms/date",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "date"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The date and time of the maintenance."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The date and time of the maintenance."
         },
         {
           "@language": "nl",
@@ -1391,40 +1605,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:430ec1a471d77f7a9b6675c20d1cc27feee705027877fee79212b65619723f5c",
-      "assignedURI": "http://purl.org/dc/terms/date",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "date"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The time and date on which a Fire Hydrant was used during an emergency intervention."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The time and date on which a Fire Hydrant was used during an emergency intervention."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:b5db15c02957e6cefe470b3e98adc7a0da6ee626e12833b838c806d848da30e3",
       "assignedURI": "http://vocab.belgif.be/ns/hydrant#Usage.location",
       "vocLabel": [
@@ -1464,7 +1644,7 @@
       "vocLabel": [
         {
           "@language": "en",
-          "@value": "Unit(QuantityValue)"
+          "@value": "Unit QuantityValue"
         },
         {
           "@language": "nl",
@@ -1474,7 +1654,7 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>(a) defined by the system,</li>\r\n  <li>(b) accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>(c) a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+          "@value": "Relates a factor unit to its unit or system of units with a unit of measure that is either: defined by the system, accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system, a reference to the unit of measure of a quantity (variable or constant) of interest."
         },
         {
           "@language": "nl",
@@ -1484,7 +1664,7 @@
       "apDefinition": [
         {
           "@language": "en",
-          "@value": "<p>\r\nRelates a factor unit to its unit or system of units with a unit of measure that is either:\r\n</p>\r\n<ul>\r\n  <li>defined by the system,</li>\r\n  <li>accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system,</li>\r\n  <li>a reference to the unit of measure of a quantity (variable or constant) of interest.</li>\r\n</ul>"
+          "@value": "Relates a factor unit to its unit or system of units with a unit of measure that is either: defined by the system, accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system, a reference to the unit of measure of a quantity (variable or constant) of interest."
         },
         {
           "@language": "nl",
@@ -1778,7 +1958,7 @@
       "vocUsageNote": [
         {
           "@language": "nl",
-          "@value": "Typically measured in liter per minute (L/min)"
+          "@value": "Typically measured in liter per minute (L/min)."
         }
       ]
     },
@@ -2031,40 +2211,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:c77c4046a85003d0a52fdb0de634a70fd483b06acb226a4b022c51440b4d10e9",
-      "assignedURI": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "houseNumber"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Alphanumeric code officially assigned to building units, berths, pitches or parcels."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "Alphanumeric code officially assigned to building units, berths, pitches or parcels."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:8422424eef90691b55de41f37c3e0571700482f7393318bb5922660fcd8d3c4b",
       "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
       "vocLabel": [
@@ -2099,40 +2245,6 @@
       ]
     },
     {
-      "@id": "urn:oslo-toolchain:fa33076a18dbac10e591211b00dd77aacf24d901c28dc0f9219ca9b08d2a3f2a",
-      "assignedURI": "http://www.w3.org/ns/locn#postCode",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "postalcode"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "Code designating the geographical area that groups addresses for postal purposes."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "Code designating the geographical area that groups addresses for postal purposes."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
       "@id": "urn:oslo-toolchain:90d478c9fd9c6fc6e3877c9ea71c613fe31ca15da33b6b8b11fa7b184e6b0ee7",
       "assignedURI": "http://vocab.belgif.be/ns/building#municipalityName",
       "vocLabel": [
@@ -2159,108 +2271,6 @@
         {
           "@language": "en",
           "@value": "Municipal name of the address."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:d9994ff002f837695a2f0151794ae5b4b3fc905d90a1c970abff99c8d3a3ed00",
-      "assignedURI": "http://purl.org/dc/terms/issued",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "dateOfIssue"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The date on which the Identifier was assigned."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The date on which the Identifier was assigned."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:61874aab245ffdbd57e955f76f9ceeacdab7890aa0349ac47f20a53f62c0a375",
-      "assignedURI": "http://purl.org/dc/terms/creator",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "issuingAuthorityURI"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "The URI of the issuing authority."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The URI of the issuing authority."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:c00694ff74bbfd5a89895fe35b5a848e68c2305db68d40e8d73e84792045e63a",
-      "assignedURI": "http://purl.org/dc/terms/conformsTo",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "schemeURI"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "URI of the scheme used to construct the identifier."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "URI of the scheme used to construct the identifier."
         },
         {
           "@language": "nl",
@@ -2411,14 +2421,18 @@
       ],
       "vocUsageNote": [
         {
-          "@language": "nl",
+          "@language": "en",
           "@value": "Usually a combination of letters and numbers, the pipe identifier, assigned by the municipality or water authority, aids swift location and identification for emergency services like firefighters or water maintenance crews."
+        },
+        {
+          "@language": "nl",
+          "@value": "Enter your translation here"
         }
       ]
     },
     {
       "@id": "urn:oslo-toolchain:4a4b01ada1858acac7ce480d2f550a9fda54735b17cafa6c31994f4633e4d9c9",
-      "assignedURI": "http://w3.org/ns/locn#address",
+      "assignedURI": "http://www.w3.org/ns/locn#Address",
       "vocLabel": [
         {
           "@language": "en",
@@ -2452,7 +2466,7 @@
     },
     {
       "@id": "urn:oslo-toolchain:7a6c36590422dfa98116f5e70766a5b0ef775775ca9028c9c9a775ea1fd53538",
-      "assignedURI": "http://w3.org/ns/locn#address",
+      "assignedURI": "http://www.w3.org/ns/locn#Address",
       "vocLabel": [
         {
           "@language": "en",
@@ -2510,7 +2524,7 @@
       "vocUsageNote": [
         {
           "@language": "en",
-          "@value": "NOTE The Geographical Names application schema does not explicitly make a preference between different names (e.g. official endonyms) of a specific real world entity. The necessary information for making the preference (e.g. the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
+          "@value": "The Geographical Names application schema does not explicitly make a preference between different names (like official endonyms) of a specific real world entity. The necessary information for making the preference (like the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
         },
         {
           "@language": "nl",
@@ -2626,7 +2640,7 @@
       "vocLabel": [
         {
           "@language": "en",
-          "@value": "contains"
+          "@value": "is part of"
         },
         {
           "@language": "nl",
@@ -2988,16 +3002,6 @@
           "@language": "nl",
           "@value": "Enter your translation here"
         }
-      ],
-      "apDefinition": [
-        {
-          "@language": "en",
-          "@value": "The organization in charge of controlling and maintaining the fire hydrant."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
       ]
     }
   ],
@@ -3038,7 +3042,7 @@
       "vocUsageNote": [
         {
           "@language": "en",
-          "@value": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (e.g. CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
+          "@value": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (like CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
         },
         {
           "@language": "nl",
@@ -3205,6 +3209,10 @@
       "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
     {
+      "@id": "urn:oslo-toolchain:1008345369",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    {
       "@id": "urn:oslo-toolchain:1727880001",
       "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     }
@@ -3226,49 +3234,13 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "The datatype of language-tagged string values"
+          "@value": "The datatype of language-tagged string values."
         },
         {
           "@language": "nl",
           "@value": "Enter your translation here"
         }
       ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:665a33306c30b7f025054ad08ee5a3b3308f8932817fa3577766ca1c810434fe",
-      "assignedURI": "http://www.w3.org/2001/XMLSchema#DateTime",
-      "vocLabel": [
-        {
-          "@language": "en",
-          "@value": "DateTime"
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ],
-      "vocDefinition": [
-        {
-          "@language": "en",
-          "@value": "DateTime represents instants of time, optionally marked with a particular time."
-        },
-        {
-          "@language": "nl",
-          "@value": "Enter your translation here"
-        }
-      ]
-    },
-    {
-      "@id": "urn:oslo-toolchain:1c2c657a7c4741a64bdec362f05da17698a52d80efcf5e7bdb78d78873240362",
-      "assignedURI": "http://www.w3.org/2001/XMLSchema#String"
-    },
-    {
-      "@id": "urn:oslo-toolchain:71ef527b17052df8949c55c64442e53112fdf43b8cddfb2de2be1e220e496913",
-      "assignedURI": "http://vocab.belgif.be/ns/hydrant#GeographicalName"
-    },
-    {
-      "@id": "urn:oslo-toolchain:965f31e13cfa53604161ae7446323d94feafceaccc1d816560658798eb542d59",
-      "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     {
       "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660",
@@ -3286,7 +3258,7 @@
       "vocDefinition": [
         {
           "@language": "en",
-          "@value": "The class of literal values, eg. textual strings and integers."
+          "@value": "The class of literal values, like textual strings and integers."
         },
         {
           "@language": "nl",

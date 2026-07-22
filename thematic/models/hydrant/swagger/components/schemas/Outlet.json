@@ -12,7 +12,7 @@
       "description": "Object type (klasse Outlet)",
       "pattern": "^Outlet$"
     },
-    "type": {
+    "typeOutlet": {
       "type": "array",
       "description": "Lijst van String items.",
       "items": {
@@ -32,13 +32,13 @@
     "diameter": {
       "$ref": "#/components/schemas/QuantityValue"
     },
-    "contains": {
+    "isPartOf": {
       "$ref": "#/components/schemas/FireHydrant"
     }
   },
   "required": [
     "@type",
     "diameter",
-    "contains"
+    "isPartOf"
   ]
 }

@@ -2,153 +2,151 @@
 
 #||#  -------------------------------------  
 
-2026-07-15T15:08:27.571Z warn: [SwaggerGenerationService]: Schema already exists for the label (Concept) and will be overwritten.
-
 #||#  oslo-generator-swagger for language nl  
 
 #||#  -------------------------------------  
 
-2026-07-15T15:08:28.183Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.376Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.185Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.377Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.185Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.377Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.185Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.378Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.185Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.378Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.186Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.378Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.189Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.380Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.191Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.381Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.192Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.382Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.194Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.384Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.194Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.387Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.195Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.387Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.195Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.389Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.196Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.390Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.196Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.390Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.196Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.390Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.197Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.392Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.197Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.392Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.197Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.393Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.198Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.394Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.198Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.395Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.199Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:22.396Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
 #||#  oslo-generator-swagger for language fr  
 
 #||#  -------------------------------------  
 
-2026-07-15T15:08:28.819Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.068Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.820Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.069Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.820Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.069Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.821Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.069Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.821Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.069Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.821Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.070Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.821Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.070Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.824Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.072Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.827Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.073Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.828Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.074Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.830Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.077Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.831Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.079Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.831Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.080Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.832Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.082Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.833Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.083Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.833Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.083Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.833Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.083Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.834Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.084Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.834Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.084Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.834Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.084Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.835Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.085Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.836Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.086Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:28.836Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.086Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
 #||#  oslo-generator-swagger for language de  
 
 #||#  -------------------------------------  
 
-2026-07-15T15:08:29.455Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.846Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.456Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.847Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.456Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.848Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.457Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.848Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.457Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.848Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.457Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.848Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.457Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.848Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.460Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.850Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.463Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.851Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.464Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.852Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.465Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.854Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.466Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.856Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.467Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.857Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.467Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.859Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.468Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.860Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.468Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.860Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.468Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.860Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.468Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.861Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.469Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.861Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.469Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.862Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.470Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.863Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.470Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.864Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 
-2026-07-15T15:08:29.471Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
+2026-07-22T12:27:23.865Z warn: [SwaggerGenerationService]: Schema already exists for the label (EnterYourTranslationHere) and will be overwritten.
 

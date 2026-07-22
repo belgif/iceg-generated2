@@ -1,6 +1,7 @@
 {
   "@context": {
     "AddressRepresentation": "http://www.w3.org/ns/locn#Address",
+    "Concept": "http://www.w3.org/2004/02/skos/core#Concept",
     "ContactPoint": "http://data.europa.eu/m8g/ContactPoint",
     "DateTime": "http://www.w3.org/2001/XMLSchema#dateTime",
     "FireHydrant": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -55,11 +56,6 @@
       "@id": "http://vocab.belgif.be/ns/hydrant#outletDiameter",
       "@type": "@id"
     },
-    "Outlet.type": {
-      "@container": "@set",
-      "@id": "http://vocab.belgif.be/ns/hydrant#type",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
-    },
     "Pipe": "https://saref.etsi.org/saref4watr/Pipe",
     "Pipe.diameter": {
       "@id": "http://vocab.belgif.be/ns/hydrant#Pipe.diameter",
@@ -79,6 +75,8 @@
     "QuantityValue": "http://qudt.org/schema/qudt/QuantityValue",
     "Status": "http://www.w3.org/2004/02/skos/core#Concept",
     "String": "http://www.w3.org/2001/XMLSchema#string",
+    "URI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "Unit": "http://qudt.org/schema/qudt/Unit",
     "Usage": "http://vocab.belgif.be/ns/hydrant#Usage",
     "Usage.performedBy": {
       "@id": "http://vocab.belgif.be/ns/hydrant#Usage.performedBy",
@@ -92,7 +90,7 @@
     "WaterTypeValue": "http://www.w3.org/2004/02/skos/core#Concept",
     "address": {
       "@container": "@set",
-      "@id": "http://w3.org/ns/locn#address",
+      "@id": "http://www.w3.org/ns/locn#Address",
       "@type": "@id"
     },
     "classification": {
@@ -104,17 +102,13 @@
       "@id": "http://data.europa.eu/m8g/contactPoint",
       "@type": "@id"
     },
-    "contains": {
-      "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "@id"
-    },
     "date": {
       "@id": "http://purl.org/dc/terms/date",
-      "@type": "@id"
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
     "dateOfIssue": {
       "@id": "http://purl.org/dc/terms/issued",
-      "@type": "@id"
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
     "description": {
       "@container": "@set",
@@ -164,7 +158,7 @@
     },
     "houseNumber": {
       "@id": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
-      "@type": "@id"
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "identifier": {
       "@container": "@set",
@@ -189,7 +183,7 @@
     },
     "issuingAuthorityURI": {
       "@id": "http://purl.org/dc/terms/creator",
-      "@type": "@id"
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     "location": {
       "@id": "http://vocab.belgif.be/ns/hydrant#Usage.location",
@@ -217,7 +211,7 @@
     },
     "postalcode": {
       "@id": "http://www.w3.org/ns/locn#postCode",
-      "@type": "@id"
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "requestedBy": {
       "@id": "http://vocab.belgif.be/ns/hydrant#Maintenance.requestedBy",
@@ -229,7 +223,7 @@
     },
     "schemeURI": {
       "@id": "http://purl.org/dc/terms/conformsTo",
-      "@type": "@id"
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     "sourceOfName": {
       "@id": "http://vocab.belgif.be/ns/building#sourceOfName",
@@ -264,7 +258,12 @@
       "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
-    "unit(QuantityValue)": {
+    "typeOutlet": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/hydrant#type",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "unitQuantityValue": {
       "@id": "http://qudt.org/schema/qudt/hasUnit",
       "@type": "@id"
     },

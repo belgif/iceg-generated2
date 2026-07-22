@@ -22,7 +22,7 @@
             "pattern": "^EnterYourTranslationHere$"
           },
           "enterYourTranslationHere": {
-            "$ref": "#/components/schemas/GeographicalName"
+            "$ref": "#/components/schemas/EnterYourTranslationHere"
           }
         },
         "required": [
