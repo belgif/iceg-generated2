@@ -21,7 +21,8 @@
       "applicationProfileUsageNote": {
         "en": "Intended to organize knowledge, for example in a code list or taxonomy (a so-called ConceptScheme). See <a href=\"https://www.w3.org/TR/skos-reference/\">SKOS</a> for more information."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://data.europa.eu/m8g/ContactPoint",
@@ -44,6 +45,7 @@
         "en": "ContactPoint for urgent matters during firefighting interventions."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://data.europa.eu/m8g/email",
@@ -60,6 +62,7 @@
             "en": "Email address of the ContactPoint."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://data.europa.eu/m8g/ContactPoint",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -89,6 +92,7 @@
             "en": "A telephone number through which the ContactPoint can be contacted."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://data.europa.eu/m8g/ContactPoint",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -120,6 +124,7 @@
         "en": "A fire hydrant is a fitting in a location with a nozzle by which a fire hose may be attached to a water main."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://www.w3.org/ns/locn#Address",
@@ -136,6 +141,7 @@
             "en": "The address representation that corresponds to the fire hydrant."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/locn#Address",
@@ -165,6 +171,7 @@
             "en": "The nominal rate at which water flows through the fire hydrant."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -194,6 +201,7 @@
             "en": "The fire hydrant's location as a point, expressed using coordinates in some coordinate reference system."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/locn#Geometry",
@@ -223,6 +231,7 @@
             "en": "The inspection the fire hydrants has or will receive."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
@@ -252,6 +261,7 @@
             "en": "The maintenance the fire hydrants has or will receive."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
@@ -281,6 +291,7 @@
             "en": "The outlet which is physically attached to a fire hydrant."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Outlet",
@@ -310,6 +321,7 @@
             "en": "The usage of the fire hydrant by an organization."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Usage",
@@ -339,6 +351,7 @@
             "en": "Any identifier issued by any authority, whether a government agency or not."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/adms#Identifier",
@@ -368,6 +381,7 @@
             "en": "The pipe through which the fire hydrant provides water."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -397,6 +411,7 @@
             "en": "The fire hydrant receiving water from the pipe. It is possible that one pipe is connected to several hydrants."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -426,6 +441,7 @@
             "en": "The organization in charge of controlling and maintaining the fire hydrant."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -455,6 +471,7 @@
             "en": "The date on which the current version of the area or object starts to be used."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -484,6 +501,7 @@
             "en": "The condition in which a fire hydrant can be found."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -513,6 +531,7 @@
             "en": "A comment about minor flows affecting the fire hydrant despite being operational."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -542,6 +561,7 @@
             "en": "The particular kind of fire hydrant."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -572,7 +592,8 @@
       "applicationProfileDefinition": {
         "en": "The type of fire hydrant."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
@@ -589,6 +610,7 @@
         "en": "The act of looking at something carefully in order to discover information."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/date",
@@ -605,6 +627,7 @@
             "en": "The date and time of the inspection."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -634,6 +657,7 @@
             "en": "A textual explanation about who performed the  inspection of a particular Object and what was observed."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -663,6 +687,7 @@
             "en": "The organisation that performed the inspection."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -694,6 +719,7 @@
         "en": "The work needed to keep something in good condition."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/date",
@@ -710,6 +736,7 @@
             "en": "The date and time of the maintenance."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -739,6 +766,7 @@
             "en": "A textual explanation about who performed the  maintenance of a particular Object and what was done to the Object in order to warrant a good condition."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -768,6 +796,7 @@
             "en": "The organisation that performed the maintenance."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -797,6 +826,7 @@
             "en": "The organisation that requested the maintenance."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -833,7 +863,8 @@
       "applicationProfileUsageNote": {
         "en": "The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -855,7 +886,8 @@
       "applicationProfileUsageNote": {
         "en": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -871,7 +903,8 @@
       "applicationProfileDefinition": {
         "en": "The type of a metal instrument by which the bolt of a lock is turned."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/ns/org#Organization",
@@ -888,6 +921,7 @@
         "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://data.europa.eu/m8g/contactPoint",
@@ -904,6 +938,7 @@
             "en": "The main contact information of the resource."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/org#Organization",
           "range": {
             "id": "http://data.europa.eu/m8g/ContactPoint",
@@ -933,6 +968,7 @@
             "en": "The legally recognised name of the organization."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/org#Organization",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -962,6 +998,7 @@
             "en": "The distinction between whether an organisation is a private or public entity."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/org#Organization",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -993,6 +1030,7 @@
         "en": "A circular opening through which water can be discharged from a fire hydrant."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/hydrant#outletDiameter",
@@ -1009,6 +1047,7 @@
             "en": "The measurement of the circular opening through which water can be discharged from a fire hydrant."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1038,6 +1077,7 @@
             "en": "The fire hydrant to which the outlet is physically attached."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -1067,6 +1107,7 @@
             "en": "Type of physical outlet of a fire hydrant to which a hose or coupling can be connected for the withdrawal of firefighting water."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -1098,6 +1139,7 @@
         "en": "A pipe is a passage of water flowing in a closed conduit (meaning it is not subject to atmospheric pressure)."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://www.w3.org/ns/locn#Address",
@@ -1114,6 +1156,7 @@
             "en": "The address representation that corresponds to the pipe."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/locn#Address",
@@ -1143,6 +1186,7 @@
             "en": "The categorisation of pipes."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1178,6 +1222,7 @@
             "en": "Only the inner/net diameter of a pipe is necessary."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1207,6 +1252,7 @@
             "en": "The amount of force with which water moves to a pipe."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1236,6 +1282,7 @@
             "en": "The nominal rate at which water flows through the pipe."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1265,6 +1312,7 @@
             "en": "The pipe's location as a point, expressed using coordinates in some coordinate reference system."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/locn#Geometry",
@@ -1300,6 +1348,7 @@
             "en": "Usually a combination of letters and numbers, the pipe identifier, assigned by the municipality or water authority, aids swift location and identification for emergency services like firefighters or water maintenance crews."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/adms#Identifier",
@@ -1329,6 +1378,7 @@
             "en": "A pipe can be attached to other pipes."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -1358,6 +1408,7 @@
             "en": "The organization in charge of controlling and maintaining the pipe."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -1387,6 +1438,7 @@
             "en": "The condition in which a pipe can be found."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1416,6 +1468,7 @@
             "en": "The pipe providing water to the fire hydrant and which is located alongside the street. It is possible that one pipe is connected to several hydrants."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -1445,6 +1498,7 @@
             "en": "The particular kind of pipe."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1474,6 +1528,7 @@
             "en": "The particular kind of liquid which is running through a pipe."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1504,7 +1559,8 @@
       "applicationProfileDefinition": {
         "en": "The types of categorisation of pipes."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1520,7 +1576,8 @@
       "applicationProfileDefinition": {
         "en": "The type of pipe."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1536,7 +1593,8 @@
       "applicationProfileDefinition": {
         "en": "Entity status."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://qudt.org/schema/qudt/Unit",
@@ -1569,7 +1627,8 @@
           }
         }
       ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://vocab.belgif.be/ns/hydrant#Usage",
@@ -1586,6 +1645,7 @@
         "en": "The use of something."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/date",
@@ -1602,6 +1662,7 @@
             "en": "The time and date on which a Fire Hydrant was used during an emergency intervention."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -1631,6 +1692,7 @@
             "en": "A textual explanation about who used the Object, the purpose and other relevant details to mention."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -1660,6 +1722,7 @@
             "en": "The approximate or precise location of the usage of something."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/ns/locn#Geometry",
@@ -1689,6 +1752,7 @@
             "en": "The organisation that used the Object."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -1720,6 +1784,7 @@
         "en": "A valve is a device designed to control water flow, pressure or volume."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/hydrant#Valve.diameter",
@@ -1736,6 +1801,7 @@
             "en": "The netto diameter of the water flow regulator."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Valve",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1765,6 +1831,7 @@
             "en": "The fire hydrant to which the valve is physically attached."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Valve",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -1794,6 +1861,7 @@
             "en": "A tool used to open a fire hydrant by removing the cover of a fire hydrant's outlet."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Valve",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1824,7 +1892,8 @@
       "applicationProfileDefinition": {
         "en": "Kind of water."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     }
   ],
   "dataTypes": [
@@ -1849,9 +1918,10 @@
         "en": "For addresses in Flanders, the Master Data of Digital Flanders should be used for allocation purposes."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
-          "id": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+          "id": "http://vocab.belgif.be/ns/building#housenumber",
           "vocabularyLabel": {
             "en": "houseNumber"
           },
@@ -1864,7 +1934,8 @@
           "applicationProfileDefinition": {
             "en": "Alphanumeric code officially assigned to building units, berths, pitches or parcels."
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -1893,7 +1964,8 @@
           "applicationProfileDefinition": {
             "en": "Municipal name of the address."
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://vocab.belgif.be/ns/building#GeographicalName",
@@ -1923,6 +1995,7 @@
             "en": "Code designating the geographical area that groups addresses for postal purposes."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -1952,6 +2025,7 @@
             "en": "Streetname of the address."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://vocab.belgif.be/ns/building#GeographicalName",
@@ -1988,7 +2062,8 @@
       "applicationProfileUsageNote": {
         "en": "This can be substituted by LangString."
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/building#nameStatus",
@@ -2010,7 +2085,8 @@
           "applicationProfileUsageNote": {
             "en": "The Geographical Names application schema does not explicitly make a preference between different names (like official endonyms) of a specific real world entity. The necessary information for making the preference (like the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2045,7 +2121,8 @@
           "applicationProfileUsageNote": {
             "en": "Concepts of this codelist should be used from the INSPIRE <a href=\"http://inspire.ec.europa.eu/codelist/NativenessValue\">Nativeness</a> code list."
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2074,7 +2151,8 @@
           "applicationProfileDefinition": {
             "en": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available."
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2103,7 +2181,8 @@
           "applicationProfileDefinition": {
             "en": "A proper way of writing the geographical name."
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2141,6 +2220,7 @@
         "en": "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (like CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://www.opengis.net/ont/geosparql#asGML",
@@ -2163,6 +2243,7 @@
             "en": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Geometry",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2198,6 +2279,7 @@
             "en": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Geometry",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2229,6 +2311,7 @@
         "en": "The Identifier class represents any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/issued",
@@ -2245,6 +2328,7 @@
             "en": "The date on which the Identifier was assigned."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -2274,6 +2358,7 @@
             "en": "The value of this property is the Identifier itself."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2303,6 +2388,7 @@
             "en": "The name of the agency responsible for issuing the Identifier."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2332,6 +2418,7 @@
             "en": "The URI of the issuing authority."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2361,6 +2448,7 @@
             "en": "Name of the scheme used to construct the identifier."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2390,6 +2478,7 @@
             "en": "URI of the scheme used to construct the identifier."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2421,6 +2510,7 @@
         "en": "A Quantity Value."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://qudt.org/schema/qudt/hasUnit",
@@ -2437,6 +2527,7 @@
             "en": "Relates a factor unit to its unit or system of units with a unit of measure that is either: defined by the system, accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system, a reference to the unit of measure of a quantity (variable or constant) of interest."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://qudt.org/schema/qudt/QuantityValue",
           "range": {
             "id": "http://qudt.org/schema/qudt/Unit",
@@ -2466,6 +2557,7 @@
             "en": "A property to relate an observable thing with a value expressed as a decimal."
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://qudt.org/schema/qudt/QuantityValue",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2499,6 +2591,7 @@
         "en": "The categorisation of pipes."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2528,6 +2621,7 @@
         "en": "The measurement of the circular opening through which water can be discharged from a fire hydrant."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2563,6 +2657,7 @@
         "en": "Only the inner/net diameter of a pipe is necessary."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2592,6 +2687,7 @@
         "en": "The netto diameter of the water flow regulator."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Valve",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2621,6 +2717,7 @@
         "en": "The amount of force with which water moves to a pipe."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2650,6 +2747,7 @@
         "en": "The nominal rate at which water flows through the fire hydrant."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2679,6 +2777,7 @@
         "en": "The nominal rate at which water flows through the pipe."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2708,6 +2807,7 @@
         "en": "The inspection the fire hydrants has or will receive."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
@@ -2737,6 +2837,7 @@
         "en": "The maintenance the fire hydrants has or will receive."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
@@ -2766,6 +2867,7 @@
         "en": "The usage of the fire hydrant by an organization."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://vocab.belgif.be/ns/hydrant#Usage",
@@ -2795,6 +2897,7 @@
         "en": "The pipe through which the fire hydrant provides water."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -2824,6 +2927,7 @@
         "en": "The fire hydrant receiving water from the pipe. It is possible that one pipe is connected to several hydrants."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -2853,6 +2957,7 @@
         "en": "The approximate or precise location of the usage of something."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
       "range": {
         "id": "http://www.w3.org/ns/locn#Geometry",
@@ -2882,6 +2987,7 @@
         "en": "A tool used to open a fire hydrant by removing the cover of a fire hydrant's outlet."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Valve",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2911,6 +3017,7 @@
         "en": "The organisation that performed the inspection."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2940,6 +3047,7 @@
         "en": "The organisation that performed the maintenance."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2969,6 +3077,7 @@
         "en": "The organisation that used the Object."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2998,6 +3107,7 @@
         "en": "The organisation that requested the maintenance."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -3027,6 +3137,7 @@
         "en": "The date on which the current version of the area or object starts to be used."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -3056,6 +3167,7 @@
         "en": "A comment about minor flows affecting the fire hydrant despite being operational."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -3085,6 +3197,7 @@
         "en": "The pipe providing water to the fire hydrant and which is located alongside the street. It is possible that one pipe is connected to several hydrants."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -3114,6 +3227,7 @@
         "en": "Type of physical outlet of a fire hydrant to which a hose or coupling can be connected for the withdrawal of firefighting water."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
       "range": {
         "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -3143,6 +3257,7 @@
         "en": "The particular kind of liquid which is running through a pipe."
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",

@@ -16,6 +16,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/hydrant#type",
@@ -32,6 +33,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -61,6 +63,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -90,6 +93,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -121,6 +125,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/date",
@@ -137,6 +142,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -166,6 +172,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -195,6 +202,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -226,6 +234,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/date",
@@ -242,6 +251,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -271,6 +281,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -300,6 +311,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -329,6 +341,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -360,6 +373,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/date",
@@ -376,6 +390,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -405,6 +420,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -434,6 +450,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -463,6 +480,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
           "range": {
             "id": "http://www.w3.org/ns/locn#Geometry",
@@ -494,6 +512,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/hydrant#startDate",
@@ -510,6 +529,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -539,6 +559,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -568,6 +589,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -597,6 +619,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/adms#Identifier",
@@ -626,6 +649,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -655,6 +679,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -684,6 +709,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/locn#Geometry",
@@ -713,6 +739,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/locn#Address",
@@ -742,6 +769,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Outlet",
@@ -771,6 +799,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
@@ -800,6 +829,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Usage",
@@ -829,6 +859,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
@@ -858,6 +889,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -887,6 +919,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -916,6 +949,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -947,6 +981,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -963,6 +998,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/org#Organization",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -992,6 +1028,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/org#Organization",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1021,6 +1058,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/org#Organization",
           "range": {
             "id": "http://data.europa.eu/m8g/ContactPoint",
@@ -1052,6 +1090,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/hydrant#Pipe.flowRate",
@@ -1068,6 +1107,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1097,6 +1137,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1126,6 +1167,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1155,6 +1197,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1184,6 +1227,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1213,6 +1257,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1242,6 +1287,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/locn#Geometry",
@@ -1277,6 +1323,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1312,6 +1359,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/adms#Identifier",
@@ -1341,6 +1389,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/locn#Address",
@@ -1370,6 +1419,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -1399,6 +1449,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -1428,6 +1479,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Pipe",
           "range": {
             "id": "http://www.w3.org/ns/org#Organization",
@@ -1458,7 +1510,8 @@
       "applicationProfileDefinition": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "https://saref.etsi.org/saref4watr/Valve",
@@ -1475,6 +1528,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/hydrant#openingKey",
@@ -1491,6 +1545,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Valve",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1520,6 +1575,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Valve",
           "range": {
             "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -1549,6 +1605,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "https://saref.etsi.org/saref4watr/Valve",
           "range": {
             "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -1579,7 +1636,8 @@
       "applicationProfileDefinition": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://qudt.org/schema/qudt/Unit",
@@ -1612,7 +1670,8 @@
           }
         }
       ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1628,7 +1687,8 @@
       "applicationProfileDefinition": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1644,7 +1704,8 @@
       "applicationProfileDefinition": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1666,7 +1727,8 @@
       "applicationProfileUsageNote": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1682,7 +1744,8 @@
       "applicationProfileDefinition": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1698,7 +1761,8 @@
       "applicationProfileDefinition": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://data.europa.eu/m8g/ContactPoint",
@@ -1721,6 +1785,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://data.europa.eu/m8g/email",
@@ -1737,6 +1802,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://data.europa.eu/m8g/ContactPoint",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1766,6 +1832,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://data.europa.eu/m8g/ContactPoint",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1802,7 +1869,8 @@
       "applicationProfileUsageNote": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1824,7 +1892,8 @@
       "applicationProfileUsageNote": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     }
   ],
   "dataTypes": [
@@ -1849,6 +1918,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://www.opengis.net/ont/geosparql#asGML",
@@ -1871,6 +1941,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Geometry",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1906,6 +1977,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Geometry",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1937,6 +2009,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://qudt.org/schema/qudt/value",
@@ -1953,6 +2026,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://qudt.org/schema/qudt/QuantityValue",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1982,6 +2056,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://qudt.org/schema/qudt/QuantityValue",
           "range": {
             "id": "http://qudt.org/schema/qudt/Unit",
@@ -2019,9 +2094,10 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
-          "id": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+          "id": "http://vocab.belgif.be/ns/building#housenumber",
           "vocabularyLabel": {
             "de": "Enter your translation here"
           },
@@ -2034,7 +2110,8 @@
           "applicationProfileDefinition": {
             "de": "Enter your translation here"
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2064,6 +2141,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2093,6 +2171,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://vocab.belgif.be/ns/building#GeographicalName",
@@ -2121,7 +2200,8 @@
           "applicationProfileDefinition": {
             "de": "Enter your translation here"
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/locn#Address",
           "range": {
             "id": "http://vocab.belgif.be/ns/building#GeographicalName",
@@ -2153,6 +2233,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://purl.org/dc/terms/issued",
@@ -2169,6 +2250,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -2198,6 +2280,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2227,6 +2310,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2256,6 +2340,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2285,6 +2370,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -2314,6 +2400,7 @@
             "de": "Enter your translation here"
           },
           "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://www.w3.org/ns/adms#Identifier",
           "range": {
             "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2350,7 +2437,8 @@
       "applicationProfileUsageNote": {
         "de": "Enter your translation here"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "properties": [
         {
           "id": "http://vocab.belgif.be/ns/building#sourceOfName",
@@ -2366,7 +2454,8 @@
           "applicationProfileDefinition": {
             "de": "Enter your translation here"
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2395,7 +2484,8 @@
           "applicationProfileDefinition": {
             "de": "Enter your translation here"
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2430,7 +2520,8 @@
           "applicationProfileUsageNote": {
             "de": "Enter your translation here"
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2465,7 +2556,8 @@
           "applicationProfileUsageNote": {
             "de": "Enter your translation here"
           },
-          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+          "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
           "domain": "http://vocab.belgif.be/ns/building#GeographicalName",
           "range": {
             "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2499,6 +2591,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
       "range": {
         "id": "http://www.w3.org/2001/XMLSchema#string",
@@ -2528,6 +2621,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Outlet",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2557,6 +2651,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Inspection",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2586,6 +2681,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2615,6 +2711,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Maintenance",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2644,6 +2741,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
       "range": {
         "id": "http://www.w3.org/ns/org#Organization",
@@ -2673,6 +2771,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "http://vocab.belgif.be/ns/hydrant#Usage",
       "range": {
         "id": "http://www.w3.org/ns/locn#Geometry",
@@ -2702,6 +2801,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -2731,6 +2831,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#LangString",
@@ -2760,6 +2861,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2789,6 +2891,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://vocab.belgif.be/ns/hydrant#Maintenance",
@@ -2818,6 +2921,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://vocab.belgif.be/ns/hydrant#Usage",
@@ -2847,6 +2951,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "http://vocab.belgif.be/ns/hydrant#Inspection",
@@ -2876,6 +2981,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -2905,6 +3011,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/FireHydrant",
       "range": {
         "id": "https://saref.etsi.org/saref4watr/Pipe",
@@ -2934,6 +3041,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -2963,6 +3071,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2992,6 +3101,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -3021,6 +3131,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -3056,6 +3167,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",
@@ -3085,6 +3197,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Pipe",
       "range": {
         "id": "https://saref.etsi.org/saref4watr/FireHydrant",
@@ -3114,6 +3227,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Valve",
       "range": {
         "id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -3143,6 +3257,7 @@
         "de": "Enter your translation here"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "domain": "https://saref.etsi.org/saref4watr/Valve",
       "range": {
         "id": "http://qudt.org/schema/qudt/QuantityValue",

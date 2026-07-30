@@ -157,7 +157,7 @@
       "@type": "@id"
     },
     "houseNumber": {
-      "@id": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+      "@id": "http://vocab.belgif.be/ns/building#housenumber",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "identifier": {

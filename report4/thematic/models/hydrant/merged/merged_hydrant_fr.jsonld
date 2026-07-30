@@ -167,6 +167,7 @@
         "@id": "urn:oslo-toolchain:487667944"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -228,6 +229,7 @@
         "@id": "urn:oslo-toolchain:2049156247"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -293,6 +295,7 @@
         "@id": "urn:oslo-toolchain:499715870"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -348,6 +351,7 @@
         "@id": "urn:oslo-toolchain:499715870"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -403,6 +407,7 @@
         "@id": "urn:oslo-toolchain:499715870"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -458,6 +463,7 @@
         "@id": "urn:oslo-toolchain:2049156247"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -523,6 +529,7 @@
         "@id": "urn:oslo-toolchain:2049156247"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -578,6 +585,7 @@
         "@id": "urn:oslo-toolchain:499715870"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -612,7 +620,7 @@
           "@value": "Enter your translation here"
         }
       ],
-      "assignedURI": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+      "assignedURI": "http://vocab.belgif.be/ns/building#housenumber",
       "diagramLabel": [
         {
           "@value": "houseNumber"
@@ -632,7 +640,8 @@
       "range": {
         "@id": "urn:oslo-toolchain:487667944"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -688,6 +697,7 @@
         "@id": "urn:oslo-toolchain:487667944"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -743,6 +753,7 @@
         "@id": "urn:oslo-toolchain:499715870"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -798,6 +809,7 @@
         "@id": "urn:oslo-toolchain:487667944"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -853,6 +865,7 @@
         "@id": "urn:oslo-toolchain:1008345369"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -908,6 +921,7 @@
         "@id": "urn:oslo-toolchain:487667944"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -963,6 +977,7 @@
         "@id": "urn:oslo-toolchain:1008345369"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1007,7 +1022,8 @@
       "range": {
         "@id": "urn:oslo-toolchain:1727880001"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1052,7 +1068,8 @@
       "range": {
         "@id": "urn:oslo-toolchain:1727880001"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1108,6 +1125,7 @@
         "@id": "urn:oslo-toolchain:9d2a89d8d77500aa217ea3b71fd5271c5ad663765566c67f9e15355704022748"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1163,6 +1181,7 @@
         "@id": "urn:oslo-toolchain:9d2a89d8d77500aa217ea3b71fd5271c5ad663765566c67f9e15355704022748"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1218,6 +1237,7 @@
         "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1273,6 +1293,7 @@
         "@id": "urn:oslo-toolchain:e15ea82394d2bc9cb3ea3a049078d5725fab834ca9cfae32a18c51fbddb87419"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1328,6 +1349,7 @@
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1383,6 +1405,7 @@
         "@id": "urn:oslo-toolchain:d3022fadf541d427a64789c2e2632bde84b328607b30522c2e8cfd7afc4b2ff2"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1438,6 +1461,7 @@
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1493,6 +1517,7 @@
         "@id": "urn:oslo-toolchain:9d2a89d8d77500aa217ea3b71fd5271c5ad663765566c67f9e15355704022748"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1548,6 +1573,7 @@
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1603,6 +1629,7 @@
         "@id": "urn:oslo-toolchain:9d2a89d8d77500aa217ea3b71fd5271c5ad663765566c67f9e15355704022748"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1658,6 +1685,7 @@
         "@id": "urn:oslo-toolchain:9d2a89d8d77500aa217ea3b71fd5271c5ad663765566c67f9e15355704022748"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1713,6 +1741,7 @@
         "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1768,6 +1797,7 @@
         "@id": "urn:oslo-toolchain:861a46820ced9e76777e0bccaffb626a65491dc886891536a68ca0fbd0c525a3"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1823,6 +1853,7 @@
         "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1878,6 +1909,7 @@
         "@id": "urn:oslo-toolchain:8e416e9ea2d009d9d2087376e72125ac24b2ef1c0ca7ec072264310416c4e6e1"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1933,6 +1965,7 @@
         "@id": "urn:oslo-toolchain:11907338ecb1c6f911cb724cd9ef7afc740808a0c4fac787953e14721309db22"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -1988,6 +2021,7 @@
         "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2043,6 +2077,7 @@
         "@id": "urn:oslo-toolchain:9e5fed28315ff3e0831b00d0393311b08c3b517a2362ba58bb55940ea2db97e3"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2104,6 +2139,7 @@
         "@id": "urn:oslo-toolchain:52c45126876b0a8237945a9fa688f8b2105a6d2c2a96af76f28d6181cd7673c1"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2159,6 +2195,7 @@
         "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2220,6 +2257,7 @@
         "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2281,6 +2319,7 @@
         "@id": "urn:oslo-toolchain:444bd8799ebe3492a47dbd337cdeaae1604b0d68be3498267427f0ead3a5068c"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2336,6 +2375,7 @@
         "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2391,6 +2431,7 @@
         "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2446,6 +2487,7 @@
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2501,6 +2543,7 @@
         "@id": "urn:oslo-toolchain:444bd8799ebe3492a47dbd337cdeaae1604b0d68be3498267427f0ead3a5068c"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2556,6 +2599,7 @@
         "@id": "urn:oslo-toolchain:72e48abc793ff7b81d3b0e1f7ae3256d8f93777c36c0b1795805e0935feaaea0"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2611,6 +2655,7 @@
         "@id": "urn:oslo-toolchain:034fabd7920a84a42e31f300f42a49504563b0be70d77173553ce47bcd4ef34f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2676,6 +2721,7 @@
         "@id": "urn:oslo-toolchain:c0b8ea859625b0bc7b69950cb9c97b57024e622cc1611cb964027fb315d03674"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2730,7 +2776,8 @@
       "range": {
         "@id": "urn:oslo-toolchain:c0b8ea859625b0bc7b69950cb9c97b57024e622cc1611cb964027fb315d03674"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2786,6 +2833,7 @@
         "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2841,6 +2889,7 @@
         "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2896,6 +2945,7 @@
         "@id": "urn:oslo-toolchain:1feb7412a38f298a6fdbca71c0041c96146a97b5a2788fbbd51bfbda42a70660"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -2957,6 +3007,7 @@
         "@id": "urn:oslo-toolchain:9e5fed28315ff3e0831b00d0393311b08c3b517a2362ba58bb55940ea2db97e3"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3022,6 +3073,7 @@
         "@id": "urn:oslo-toolchain:15363b9080c27abf0a49993073278c377d90ff33a0d0078393a36ed360d9e821"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3077,6 +3129,7 @@
         "@id": "urn:oslo-toolchain:15363b9080c27abf0a49993073278c377d90ff33a0d0078393a36ed360d9e821"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3121,7 +3174,8 @@
       "range": {
         "@id": "urn:oslo-toolchain:ff1c793b312d9c8bb77c75e904c905603c6c976d3045d208d527d0512e967cb2"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3176,7 +3230,8 @@
       "range": {
         "@id": "urn:oslo-toolchain:9649aff5b68c0e1d177c3f3ec21f4873a4d7aca2f607f455bcbcdab7948e435d"
       },
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3242,6 +3297,7 @@
         "@id": "urn:oslo-toolchain:066ef45f11b41a2872794b5c7ab9a28be4d4610e7ddca78a0f4552015b937fcd"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3297,6 +3353,7 @@
         "@id": "urn:oslo-toolchain:4fe52c30dde8e85955ae95de054e4572cf67a8163c9cd3ffb6558eaa65fdc933"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3352,6 +3409,7 @@
         "@id": "urn:oslo-toolchain:066ef45f11b41a2872794b5c7ab9a28be4d4610e7ddca78a0f4552015b937fcd"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3407,6 +3465,7 @@
         "@id": "urn:oslo-toolchain:82dcbf25f4d82b8bf4a865bce769dc3852fbf4f874d05c272c7f3204f31d450f"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3462,6 +3521,7 @@
         "@id": "urn:oslo-toolchain:2c2b5f85cd4529bfc6678ec7f9de68f14eccbf2611d6d7cefc7af2497c046039"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3517,6 +3577,7 @@
         "@id": "urn:oslo-toolchain:9903aa1288b3fe89f4e6e26d17efb5cfcb6367521768c0f49f51a421433c3e03"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3572,6 +3633,7 @@
         "@id": "urn:oslo-toolchain:de4d2fa3cc326d515f133ff770e2a7a488be452c5fa84f47b2a6577af50f255c"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3627,6 +3689,7 @@
         "@id": "urn:oslo-toolchain:066ef45f11b41a2872794b5c7ab9a28be4d4610e7ddca78a0f4552015b937fcd"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3682,6 +3745,7 @@
         "@id": "urn:oslo-toolchain:de4d2fa3cc326d515f133ff770e2a7a488be452c5fa84f47b2a6577af50f255c"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3737,6 +3801,7 @@
         "@id": "urn:oslo-toolchain:de4d2fa3cc326d515f133ff770e2a7a488be452c5fa84f47b2a6577af50f255c"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3792,6 +3857,7 @@
         "@id": "urn:oslo-toolchain:5c21994ef0ce36c080baaa1213bca8f61a43a85e8ef5f7c06aafa1aa2cca3edd"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3853,6 +3919,7 @@
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3898,6 +3965,7 @@
         "@id": "urn:oslo-toolchain:05b819c35c1123f5c08357af8ca8f88ff2f4543f7cc574b69b718b3ca4c0cb16"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3932,6 +4000,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -3973,6 +4042,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4014,6 +4084,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4055,6 +4126,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4096,6 +4168,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4137,6 +4210,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4183,6 +4257,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4252,6 +4327,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4309,6 +4385,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4356,6 +4433,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4393,6 +4471,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4434,6 +4513,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4465,6 +4545,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4496,6 +4577,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4537,6 +4619,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4588,6 +4671,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4629,6 +4713,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4666,6 +4751,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4697,6 +4783,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4753,6 +4840,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4804,6 +4892,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4834,7 +4923,8 @@
           "@value": "GeographicalName"
         }
       ],
-      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4886,6 +4976,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4937,6 +5028,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -4966,7 +5058,8 @@
         {
           "@value": "String"
         }
-      ]
+      ],
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:2049156247",
@@ -4976,7 +5069,8 @@
         {
           "@value": "Literal"
         }
-      ]
+      ],
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:499715870",
@@ -4986,7 +5080,8 @@
         {
           "@value": "DateTime"
         }
-      ]
+      ],
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:1008345369",
@@ -4996,7 +5091,8 @@
         {
           "@value": "URI"
         }
-      ]
+      ],
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:1727880001",
@@ -5006,58 +5102,67 @@
         {
           "@value": "LangString"
         }
-      ]
+      ],
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     }
   ],
   "diagram": "ICEG-Hydrants-AP",
-  "documentcommit": "71251c942f2fffd4370da942e51b1103c11d5d8a",
-  "dummy": "008",
+  "documentcommit": "033d81519c5ebd4ffe36b142e1d132d8d4f52e06",
+  "dummy": "009",
   "eap": "ICEG-Hydrants-AP-v14.eap",
   "enumerations": [
     {
       "@id": "urn:oslo-toolchain:ff1c793b312d9c8bb77c75e904c905603c6c976d3045d208d527d0512e967cb2",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:e15ea82394d2bc9cb3ea3a049078d5725fab834ca9cfae32a18c51fbddb87419",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:52c45126876b0a8237945a9fa688f8b2105a6d2c2a96af76f28d6181cd7673c1",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:8e416e9ea2d009d9d2087376e72125ac24b2ef1c0ca7ec072264310416c4e6e1",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:11907338ecb1c6f911cb724cd9ef7afc740808a0c4fac787953e14721309db22",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:444bd8799ebe3492a47dbd337cdeaae1604b0d68be3498267427f0ead3a5068c",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:d3022fadf541d427a64789c2e2632bde84b328607b30522c2e8cfd7afc4b2ff2",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     },
     {
       "@id": "urn:oslo-toolchain:9649aff5b68c0e1d177c3f3ec21f4873a4d7aca2f607f455bcbcdab7948e435d",
       "@type": "Enumeration",
-      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept"
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     }
   ],
   "feedbackurl": "https://github.com/belgif/thematic/issues",
   "filename": "config/hydrants-ap.json",
-  "generatedAtTime": "2026-07-22T12:26:49.312Z",
+  "generatedAtTime": "2026-07-30T11:34:52.296Z",
   "hostname": "https://belgif.github.io/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "name": "hydrant",
@@ -5066,11 +5171,12 @@
       "@id": "urn:oslo-toolchain:c09dfee910aec5d0268c9586b9285b101e4c2d781b80815f430b252246c3ae75",
       "@type": "Package",
       "assignedURI": "http://vocab.belgif.be/ns/hydrant",
-      "baseURI": "http://vocab.belgif.be/ns/hydrant#"
+      "baseURI": "http://vocab.belgif.be/ns/hydrant#",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard"
     }
   ],
   "publication-date": "2026-06-18",
-  "publication-state": "Under public review",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "redefinedAttributes": [],
   "referencedEntities": [
     {
@@ -5082,6 +5188,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -5112,6 +5219,7 @@
         }
       ],
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
       "vocDefinition": [
         {
           "@language": "en",
@@ -5142,7 +5250,7 @@
   "subsettedAttributes": [],
   "template": "hydrant.j2",
   "title": "Application Profile Hydrants",
-  "toolchaincommit": "fc19b06681a31e31ea6a98c4ab8777296bd5bb88",
+  "toolchaincommit": "26bb488f763c03ffdc3b579ad3c7122bf3046f81",
   "translation": [
     {
       "autotranslate": false,

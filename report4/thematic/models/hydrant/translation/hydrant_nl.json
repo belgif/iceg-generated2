@@ -1,6 +1,6 @@
 {
   "@id": "https://belgif.github.io/thematic/models/hydrant",
-  "generatedAtTime": "2026-07-22T12:26:49.312Z",
+  "generatedAtTime": "2026-07-30T11:34:52.296Z",
   "classes": [
     {
       "@id": "urn:oslo-toolchain:8e0d4b7dffe0f07ea6f6ecdcac7215f1c404defdc02ce01920358034430f0c0d",
@@ -946,7 +946,7 @@
     },
     {
       "@id": "urn:oslo-toolchain:c77c4046a85003d0a52fdb0de634a70fd483b06acb226a4b022c51440b4d10e9",
-      "assignedURI": "http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer",
+      "assignedURI": "http://vocab.belgif.be/ns/building#housenumber",
       "vocLabel": [
         {
           "@language": "en",

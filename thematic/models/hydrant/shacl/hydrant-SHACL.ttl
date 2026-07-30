@@ -50,7 +50,7 @@
     shacl:description "Alphanumeric code officially assigned to building units, berths, pitches or parcels."@en;
     shacl:maxCount 1;
     shacl:name "houseNumber"@en;
-    shacl:path <http://vocab.belgif.be/ns/building#Adresvoorstelling.huisnummer>
+    shacl:path <http://vocab.belgif.be/ns/building#housenumber>
   ], [
     a shacl:PropertyShape;
     rdfs:label "postalcode"@en;
