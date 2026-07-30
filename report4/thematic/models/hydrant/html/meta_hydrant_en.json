@@ -1,0 +1,47 @@
+{
+  "title": "Application Profile Hydrants",
+  "uri": "https://belgif.github.io/thematic/models/hydrant",
+  "issued": "2026-06-18",
+  "filename": "hydrant",
+  "navigation": {
+    "self": "https://belgif.github.io//thematic/models/hydrant"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "branchtag": "main",
+  "documenttype": "ap",
+  "documentconfig": {},
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "documentroot": "/thematic/models/hydrant",
+  "repositoryurl": "https://github.com/belgif/ICEGthema-hydrant/tree/033d81519c5ebd4ffe36b142e1d132d8d4f52e06",
+  "changelogurl": "https://github.com/belgif/ICEGthema-hydrant/blob/033d81519c5ebd4ffe36b142e1d132d8d4f52e06/CHANGELOG",
+  "feedbackurl": "https://github.com/belgif/thematic/issues",
+  "standaardregisterurl": "TODO",
+  "usesVocs": [],
+  "usesAPs": [],
+  "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
+    "http://vocab.belgif.be/ns/hydrant",
+    "http://qudt.org/schema/qudt",
+    "https://saref.etsi.org/saref4watr",
+    "http://www.w3.org/ns/org",
+    "http://data.europa.eu/m8g",
+    "http://www.opengis.net/ont/geosparql",
+    "http://purl.org/dc/terms",
+    "http://vocab.belgif.be/ns/building",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+  ],
+  "inDomainNamespaces": [
+    "http://vocab.belgif.be/ns/hydrant",
+    "http://vocab.belgif.be/ns/building"
+  ],
+  "autotranslate": false,
+  "primaryLanguage": "English",
+  "hostname": "https://belgif.github.io/",
+  "uridomain": "vocab.belgif.be"
+}

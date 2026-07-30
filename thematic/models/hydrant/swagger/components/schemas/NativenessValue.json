@@ -1,0 +1,14 @@
+{
+  "title": "NativenessValue",
+  "type": "object",
+  "description": "Enumeratie van NativenessValue",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "@id"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PipeClassificationType",
+  "type": "object",
+  "description": "Enumeratie van PipeClassificationType",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "@id"
+  ]
+}

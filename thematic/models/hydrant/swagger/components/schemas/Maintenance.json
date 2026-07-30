@@ -1,0 +1,51 @@
+{
+  "title": "Maintenance",
+  "type": "object",
+  "description": "The work needed to keep something in good condition.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Maintenance)",
+      "pattern": "^Maintenance$"
+    },
+    "date": {
+      "type": "object",
+      "description": "The date and time of the maintenance.",
+      "properties": {
+        "@value": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "@type": {
+          "type": "string",
+          "pattern": "^DateTime$"
+        }
+      },
+      "required": [
+        "@value",
+        "@type"
+      ]
+    },
+    "requestedBy": {
+      "$ref": "#/components/schemas/Organization"
+    },
+    "description": {
+      "type": "array",
+      "description": "Lijst van LangString items.",
+      "items": {
+        "$ref": "#/components/schemas/LangString"
+      },
+      "minItems": 1
+    },
+    "performedBy": {
+      "$ref": "#/components/schemas/Organization"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

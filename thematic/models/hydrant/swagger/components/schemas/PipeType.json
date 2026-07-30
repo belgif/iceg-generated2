@@ -1,0 +1,14 @@
+{
+  "title": "PipeType",
+  "type": "object",
+  "description": "Enumeratie van PipeType",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "@id"
+  ]
+}

@@ -21,6 +21,8 @@
     "redefinedAttributes": "@included",
     "subsettedAttributes": "@included",
     "enumerations": "@included",
+    "abstractClasses": "@included",
+    "rootClasses": "@included",
     "baseURI": {
       "@id": "oslo:baseURI",
       "@type": "@id"
@@ -80,6 +82,12 @@
     "Class": {
       "@id": "owl:Class"
     },
+    "AbstractClass": {
+      "@id": "oslo:AbstractClass"
+    },
+    "RootClass": {
+      "@id": "oslo:RootClass"
+    },
     "DatatypeProperty": {
       "@id": "owl:DatatypeProperty"
     },
@@ -133,7 +141,7 @@
     }
   },
   "@id": "https://belgif.github.io/thematic/models/imkl",
-  "generatedAtTime": "2026-03-05T10:27:32.308Z",
+  "generatedAtTime": "2026-07-30T12:52:49.912Z",
   "packages": [
     {
       "@id": "urn:oslo-toolchain:07ef0aba6129dc5b403b6d9e39d37228d5c088be8dc95f12697c4ac233f83fcf",
@@ -3739,11 +3747,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -3797,11 +3805,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -3855,11 +3863,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -3919,11 +3927,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -3977,11 +3985,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4051,11 +4059,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4125,11 +4133,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4199,11 +4207,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4263,11 +4271,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4327,11 +4335,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4385,11 +4393,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4443,11 +4451,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4517,11 +4525,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4581,11 +4589,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4645,11 +4653,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4709,11 +4717,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4786,11 +4794,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4850,11 +4858,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4924,11 +4932,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -4988,11 +4996,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5055,11 +5063,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5119,11 +5127,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5186,11 +5194,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5250,11 +5258,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5308,11 +5316,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5378,11 +5386,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5448,11 +5456,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5506,11 +5514,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5580,11 +5588,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5638,11 +5646,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5712,11 +5720,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5770,11 +5778,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5834,11 +5842,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5911,11 +5919,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -5963,11 +5971,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6021,11 +6029,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6079,11 +6087,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6153,11 +6161,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6211,11 +6219,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6269,11 +6277,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6327,11 +6335,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6385,11 +6393,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6443,11 +6451,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6501,11 +6509,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6559,11 +6567,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6629,11 +6637,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6690,11 +6698,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6748,11 +6756,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6822,11 +6830,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6868,11 +6876,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -6942,11 +6950,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7016,11 +7024,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7090,11 +7098,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7148,11 +7156,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7206,11 +7214,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7264,11 +7272,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7322,11 +7330,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7396,11 +7404,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7454,11 +7462,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7512,11 +7520,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7582,11 +7590,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7652,11 +7660,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7716,11 +7724,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7774,11 +7782,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7832,11 +7840,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7890,11 +7898,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -7964,11 +7972,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8022,11 +8030,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8096,11 +8104,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8157,11 +8165,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8218,11 +8226,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8279,11 +8287,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8337,11 +8345,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8395,11 +8403,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8469,11 +8477,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8527,11 +8535,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8585,11 +8593,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8643,11 +8651,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8701,11 +8709,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8759,11 +8767,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8817,11 +8825,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8887,11 +8895,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -8945,11 +8953,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9003,11 +9011,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9067,11 +9075,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9141,11 +9149,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9199,11 +9207,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9257,11 +9265,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9321,11 +9329,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9379,11 +9387,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9437,11 +9445,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9495,11 +9503,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9553,11 +9561,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9611,11 +9619,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9669,11 +9677,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9727,11 +9735,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9785,11 +9793,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9841,11 +9849,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9915,11 +9923,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -9989,11 +9997,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10053,11 +10061,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10111,11 +10119,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10181,11 +10189,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10255,11 +10263,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10319,11 +10327,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10377,11 +10385,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10435,11 +10443,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10493,11 +10501,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10551,11 +10559,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10609,11 +10617,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10679,11 +10687,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10753,11 +10761,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10811,11 +10819,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10869,11 +10877,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10927,11 +10935,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -10985,11 +10993,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11059,11 +11067,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11129,11 +11137,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11187,11 +11195,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11245,11 +11253,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11319,11 +11327,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11377,11 +11385,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11447,11 +11455,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11521,11 +11529,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11579,11 +11587,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11637,11 +11645,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11695,11 +11703,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11753,11 +11761,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11811,11 +11819,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11869,11 +11877,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11939,11 +11947,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -11997,11 +12005,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -12055,11 +12063,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -12125,11 +12133,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/External",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -12199,11 +12207,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -12257,11 +12265,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -12315,11 +12323,11 @@
       },
       "minCount": {
         "@value": "0",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "*",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -12373,11 +12381,11 @@
       },
       "minCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "maxCount": {
         "@value": "1",
-        "@type": "http://www.w3.org/2001/XMLSchema#string"
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
       },
       "scope": "https://data.vlaanderen.be/id/concept/scope/inPublicationNamespace",
       "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard"
@@ -14655,6 +14663,41 @@
     }
   ],
   "subsettedAttributes": [],
+  "abstractClasses": [
+    {
+      "@id": "urn:oslo-toolchain:ddcca8e662572bee4816b15dea63af4d0e7436fb42501b18f9d32fa8906f9784",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:dce4ee929cfa40f4831e70e6d85af434fe694e7fcb7f8afd662edf479567b928",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ac5e75eb13ffaf5b90ca2c6d520b3da38afc5ec1a3af6440c97f1091692385c0",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5f622bfba8e6448888fe3b8086d19296654488cc7e3a30c77cb5061886b532b8",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:075887d84bfbc1cf6a8bc7f5ac4e3597fa98e09f9c99a85814e03b6cf2df82db",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:9b1e756aec6f36b1dab8d0822fe0cbf76a10bd67979a956f1c29bd67cf011e8b",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5817fe86926e269adb63eeb96e28254f4d31d4b27ab44f6bfedf23bf71ec8b5e",
+      "@type": "AbstractClass"
+    },
+    {
+      "@id": "urn:oslo-toolchain:45a858024fe653e9dcfb28ce249619d79778b2d5160abfcfa93595bfe024ab7d",
+      "@type": "AbstractClass"
+    }
+  ],
+  "rootClasses": [],
   "enumerations": [
     {
       "@id": "urn:oslo-toolchain:40f49b0674e1d2dfe620606d9d2aee3a4bfe3946681bb73ddd6419f6e55ceaf7",
@@ -14872,6 +14915,6 @@
   "repository": "https://github.com/belgif/ICEGthema-imkl",
   "urlref": "/thematic/models/imkl",
   "documentcommit": "3449f36aa2e7c1deeae5657eb247c11670d6ce18",
-  "toolchaincommit": "7fa4434cc22d3b2620227d69802e32c831a32b9d",
+  "toolchaincommit": "39f8f65c45ed54bb94fe62655f7f94c8cde1f460",
   "hostname": "https://belgif.github.io/"
 }

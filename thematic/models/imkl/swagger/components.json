@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Components of OpenAPI",
+    "description": "This",
+    "version": "1.0.0"
+  },
+  "components": {
+    "schemas": {
+      "EnterYourTranslationHere": {
+        "title": "EnterYourTranslationHere",
+        "type": "object",
+        "description": "Enter your translation here",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          },
+          "@type": {
+            "type": "string",
+            "description": "Object type (klasse EnterYourTranslationHere)",
+            "pattern": "^EnterYourTranslationHere$"
+          }
+        },
+        "required": [
+          "@type"
+        ]
+      }
+    },
+    "links": {}
+  }
+}

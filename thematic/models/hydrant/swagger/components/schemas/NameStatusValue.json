@@ -1,0 +1,14 @@
+{
+  "title": "NameStatusValue",
+  "type": "object",
+  "description": "Enumeratie van NameStatusValue",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "@id"
+  ]
+}

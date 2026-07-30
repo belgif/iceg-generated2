@@ -1,5 +1,13 @@
 [
   {
+    "urlref": "/thematic/models/hydrant",
+    "repository": "https://github.com/belgif/ICEGthema-hydrant",
+    "branchtag": "main",
+    "name": "hydrant",
+    "filename": "config/hydrants-ap.json",
+    "dummy": "009"
+  },
+  {
     "urlref": "/thematic/models/imkl",
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "branchtag": "main",

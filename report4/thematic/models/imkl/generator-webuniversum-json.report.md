@@ -2,87 +2,87 @@
 
 #||# -------------------------------------  
 
-2026-03-05T10:28:13.782Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.760Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.786Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.764Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.792Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.770Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.792Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.771Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.793Z warn: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.772Z info: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.813Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.800Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.814Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.801Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.815Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.801Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:13.816Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:36.802Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
 #||# oslo-webuniversum-json-generator for language nl  
 
 #||# -------------------------------------  
 
-2026-03-05T10:28:14.997Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.393Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.000Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.397Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.006Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.403Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.006Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.404Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.007Z warn: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.404Z info: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.027Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.428Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.028Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.430Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.028Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.430Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:15.029Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:38.431Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
 #||# oslo-webuniversum-json-generator for language fr  
 
 #||# -------------------------------------  
 
-2026-03-05T10:28:16.186Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.117Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.190Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.122Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.195Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.129Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.196Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.130Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.196Z warn: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.130Z info: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.215Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.154Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.216Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.155Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.217Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.155Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:16.217Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:40.156Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
 #||# oslo-webuniversum-json-generator for language de  
 
 #||# -------------------------------------  
 
-2026-03-05T10:28:17.407Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.895Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.439Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.899Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.444Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.916Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.449Z warn: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.919Z info: Unable to find the assigned URI for external class https://vocab.belgif.be/ns/network#inNetwork which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.455Z warn: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.928Z info: Unable to find the assigned URI for external class http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.461Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.933Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.461Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.934Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#postName which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.462Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.934Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#adminUnitL1 which acts as a parent. Using original URI as fallback.
 
-2026-03-05T10:28:17.462Z warn: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
+2026-07-30T12:53:41.935Z info: Unable to find the assigned URI for external class http://www.w3.org/ns/locn#locatorDesignator which acts as a parent. Using original URI as fallback.
 
