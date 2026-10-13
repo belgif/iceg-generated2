@@ -1,0 +1,6 @@
+{
+  "title": "Inspection.date",
+  "description": "The date and time of the inspection.",
+  "type": "string",
+  "format": "date-time"
+}

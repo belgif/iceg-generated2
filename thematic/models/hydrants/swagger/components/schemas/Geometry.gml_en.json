@@ -1,0 +1,5 @@
+{
+  "title": "Geometry.gml",
+  "description": "The geometry written in Geography Markup Language. Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal.",
+  "type": "string"
+}

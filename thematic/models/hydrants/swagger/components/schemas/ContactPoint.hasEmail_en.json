@@ -1,0 +1,5 @@
+{
+  "title": "ContactPoint.hasEmail",
+  "description": "Email address of the ContactPoint.",
+  "type": "string"
+}

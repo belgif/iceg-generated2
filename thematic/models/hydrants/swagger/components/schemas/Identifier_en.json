@@ -1,0 +1,42 @@
+{
+  "title": "Identifier",
+  "type": "object",
+  "description": "The Identifier class represents any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Identifier)",
+      "pattern": "^Identifier$"
+    },
+    "dateOfIssue": {
+      "$ref": "#/components/schemas/Identifier.dateOfIssue"
+    },
+    "issuingAuthorityName": {
+      "$ref": "#/components/schemas/Identifier.issuingAuthorityName"
+    },
+    "issuingAuthorityURI": {
+      "$ref": "#/components/schemas/Identifier.issuingAuthorityURI"
+    },
+    "schemeName": {
+      "$ref": "#/components/schemas/Identifier.schemeName"
+    },
+    "schemeURI": {
+      "$ref": "#/components/schemas/Identifier.schemeURI"
+    },
+    "identifier": {
+      "type": "array",
+      "description": "The value of this property is the Identifier itself. Lijst van Literal items.",
+      "items": {
+        "$ref": "#/components/schemas/Identifier.identifier"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

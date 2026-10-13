@@ -1,0 +1,6 @@
+{
+  "title": "Identifier.schemeURI",
+  "description": "URI of the scheme used to construct the identifier.",
+  "type": "string",
+  "format": "uri"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Outlet.typeOutlet",
+  "description": "Type of physical outlet of a fire hydrant to which a hose or coupling can be connected for the withdrawal of firefighting water.",
+  "type": "string"
+}

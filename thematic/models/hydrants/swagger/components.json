@@ -28,6 +28,25 @@
         "required": [
           "@type"
         ]
+      },
+      "Watertype": {
+        "title": "Watertype",
+        "type": "object",
+        "description": "Enumeratie van Watertype",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "@id"
+        ]
+      },
+      "EnterYourTranslationHere.enterYourTranslationHere": {
+        "title": "EnterYourTranslationHere.enterYourTranslationHere",
+        "description": "Enter your translation here",
+        "type": "string"
       }
     },
     "links": {

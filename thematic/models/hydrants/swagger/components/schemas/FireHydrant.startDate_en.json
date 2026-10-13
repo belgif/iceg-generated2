@@ -1,0 +1,6 @@
+{
+  "title": "FireHydrant.startDate",
+  "description": "The date on which the current version of the area or object starts to be used.",
+  "type": "string",
+  "format": "date-time"
+}

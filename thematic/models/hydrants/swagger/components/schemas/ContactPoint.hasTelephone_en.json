@@ -1,0 +1,5 @@
+{
+  "title": "ContactPoint.hasTelephone",
+  "description": "A telephone number through which the ContactPoint can be contacted.",
+  "type": "string"
+}

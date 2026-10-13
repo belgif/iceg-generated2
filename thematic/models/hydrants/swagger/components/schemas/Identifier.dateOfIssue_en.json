@@ -1,0 +1,6 @@
+{
+  "title": "Identifier.dateOfIssue",
+  "description": "The date on which the Identifier was assigned.",
+  "type": "string",
+  "format": "date-time"
+}

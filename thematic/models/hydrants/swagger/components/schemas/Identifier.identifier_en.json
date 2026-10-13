@@ -1,0 +1,5 @@
+{
+  "title": "Identifier.identifier",
+  "description": "The value of this property is the Identifier itself.",
+  "type": "string"
+}

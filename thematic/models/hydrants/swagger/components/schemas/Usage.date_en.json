@@ -1,0 +1,6 @@
+{
+  "title": "Usage.date",
+  "description": "The time and date on which a Fire Hydrant was used during an emergency intervention.",
+  "type": "string",
+  "format": "date-time"
+}

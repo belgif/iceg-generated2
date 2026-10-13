@@ -1,0 +1,31 @@
+{
+  "title": "GeographicalName",
+  "type": "object",
+  "description": "Proper noun applied to a real world entity.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse GeographicalName)",
+      "pattern": "^GeographicalName$"
+    },
+    "sourceOfName": {
+      "$ref": "#/components/schemas/GeographicalName.sourceOfName"
+    },
+    "spelling": {
+      "$ref": "#/components/schemas/GeographicalName.spelling"
+    },
+    "nameStatus": {
+      "$ref": "#/components/schemas/NameStatusValue"
+    },
+    "nativeness": {
+      "$ref": "#/components/schemas/NativenessValue"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

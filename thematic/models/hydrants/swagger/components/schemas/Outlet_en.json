@@ -1,0 +1,35 @@
+{
+  "title": "Outlet",
+  "type": "object",
+  "description": "A circular opening through which water can be discharged from a fire hydrant.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Outlet)",
+      "pattern": "^Outlet$"
+    },
+    "typeOutlet": {
+      "type": "array",
+      "description": "Type of physical outlet of a fire hydrant to which a hose or coupling can be connected for the withdrawal of firefighting water. Lijst van String items.",
+      "items": {
+        "$ref": "#/components/schemas/Outlet.typeOutlet"
+      },
+      "minItems": 1
+    },
+    "diameter": {
+      "$ref": "#/components/schemas/QuantityValue"
+    },
+    "isPartOf": {
+      "$ref": "#/components/schemas/FireHydrant"
+    }
+  },
+  "required": [
+    "@type",
+    "diameter",
+    "isPartOf"
+  ]
+}

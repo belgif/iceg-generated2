@@ -1,0 +1,6 @@
+{
+  "title": "Identifier.issuingAuthorityURI",
+  "description": "The URI of the issuing authority.",
+  "type": "string",
+  "format": "uri"
+}

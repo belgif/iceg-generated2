@@ -111,6 +111,11 @@
         "@value": "AddressRepresentation"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#AddressRepresentation"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -160,6 +165,11 @@
         "@value": "ContactPoint"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#ContactPoint"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -190,6 +200,11 @@
         "@value": "DateTime"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#DateTime"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -217,6 +232,11 @@
       {
         "@language": "en",
         "@value": "FireHydrant"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#FireHydrant"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -301,6 +321,11 @@
         "@value": "GeographicalName"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#GeographicalName"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -350,6 +375,11 @@
         "@value": "Geometry"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Geometry"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -385,6 +415,11 @@
       {
         "@language": "en",
         "@value": "Identifier"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Identifier"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -436,6 +471,11 @@
         "@value": "Inspection"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Inspection"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -469,6 +509,11 @@
         "@value": "LangString"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#LangString"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -496,6 +541,11 @@
       {
         "@language": "en",
         "@value": "Maintenance"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Maintenance"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -541,6 +591,11 @@
         "@value": "Organization"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Organization"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -581,6 +636,11 @@
         "@value": "Outlet"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Outlet"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -619,6 +679,11 @@
       {
         "@language": "en",
         "@value": "Pipe"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Pipe"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -691,6 +756,11 @@
         "@value": "QuantityValue"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#QuantityValue"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -719,6 +789,11 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "String"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#String"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -756,6 +831,11 @@
         "@value": "Unit"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Unit"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -776,6 +856,11 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "URI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#URI"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -805,6 +890,11 @@
       {
         "@language": "en",
         "@value": "Usage"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Usage"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -848,6 +938,11 @@
       {
         "@language": "en",
         "@value": "Valve"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#Valve"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [

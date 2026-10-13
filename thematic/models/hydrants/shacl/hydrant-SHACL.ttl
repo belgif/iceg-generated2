@@ -40,6 +40,7 @@
   rdfs:label "AddressRepresentation"@en;
   <http://purl.org/vocab/vann/usageNote> "For addresses in Flanders, the Master Data of Digital Flanders should be used for allocation purposes."@en;
   rdfs:comment "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#AddressRepresentation>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -88,6 +89,7 @@
   rdfs:label "ContactPoint"@en;
   <http://purl.org/vocab/vann/usageNote> "ContactPoint for urgent matters during firefighting interventions."@en;
   rdfs:comment "Emergency information (like e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#ContactPoint>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -115,12 +117,14 @@
 
 <https://belgif.github.io/thematic/models/hydrants#DateTimeShape> a shacl:NodeShape;
   rdfs:label "DateTime";
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#DateTime>;
   shacl:closed false;
   shacl:targetClass xsd:dateTime .
 
 <https://belgif.github.io/thematic/models/hydrants#FireHydrantShape> a shacl:NodeShape;
   rdfs:label "FireHydrant"@en;
   rdfs:comment "A fire hydrant is a fitting in a location with a nozzle by which a fire hose may be attached to a water main."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#FireHydrant>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -277,6 +281,7 @@
   rdfs:label "GeographicalName"@en;
   <http://purl.org/vocab/vann/usageNote> "This can be substituted by LangString."@en;
   rdfs:comment "Proper noun applied to a real world entity."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#GeographicalName>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -329,6 +334,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
   rdfs:label "Geometry"@en;
   <http://purl.org/vocab/vann/usageNote> "This property contains the CRS code of the coordinate reference system used for the geometry. A closed list of reference systems is supported: Lambert72, Lambert 2008, and WGS84. Lambert72 is currently applied in practice (like CRS code “3812”), while Lambert 2008 is included as the preferred target system in view of a planned transition."@en;
   rdfs:comment "The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Geometry>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -358,6 +364,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#IdentifierShape> a shacl:NodeShape;
   rdfs:label "Identifier"@en;
   rdfs:comment "The Identifier class represents any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Identifier>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -423,6 +430,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#InspectionShape> a shacl:NodeShape;
   rdfs:label "Inspection"@en;
   rdfs:comment "The act of looking at something carefully in order to discover information."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Inspection>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -458,12 +466,14 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 
 <https://belgif.github.io/thematic/models/hydrants#LangStringShape> a shacl:NodeShape;
   rdfs:label "LangString";
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#LangString>;
   shacl:closed false;
   shacl:targetClass rdf:langString .
 
 <https://belgif.github.io/thematic/models/hydrants#MaintenanceShape> a shacl:NodeShape;
   rdfs:label "Maintenance"@en;
   rdfs:comment "The work needed to keep something in good condition."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Maintenance>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -510,6 +520,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#OrganizationShape> a shacl:NodeShape;
   rdfs:label "Organization"@en;
   rdfs:comment "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Organization>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -548,6 +559,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#OutletShape> a shacl:NodeShape;
   rdfs:label "Outlet"@en;
   rdfs:comment "A circular opening through which water can be discharged from a fire hydrant."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Outlet>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -586,6 +598,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#PipeShape> a shacl:NodeShape;
   rdfs:label "Pipe"@en;
   rdfs:comment "A pipe is a passage of water flowing in a closed conduit (meaning it is not subject to atmospheric pressure)."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Pipe>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -723,6 +736,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#QuantityValueShape> a shacl:NodeShape;
   rdfs:label "QuantityValue"@en;
   rdfs:comment "A Quantity Value."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#QuantityValue>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -751,11 +765,13 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 
 <https://belgif.github.io/thematic/models/hydrants#StringShape> a shacl:NodeShape;
   rdfs:label "String";
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#String>;
   shacl:closed false;
   shacl:targetClass xsd:string .
 
 <https://belgif.github.io/thematic/models/hydrants#URIShape> a shacl:NodeShape;
   rdfs:label "URI";
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#URI>;
   shacl:closed false;
   shacl:targetClass xsd:anyURI .
 
@@ -763,12 +779,14 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
   rdfs:label "Unit"@en;
   <http://purl.org/vocab/vann/usageNote> "To be used instead of a Concept when a predefined unit from QUDT is available, for example <a href=\"http://qudt.org/vocab/unit/M\">meter</a>. See <a href=\"https://www.qudt.org/doc/DOC_VOCAB-UNITS.html\">QUDT-units</a>  for more information."@en;
   rdfs:comment "A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension)."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Unit>;
   shacl:closed false;
   shacl:targetClass <http://qudt.org/schema/qudt/Unit> .
 
 <https://belgif.github.io/thematic/models/hydrants#UsageShape> a shacl:NodeShape;
   rdfs:label "Usage"@en;
   rdfs:comment "The use of something."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Usage>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;
@@ -815,6 +833,7 @@ Concepts of this codelist should be used from the INSPIRE <a href=\"https://insp
 <https://belgif.github.io/thematic/models/hydrants#ValveShape> a shacl:NodeShape;
   rdfs:label "Valve"@en;
   rdfs:comment "A valve is a device designed to control water flow, pressure or volume."@en;
+  rdfs:seeAlso <https://belgif.github.io/thematic/models/hydrants#Valve>;
   shacl:closed false;
   shacl:property [
     a shacl:PropertyShape;

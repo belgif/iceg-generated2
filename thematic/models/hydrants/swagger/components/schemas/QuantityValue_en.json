@@ -1,0 +1,27 @@
+{
+  "title": "QuantityValue",
+  "type": "object",
+  "description": "A Quantity Value.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse QuantityValue)",
+      "pattern": "^QuantityValue$"
+    },
+    "value": {
+      "$ref": "#/components/schemas/QuantityValue.value"
+    },
+    "unitQuantityValue": {
+      "$ref": "#/components/schemas/Unit"
+    }
+  },
+  "required": [
+    "@type",
+    "value",
+    "unitQuantityValue"
+  ]
+}

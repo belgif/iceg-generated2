@@ -1,0 +1,5 @@
+{
+  "title": "QuantityValue.value",
+  "description": "A property to relate an observable thing with a value expressed as a decimal.",
+  "type": "string"
+}

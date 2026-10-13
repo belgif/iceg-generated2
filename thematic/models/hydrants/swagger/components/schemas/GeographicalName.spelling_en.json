@@ -1,0 +1,5 @@
+{
+  "title": "GeographicalName.spelling",
+  "description": "A proper way of writing the geographical name.",
+  "type": "string"
+}

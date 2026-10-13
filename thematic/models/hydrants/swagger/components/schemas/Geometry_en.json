@@ -1,0 +1,25 @@
+{
+  "title": "Geometry",
+  "type": "object",
+  "description": "The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Geometry)",
+      "pattern": "^Geometry$"
+    },
+    "gml": {
+      "$ref": "#/components/schemas/Geometry.gml"
+    },
+    "wkt": {
+      "$ref": "#/components/schemas/Geometry.wkt"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

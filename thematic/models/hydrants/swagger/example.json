@@ -53,17 +53,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -72,17 +72,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -91,17 +91,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -110,17 +110,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -129,17 +129,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -148,17 +148,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -167,17 +167,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -186,17 +186,17 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           },
@@ -205,17 +205,217 @@
             "content": {
               "application/problem+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Probleemdetail"
+                  "$ref": "#/components/schemas/Problemdetail"
                 }
               }
             },
             "links": {
-              "Probleemdetail.type": {
+              "Problemdetail.type": {
                 "operationId": "EnterYourTranslationHereGET",
                 "parameters": {
                   "type": "$response.body#/type"
                 },
-                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `ProblemDetails` op te halen."
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          }
+        }
+      }
+    },
+    "/id/Watertype/{id}": {
+      "get": {
+        "summary": "Aard van het water.",
+        "operationId": "WatertypeGET",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Identificator van een Watertype object.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Watertype object gevonden.",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Watertype"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid data supplied.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid authorization.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "403": {
+            "description": "Authentication failed.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "412": {
+            "description": "Pre-condition failed.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected Server Error.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "502": {
+            "description": "Bad Gateway.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "503": {
+            "description": "Service unavailable.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
+              }
+            }
+          },
+          "504": {
+            "description": "Gateway Timeout.",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problemdetail"
+                }
+              }
+            },
+            "links": {
+              "Problemdetail.type": {
+                "operationId": "WatertypeGET",
+                "parameters": {
+                  "type": "$response.body#/type"
+                },
+                "description": "De waarde van het attribuut `type` kan gebruikt worden om het gerefereerde object van het type `Problemdetail` op te halen."
               }
             }
           }
@@ -225,6 +425,31 @@
   },
   "components": {
     "schemas": {
+      "Problemdetail": {
+        "title": "Problemdetail",
+        "type": "object",
+        "description": "Meer gedetailleerde beschrijving van de fout in een HTTP response.",
+        "properties": {
+          "type": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "instance": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
       "EnterYourTranslationHere": {
         "title": "EnterYourTranslationHere",
         "type": "object",
@@ -246,6 +471,25 @@
         "required": [
           "@type"
         ]
+      },
+      "Watertype": {
+        "title": "Watertype",
+        "type": "object",
+        "description": "Enumeratie van Watertype",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "@id"
+        ]
+      },
+      "EnterYourTranslationHere.enterYourTranslationHere": {
+        "title": "EnterYourTranslationHere.enterYourTranslationHere",
+        "description": "Enter your translation here",
+        "type": "string"
       }
     }
   }

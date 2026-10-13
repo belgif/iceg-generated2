@@ -1,0 +1,14 @@
+{
+  "title": "HydrantType",
+  "type": "object",
+  "description": "Enumeratie van HydrantType",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "@id"
+  ]
+}

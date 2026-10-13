@@ -1,0 +1,26 @@
+{
+  "title": "ContactPoint",
+  "type": "object",
+  "description": "Emergency information (like e-mail address and telephone number) of a person or department for Fire Hydrants through which the user can get in touch with.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse ContactPoint)",
+      "pattern": "^ContactPoint$"
+    },
+    "hasEmail": {
+      "$ref": "#/components/schemas/ContactPoint.hasEmail"
+    },
+    "hasTelephone": {
+      "$ref": "#/components/schemas/ContactPoint.hasTelephone"
+    }
+  },
+  "required": [
+    "@type",
+    "hasTelephone"
+  ]
+}

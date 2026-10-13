@@ -29,6 +29,11 @@
         "@value": "DateTime"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#DateTime"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -62,6 +67,11 @@
       {
         "@language": "fr",
         "@value": "Enter your translation here"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#EnterYourTranslationHere"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [
@@ -334,6 +344,11 @@
         "@value": "LangString"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#LangString"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -356,6 +371,11 @@
         "@value": "String"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#String"
+      }
+    ],
     "http://www.w3.org/ns/shacl#closed": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -376,6 +396,11 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "URI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://belgif.github.io/thematic/models/hydrants#URI"
       }
     ],
     "http://www.w3.org/ns/shacl#closed": [

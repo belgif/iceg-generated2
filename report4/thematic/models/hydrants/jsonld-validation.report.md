@@ -26,43 +26,9 @@ Options:
 
                                 of URI prefixes).                     [required]
 
-      --language                The language in which intermediary format is
+      --labelWhitelist          Local path or URL to label whitelist file (JSON
 
-                                generated.            [required] [default: "nl"]
-
-  -h, --help                    Show help                              [boolean]
-
-
-
-Missing required argument: publicationEnvironment
-
-#||# oslo-jsonld-validator   
-
-#||# -------------------------------------  
-
-node ./bin/runner.js [args]
-
-
-
-Options:
-
-      --version                 Show version number                    [boolean]
-
-      --input                   Local path or URL to JSON-LD file to validate.
-
-                                                                      [required]
-
-      --publicationEnvironment  The base URI of environment where the document
-
-                                will be published.                    [required]
-
-      --specificationType       Type of the document.
-
-                                   [choices: "ApplicationProfile", "Vocabulary"]
-
-      --whitelist               Local path or URL to whitelist file (JSON array
-
-                                of URI prefixes).                     [required]
+                                array of exact label matches).
 
       --language                The language in which intermediary format is
 
@@ -102,6 +68,10 @@ Options:
 
                                 of URI prefixes).                     [required]
 
+      --labelWhitelist          Local path or URL to label whitelist file (JSON
+
+                                array of exact label matches).
+
       --language                The language in which intermediary format is
 
                                 generated.            [required] [default: "nl"]
@@ -139,6 +109,52 @@ Options:
       --whitelist               Local path or URL to whitelist file (JSON array
 
                                 of URI prefixes).                     [required]
+
+      --labelWhitelist          Local path or URL to label whitelist file (JSON
+
+                                array of exact label matches).
+
+      --language                The language in which intermediary format is
+
+                                generated.            [required] [default: "nl"]
+
+  -h, --help                    Show help                              [boolean]
+
+
+
+Missing required argument: publicationEnvironment
+
+#||# oslo-jsonld-validator   
+
+#||# -------------------------------------  
+
+node ./bin/runner.js [args]
+
+
+
+Options:
+
+      --version                 Show version number                    [boolean]
+
+      --input                   Local path or URL to JSON-LD file to validate.
+
+                                                                      [required]
+
+      --publicationEnvironment  The base URI of environment where the document
+
+                                will be published.                    [required]
+
+      --specificationType       Type of the document.
+
+                                   [choices: "ApplicationProfile", "Vocabulary"]
+
+      --whitelist               Local path or URL to whitelist file (JSON array
+
+                                of URI prefixes).                     [required]
+
+      --labelWhitelist          Local path or URL to label whitelist file (JSON
+
+                                array of exact label matches).
 
       --language                The language in which intermediary format is
 

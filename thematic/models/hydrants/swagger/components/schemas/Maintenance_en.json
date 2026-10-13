@@ -1,0 +1,36 @@
+{
+  "title": "Maintenance",
+  "type": "object",
+  "description": "The work needed to keep something in good condition.",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "description": "Object type (klasse Maintenance)",
+      "pattern": "^Maintenance$"
+    },
+    "date": {
+      "$ref": "#/components/schemas/Maintenance.date"
+    },
+    "requestedBy": {
+      "$ref": "#/components/schemas/Organization"
+    },
+    "description": {
+      "type": "array",
+      "description": "A textual explanation about who performed the  maintenance of a particular Object and what was done to the Object in order to warrant a good condition. Lijst van LangString items.",
+      "items": {
+        "$ref": "#/components/schemas/LangString"
+      },
+      "minItems": 1
+    },
+    "performedBy": {
+      "$ref": "#/components/schemas/Organization"
+    }
+  },
+  "required": [
+    "@type"
+  ]
+}

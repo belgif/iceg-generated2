@@ -1,0 +1,5 @@
+{
+  "title": "Identifier.schemeName",
+  "description": "Name of the scheme used to construct the identifier.",
+  "type": "string"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Maintenance.date",
+  "description": "The date and time of the maintenance.",
+  "type": "string",
+  "format": "date-time"
+}

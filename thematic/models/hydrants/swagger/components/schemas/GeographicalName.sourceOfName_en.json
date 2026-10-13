@@ -1,0 +1,5 @@
+{
+  "title": "GeographicalName.sourceOfName",
+  "description": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available.",
+  "type": "string"
+}
